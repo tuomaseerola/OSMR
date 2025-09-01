@@ -2,8 +2,8 @@
 
 This repository offers a guide to Open Science practices for music research, particularly aimed for music psychology and computational musicology, but also relevant for music information retrieval, music education, music technology, and musicology. 
 
-The public-facing version of the repository is available at
-[https://tuomaseerola.github.io/OSMR/](https://tuomaseerola.github.io/OSMR/)
+The public-facing version of the repository is **currently** available at
+[https://tuomaseerola.github.io/OSMR/](https://tuomaseerola.github.io/OSMR/) but when the project is launched, it will be hosted an non-personal site.
 
 ## Reasons for creating this resource
 
@@ -11,5 +11,5 @@ In music research, there is room for improvement in _transparency_ and _reproduc
 
 ## The way this repository has been coordinated
 
-Collaborative work, online GitHub repository, multiple authors responsible for specific sections. [IN PROGRESS]
+This is collaborative exercise, coordinated via online GitHub repository, where multiple authors will be responsible for specific sections. [Authors, timeline, etc. to be determined]
 
