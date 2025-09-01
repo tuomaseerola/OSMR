@@ -1,0 +1,24 @@
+# Preregistration {#sec-registration}
+
+What is "preregistration"? see [@lakens2024benefits]
+
+- origins
+
+- examples in music research
+
+## Different variants of preregistering a study
+
+
+
+### Light-touch
+
+
+### Full preregistration
+
+
+## Registered Reports
+
+Idea in nutshell.
+
+Add Flowchart (figure)
+

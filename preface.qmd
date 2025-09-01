@@ -1,0 +1,22 @@
+# Preface {.unnumbered, .unlisted, #sec-preface}
+
+In music research, particularly for music psychology and computational musicology, we should have a repository of information about _Open Science_ and its all areas (open access publication, open data, open code, registration, and replication). Some of this information has been put together for journal articles [@moss2021fair;@jensenius2021best], but having a centralised starting point for this would be helpful for training and awareness.
+
+The repository of information can be best done with collaborative writing and compiling the resources together. 
+
+## Plan and schedule
+
+- Co-authors contacted and established (`November 2025`)
+- Online repository coordinated at GitHub, potentially released at a dedicated domain address (not at [https://tuomaseerola.github.io](https://tuomaseerola.github.io))
+- Topics divided across co-authors and deadlines agreed (`December 2025`)
+- Early drafts ready (`March 2026`)
+- Release (`May 2026`)
+- Potential for a spin-off article and a hardcopy discussed (`May 2026`)
+
+### Writing
+
+- Using markdown text, including markdown references, e.g. `[@moss2021fair]` linked to `references.bib` file, and utilising within document links `@sec-background`. All implemented via [Quarto](https://quarto.org) documents at [GitHub](https://tuomaseerola.github.io/OSMR) to compile site/book as needed.
+
+- Tracking the progress and issues via GitHub Issues.
+
+- Authorship order to be determined based on contribution and made transparent with [Contributor Taxonomy](https://credit.niso.org).

@@ -1,0 +1,10 @@
+## Resources {#sec-resources}
+
+
+- Open Science: A Practical Guide for Early-Career Researchers, [https://zenodo.org/records/7716153](https://zenodo.org/records/7716153)
+
+- [Registration templates](https://help.osf.io/article/229-select-a-registration-template) at OSF.
+
+
+- Compare registration with papers, see [https://regcheck.app](https://regcheck.app)
+

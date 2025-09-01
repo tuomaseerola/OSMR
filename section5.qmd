@@ -1,0 +1,10 @@
+# Replication studies {#sec-replication}
+
+- What is "replication"? See  [@nosek2020replication]
+
+- Different types of replications
+
+- Single studies vs multi-lab replications
+
+- Qualitative research and replication [@tuval2021replication]
+

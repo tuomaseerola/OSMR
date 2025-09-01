@@ -1,0 +1,25 @@
+# Background {#sec-background}
+
+- What is Open Science [@Hardwicke2024Open].
+
+First, the term _Open Science_/_Open Research_[^1]: The former is the global term, used by UNESCO and EU, but humanities scholars might be more persuaded by _Open Research_. 
+
+- Open science challenges [@allen2019open]
+
+- In music research (music psychology)
+
+There is a clear room for improvement in music psychology research in terms of transparency [@eerola2023transparency].
+
+## Open Science and FAIR data
+
+## Open Science and Open Access
+
+## Good enough practices
+
+- [Reproducibilitea](https://reproducibilitea.org) networks
+
+## FAIR in music related research
+
+See [@moss2021fair]
+
+See [@jensenius2021best]

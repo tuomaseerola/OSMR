@@ -1,0 +1,14 @@
+# Availability of publications {#sec-OApubl}
+
+
+## Open publications
+
+- various types of access 
+
+## Preprints
+
+- see [@moshontz2021guide]
+
+## Authorship / Attribution of credit / ORCIDs
+
+For more, see [@tscharntke2007author]

@@ -1,0 +1,52 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Open Science for Music Research"
+  author: Tuomas Eerola, XXXX, YYYY, ZZZZ
+  reader-mode: true
+  date: "8/18/2025"
+  page-footer:
+    left: |
+      Open Science for Music Research was written by Eerola, XXXX, YYYY, and ZZZZ.
+    right: |
+      This book can be found at <a href="https://musicscience.uk/OSMR/">https://musicscience.uk/OSMR</a>.
+#  cover-image: cover.jpg
+#  favicon: cover.jpg
+  site-url: https://github.com/tuomaseerola/OSMR
+  repo-url: https://github.com/tuomaseerola/OSMR
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - preface.qmd
+    - section1.qmd
+    - section2.qmd
+    - section3.qmd
+    - section4.qmd
+    - section5.qmd
+    - section6.qmd
+    - resources.qmd
+    - references.qmd
+  
+bibliography: references.bib
+csl: apa7.csl
+fontsize: 12pt
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.7"
+
+format:
+  html:
+    theme:
+      - cosmo
+    code-link: true
+    author-meta: "Tuomas Eerola"
+#    toc: true
+#    toc-depth: 2
+#    toc-title: Contents
+#    toc-location: right-body
+#    include-in-header: "plausible.html"
+    callout-appearance: simple
+
+editor: source

@@ -1,0 +1,14 @@
+# Reproducible research {#sec-RR}
+
+What is "Reproducible research"? See what we know so far in psychology [@stanley2018meta]
+
+- Statistical reproducilibility [@johnson2017reproducibility]
+
+- Computational reproducibility [@obels2020analysis]
+
+## Reproducible research
+
+## Workflow
+
+## Open software
+
