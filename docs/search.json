@@ -34,7 +34,7 @@
     "href": "index.html#organisation-of-the-repository",
     "title": "Open Science for Music Research",
     "section": "1.3 Organisation of the repository",
-    "text": "1.3 Organisation of the repository\n\n?sec-background explains the rationale and the broader picture\n?sec-OApubl covers the availability of research output and publications\n?sec-OAdata handles the availability of research data\n?sec-RR is about reproducible research, research code and software\n?sec-replication explains the purpose of replicating studies\n?sec-registration details study preregistration\n?sec-resources offers links to online resources",
+    "text": "1.3 Organisation of the repository\n\nChapter 3 explains the rationale and the broader picture\nChapter 4 covers the availability of research output and publications\nChapter 5 handles the availability of research data\nChapter 6 is about reproducible research, research code and software\nChapter 7 explains the purpose of replicating studies\nChapter 8 details study preregistration\nChapter 9 offers links to online resources",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Science for Music Research</span>"
     ]
