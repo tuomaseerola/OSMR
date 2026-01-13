@@ -1,0 +1,22 @@
+[
+  {
+    "objectID": "preface.html",
+    "href": "preface.html",
+    "title": "2  Preface",
+    "section": "",
+    "text": "2.1 Plan and schedule\nIn music research, particularly for music psychology and computational musicology, we should have a repository of information about Open Science and its all areas (open access publication, open data, open code, registration, and replication). Some of this information has been put together for journal articles (Jensenius, 2021; Moss & Neuwirth, 2021), but having a centralised starting point for this would be helpful for training and awareness.\nThe repository of information can be best done with collaborative writing and compiling the resources together.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "preface.html#plan-and-schedule",
+    "href": "preface.html#plan-and-schedule",
+    "title": "2  Preface",
+    "section": "",
+    "text": "Co-authors contacted and established (March 2026)\nOnline repository coordinated at GitHub, potentially released at a dedicated domain address (not at https://tuomaseerola.github.io)\nTopics divided across co-authors and deadlines agreed (May 2026)\nEarly drafts ready (September 2026)\nRelease (December 2026)\nPotential for a spin-off article and a hardcopy discussed (January 2027)\n\n\n2.1.1 Writing\n\nUsing markdown text, including markdown references, e.g. [@moss2021fair] linked to references.bib file, and utilising within document links @sec-background. All implemented via Quarto documents at GitHub to compile site/book as needed.\nTracking the progress and issues via GitHub Issues.\nAuthorship order to be determined based on contribution and made transparent with Contributor Taxonomy.\n\n\n\n\n\nJensenius, A. R. (2021). Best versus good enough practices for open music research. Empirical Musicology Review, 16(1), 5–15.\n\n\nMoss, F. C., & Neuwirth, M. (2021). FAIR, open, linked: Introducing the special issue on open science in musicology. Empirical Musicology Review, 16(1), 1–4.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  }
+]
