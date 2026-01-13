@@ -6,9 +6,8 @@ The repository of information can be best done with collaborative writing and co
 
 ## Plan and schedule
 
-- Co-authors contacted and established (`March 2026`)
+- Co-authors contacted and established (`February 2026`)
 - Online repository coordinated at GitHub, potentially released at a dedicated domain address (not at [https://tuomaseerola.github.io](https://tuomaseerola.github.io))
-- Topics divided across co-authors and deadlines agreed (`May 2026`)
 - Early drafts ready (`September 2026`)
 - Release (`December 2026`)
 - Potential for a spin-off article and a hardcopy discussed (`January 2027`)
