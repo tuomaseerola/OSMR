@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -55,14 +55,15 @@ div.csl-indent {
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-51540196fe40f182e3d2f3ce980213de.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d903f68e8242439e3911802f503d784b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -240,17 +241,17 @@ div.csl-indent {
 <section id="plan-and-schedule" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="plan-and-schedule"><span class="header-section-number">2.1</span> Plan and schedule</h2>
 <ul>
-<li>Co-authors contacted and established (<code>November 2025</code>)</li>
+<li>Co-authors contacted and established (<code>March 2026</code>)</li>
 <li>Online repository coordinated at GitHub, potentially released at a dedicated domain address (not at <a href="https://tuomaseerola.github.io">https://tuomaseerola.github.io</a>)</li>
-<li>Topics divided across co-authors and deadlines agreed (<code>December 2025</code>)</li>
-<li>Early drafts ready (<code>March 2026</code>)</li>
-<li>Release (<code>May 2026</code>)</li>
-<li>Potential for a spin-off article and a hardcopy discussed (<code>May 2026</code>)</li>
+<li>Topics divided across co-authors and deadlines agreed (<code>May 2026</code>)</li>
+<li>Early drafts ready (<code>September 2026</code>)</li>
+<li>Release (<code>December 2026</code>)</li>
+<li>Potential for a spin-off article and a hardcopy discussed (<code>January 2027</code>)</li>
 </ul>
 <section id="writing" class="level3" data-number="2.1.1">
 <h3 data-number="2.1.1" class="anchored" data-anchor-id="writing"><span class="header-section-number">2.1.1</span> Writing</h3>
 <ul>
-<li><p>Using markdown text, including markdown references <code>[@reference]</code> linked to <code>references.bib</code> file, and utilising within document links. All implemented via <a href="https://quarto.org">Quarto</a> documents at GitHub to compile site/book as needed.</p></li>
+<li><p>Using markdown text, including markdown references, e.g.&nbsp;<code>[@moss2021fair]</code> linked to <code>references.bib</code> file, and utilising within document links <code>@sec-background</code>. All implemented via <a href="https://quarto.org">Quarto</a> documents at <a href="https://tuomaseerola.github.io/OSMR">GitHub</a> to compile site/book as needed.</p></li>
 <li><p>Tracking the progress and issues via GitHub Issues.</p></li>
 <li><p>Authorship order to be determined based on contribution and made transparent with <a href="https://credit.niso.org">Contributor Taxonomy</a>.</p></li>
 </ul>
@@ -319,13 +320,14 @@ Moss, F. C., &amp; Neuwirth, M. (2021). FAIR, open, linked: Introducing the spec
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
