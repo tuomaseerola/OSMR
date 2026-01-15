@@ -23,9 +23,9 @@ This is a collaborative enterprise, using GitHub repository, where various autho
 
 - @sec-replication explains the purpose of replicating studies
 
-- @sec-registration details study preregistration
-
 - @sec-open-review covers open peer review and post-publication peer review
+
+- @sec-registration details study preregistration
 
 - @sec-resources offers links to online resources
 
