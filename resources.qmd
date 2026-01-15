@@ -5,6 +5,25 @@
 
 - [Registration templates](https://help.osf.io/article/229-select-a-registration-template) at OSF.
 
-
 - Compare registration with papers, see [https://regcheck.app](https://regcheck.app)
+
+- [Awesome Reproducible Research](https://github.com/leipzig/awesome-reproducible-research)
+
+- [Fairsharing](https://fairsharing.org)
+
+### Organisations
+
+- [Open Science Framework](https://osf.io/) 
+
+- [FORRT](https://forrt.org/) - Framework for Open and Reproducible Research Training advancing research transparency, reproducibility, rigor, and ethics through pedagogical reform and meta-scientific research
+
+- [rOpenSci](https://ropensci.org/) - Tools, conferences, and education
+
+- [Reproducibility for Everyone](https://www.repro4everyone.org/) - Community-led reproducibility workshops
+
+- [pyOpenSci](https://www.pyopensci.org/) - Promotes open and reproducible research through peer-review of scientific Python packages
+
+- [CASCaD](https://www.cascad.tech/) - Certification Agency for Scientific Code and Data
+
+- [Replication Network](https://replicationnetwork.com/) - Furthering the practice of replication in economics.
 

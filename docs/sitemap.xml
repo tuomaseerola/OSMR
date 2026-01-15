@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/tuomaseerola/OSMR/index.html</loc>
-    <lastmod>2026-01-13T11:47:15.376Z</lastmod>
+    <lastmod>2026-01-15T15:16:43.813Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/tuomaseerola/OSMR/preface.html</loc>
@@ -30,14 +30,18 @@
   </url>
   <url>
     <loc>https://github.com/tuomaseerola/OSMR/section6.html</loc>
-    <lastmod>2025-09-01T10:14:03.811Z</lastmod>
+    <lastmod>2026-01-15T15:24:24.276Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/tuomaseerola/OSMR/resources.html</loc>
-    <lastmod>2025-09-01T09:54:17.345Z</lastmod>
+    <lastmod>2026-01-15T15:35:46.068Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/tuomaseerola/OSMR/references.html</loc>
     <lastmod>2025-09-01T09:31:44.526Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/tuomaseerola/OSMR/section7.html</loc>
+    <lastmod>2026-01-15T15:21:59.325Z</lastmod>
   </url>
 </urlset>

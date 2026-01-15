@@ -25,6 +25,8 @@ This is a collaborative enterprise, using GitHub repository, where various autho
 
 - [Chapter 7](https://tuomaseerola.github.io/OSMR/section5.html) explains the purpose of replicating studies
 
-- [Chapter 8](https://tuomaseerola.github.io/OSMR/section6.html) details study preregistration
+- [Chapter 8](https://tuomaseerola.github.io/OSMR/section6.html) covers open peer review
 
-- [Chapter 9](https://tuomaseerola.github.io/OSMR/resources.html) offers links to online resources
+- [Chapter 9](https://tuomaseerola.github.io/OSMR/section7.html) details study preregistration
+
+- [Chapter 10](https://tuomaseerola.github.io/OSMR/resources.html) offers links to online resources

@@ -34,7 +34,7 @@
     "href": "index.html#organisation-of-the-repository",
     "title": "Open Science for Music Research",
     "section": "1.3 Organisation of the repository",
-    "text": "1.3 Organisation of the repository\n\nChapter 3 explains the rationale and the broader picture\nChapter 4 covers the availability of research output and publications\nChapter 5 handles the availability of research data\nChapter 6 is about reproducible research, research code and software\nChapter 7 explains the purpose of replicating studies\nChapter 8 details study preregistration\nChapter 9 offers links to online resources",
+    "text": "1.3 Organisation of the repository\n\nChapter 3 explains the rationale and the broader picture\nChapter 4 covers the availability of research output and publications\nChapter 5 handles the availability of research data\nChapter 6 is about reproducible research, research code and software\nChapter 7 explains the purpose of replicating studies\nChapter 9 details study preregistration\nChapter 8 covers open peer review and post-publication peer review\nChapter 10 offers links to online resources",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Science for Music Research</span>"
     ]
@@ -212,11 +212,11 @@
   {
     "objectID": "section6.html",
     "href": "section6.html",
-    "title": "8  Preregistration",
+    "title": "8  Open peer review",
     "section": "",
-    "text": "8.1 Different variants of preregistering a study\nWhat is “preregistration”? see (Lakens et al., 2024)",
+    "text": "Peer review in Open Science\nOpen peer review\nPost-publication peer review",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Preregistration</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Open peer review</span>"
     ]
   },
   {
@@ -242,21 +242,51 @@
   {
     "objectID": "resources.html",
     "href": "resources.html",
-    "title": "9  Resources",
+    "title": "10  Resources",
     "section": "",
-    "text": "Open Science: A Practical Guide for Early-Career Researchers, https://zenodo.org/records/7716153\nRegistration templates at OSF.\nCompare registration with papers, see https://regcheck.app",
+    "text": "Open Science: A Practical Guide for Early-Career Researchers, https://zenodo.org/records/7716153\nRegistration templates at OSF.\nCompare registration with papers, see https://regcheck.app\nAwesome Reproducible Research\nFairsharing\n\n\n10.0.1 Organisations\n\nOpen Science Framework\nFORRT - Framework for Open and Reproducible Research Training advancing research transparency, reproducibility, rigor, and ethics through pedagogical reform and meta-scientific research\nrOpenSci - Tools, conferences, and education\nReproducibility for Everyone - Community-led reproducibility workshops\npyOpenSci - Promotes open and reproducible research through peer-review of scientific Python packages\nCASCaD - Certification Agency for Scientific Code and Data\nReplication Network - Furthering the practice of replication in economics.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "10  References",
+    "title": "11  References",
     "section": "",
     "text": "Allen, C., & Mehler, D. M. (2019). Open science challenges, benefits\nand tips in early career and beyond. PLoS Biology,\n17(5), e3000246.\n\n\nEerola, T. (2024). Prevalence of transparency and\nreproducibility-related research practices in music psychology\n(2017-2022). Musicae Scientiae, 29(2).\nhttps://doi.org/https://doi.org/10.1177/10298649241300885\n\n\nHardwicke, T. E., & Vazire, S. (2024). Open Science. In\nM. C. Frank & A. Majid (Eds.), Open Encyclopedia of\nCognitive Science. MIT Press.\n\n\nJensenius, A. R. (2021). Best versus good enough practices for open\nmusic research. Empirical Musicology Review, 16(1),\n5–15.\n\n\nJohnson, V. E., Payne, R. D., Wang, T., Asher, A., & Mandal, S.\n(2017). On the reproducibility of psychological science. Journal of\nthe American Statistical Association, 112(517), 1–10.\n\n\nLakens, D., Mesquida, C., Rasti, S., & Ditroilo, M. (2024). The\nbenefits of preregistration and registered reports. Evidence-Based\nToxicology, 2(1), 2376046.\n\n\nMoshontz, H., Binion, G., Walton, H., Brown, B. T., & Syed, M.\n(2021). A guide to posting and managing preprints. Advances in\nMethods and Practices in Psychological Science, 4(2),\n25152459211019948.\n\n\nMoss, F. C., & Neuwirth, M. (2021). FAIR, open, linked: Introducing\nthe special issue on open science in musicology. Empirical\nMusicology Review, 16(1), 1–4.\n\n\nNosek, B. A., & Errington, T. M. (2020). What is replication?\nPLoS Biology, 18(3), e3000691.\n\n\nObels, P., Lakens, D., Coles, N. A., Gottfried, J., & Green, S. A.\n(2020). Analysis of open data and computational reproducibility in\nregistered reports in psychology. Advances in Methods and Practices\nin Psychological Science, 3(2), 229–237.\n\n\nStanley, T. D., Carter, E. C., & Doucouliagos, H. (2018). What\nmeta-analyses reveal about the replicability of psychological research.\nPsychological Bulletin, 144(12), 1325.\n\n\nTscharntke, T., Hochberg, M. E., Rand, T. A., Resh, V. H., & Krauss,\nJ. (2007). Author sequence and credit for contributions in multiauthored\npublications. PLoS Biology, 5(1), e18.\n\n\nTuval-Mashiach, R. (2021). Is replication relevant for qualitative\nresearch? Qualitative Psychology, 8(3), 365.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>References</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "section7.html",
+    "href": "section7.html",
+    "title": "9  Preregistration",
+    "section": "",
+    "text": "9.1 Different variants of preregistering a study\nWhat is “preregistration”? see (Lakens et al., 2024)",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
+    ]
+  },
+  {
+    "objectID": "section7.html#different-variants-of-preregistering-a-study",
+    "href": "section7.html#different-variants-of-preregistering-a-study",
+    "title": "9  Preregistration",
+    "section": "",
+    "text": "9.1.1 Light-touch\n\n\n9.1.2 Full preregistration",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
+    ]
+  },
+  {
+    "objectID": "section7.html#registered-reports",
+    "href": "section7.html#registered-reports",
+    "title": "9  Preregistration",
+    "section": "9.2 Registered Reports",
+    "text": "9.2 Registered Reports\n\n\n\n\nLakens, D., Mesquida, C., Rasti, S., & Ditroilo, M. (2024). The benefits of preregistration and registered reports. Evidence-Based Toxicology, 2(1), 2376046.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
     ]
   }
 ]
