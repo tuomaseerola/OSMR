@@ -14,7 +14,7 @@ The repository of information can be best done with collaborative writing and co
 
 ### Writing
 
-- Check [CONTRIBUTING.md](https://tuomaseerola.github.io/OSMR/CONTRIBUTING.md) guide first.
+- Check [CONTRIBUTING.md](https://github.com/tuomaseerola/OSMR/blob/main/CONTRIBUTING.md) guide first.
 
 - Using markdown text, including markdown references, e.g. `[@moss2021fair]` linked to `references.bib` file, and utilising within document links `@sec-background`. All implemented via [Quarto](https://quarto.org) documents at [GitHub](https://tuomaseerola.github.io/OSMR) to compile site/book as needed.
 
