@@ -8,14 +8,16 @@ The repository of information can be best done with collaborative writing and co
 
 - Co-authors contacted and established (`February 2026`)
 - Online repository coordinated at GitHub, potentially released at a dedicated domain address (not at [https://tuomaseerola.github.io](https://tuomaseerola.github.io))
-- Early drafts ready (`September 2026`)
-- Release (`December 2026`)
-- Potential for a spin-off article and a hardcopy discussed (`January 2027`)
+- Early drafts ready (`November 2026`)
+- Release (`February 2027`)
+- Potential for a spin-off article and a hardcopy discussed (`Spring 2027`)
 
 ### Writing
 
+- Check [CONTRIBUTING.md](https://tuomaseerola.github.io/OSMR/CONTRIBUTING.md) guide first.
+
 - Using markdown text, including markdown references, e.g. `[@moss2021fair]` linked to `references.bib` file, and utilising within document links `@sec-background`. All implemented via [Quarto](https://quarto.org) documents at [GitHub](https://tuomaseerola.github.io/OSMR) to compile site/book as needed.
 
-- Tracking the progress and issues via GitHub Issues.
+- Tracking the progress and issues via GitHub [Issues](https://github.com/tuomaseerola/OSMR/issues/).
 
 - Authorship order to be determined based on contribution and made transparent with [Contributor Taxonomy](https://credit.niso.org).
