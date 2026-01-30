@@ -2,7 +2,7 @@
 
 In music research, particularly for music psychology and computational musicology, we should have a repository of information about _Open Science_ and its all areas (open access publication, open data, open code, registration, and replication). Some of this information has been put together for journal articles [@moss2021fair;@jensenius2021best], but having a centralised starting point for this would be helpful for training and awareness.
 
-The repository of information can be best done with collaborative writing and compiling the resources together. 
+The repository of information can be best done with collaborative writing and compiling the resources together. The contributors represent various sub-disciplines of music research (music psychology, computational musicology, MIR) and different countries (legal implications and academic practices).
 
 ## Plan and schedule
 

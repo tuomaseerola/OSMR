@@ -24,7 +24,7 @@
     "href": "index.html#the-way-this-repository-has-been-coordinated",
     "title": "Open Science for Music Research",
     "section": "1.2 The way this repository has been coordinated",
-    "text": "1.2 The way this repository has been coordinated\nThis is a collaborative enterprise, using GitHub repository, where various authors are responsible for specific sections, see also Chapter 2.",
+    "text": "1.2 The way this repository has been coordinated\nThis is a collaborative enterprise, where various authors contribute to specific sections and themes, see also Chapter 2.\n\nTuomas Eerola (UK), see Department of Music, Durham University\nJohanna Devaney (US), see Brooklyn College, CUNY\nMartin Hartmann (Finland), see Centre of Excellence in Music, Mind, Body and Brain\nDorien Herremans (Singapore), see Audio, Music, and AI (AMAAI) Lab at Singapore University of Technology and Design\nFabian Moss (Germany), see Institut für Musikforschung at Julius-Maximilians University Würzburg\nJan Stupacher (Denmark), see Center for Music in the Brain\nHazel van der Walle (UK), see Department of Music, Durham University",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Open Science for Music Research</span>"
     ]
@@ -44,7 +44,7 @@
     "href": "preface.html",
     "title": "2  Preface",
     "section": "",
-    "text": "2.1 Plan and schedule\nIn music research, particularly for music psychology and computational musicology, we should have a repository of information about Open Science and its all areas (open access publication, open data, open code, registration, and replication). Some of this information has been put together for journal articles (Jensenius, 2021; Moss & Neuwirth, 2021), but having a centralised starting point for this would be helpful for training and awareness.\nThe repository of information can be best done with collaborative writing and compiling the resources together.",
+    "text": "2.1 Plan and schedule\nIn music research, particularly for music psychology and computational musicology, we should have a repository of information about Open Science and its all areas (open access publication, open data, open code, registration, and replication). Some of this information has been put together for journal articles (Jensenius, 2021; Moss & Neuwirth, 2021), but having a centralised starting point for this would be helpful for training and awareness.\nThe repository of information can be best done with collaborative writing and compiling the resources together. The contributors represent various sub-disciplines of music research (music psychology, computational musicology, MIR) and different countries (legal implications and academic practices).",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
     ]
