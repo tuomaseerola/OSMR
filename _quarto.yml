@@ -4,12 +4,12 @@ project:
 
 book:
   title: "Open Science for Music Research"
-  author: Tuomas Eerola, XXXX, YYYY, ZZZZ
+  author: Eerola, Devaney, Hartmann, Herremans, Moss, Stupacher, and van der Walle
   reader-mode: true
-  date: "1/13/2026"
+  date: "1/30/2026"
   page-footer:
     left: |
-      Open Science for Music Research was written by Eerola, XXXX, YYYY, and ZZZZ.
+      Open Science for Music Research was written by [contributors].
     right: |
       This book can be found at <a href="https://musicscience.uk/OSMR/">https://musicscience.uk/OSMR</a>.
 #  cover-image: cover.jpg
