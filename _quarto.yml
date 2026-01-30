@@ -9,7 +9,7 @@ book:
   date: "1/30/2026"
   page-footer:
     left: |
-      Open Science for Music Research was written by [contributors](contributors.md).
+      Open Science for Music Research was written by [contributors](preface.qmd).
     right: |
       This book can be found at <a href="https://musicscience.uk/OSMR/">https://musicscience.uk/OSMR</a>.
 #  cover-image: cover.jpg
