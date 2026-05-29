@@ -1,20 +1,87 @@
 # Preregistration {#sec-registration}
 
-What is "preregistration"? see [@lakens2024benefits]
+## Existence of systematic bias
 
-- origins
+In scholarly work, it is not unusual for researchers to prefer certain outcomes over others, to hope that findings support a particular theory, or to give less attention to results that fail to confirm initial expectations. Such tendencies are well documented in the history of science and can be regarded as sources of *systematic bias* in the research process [@lakens2024benefits]. Preregistration is one approach to reducing such bias. It increases transparency by documenting the claims, hypotheses, and analytical plans before the results are known, allowing others to evaluate how conclusions were reached. It may also help reduce *publication bias*, the tendency for positive or statistically significant findings to be published more frequently than null or negative results.
 
-- examples in music research
+In music research, as in many other disciplines, there are numerous opportunities for systematic bias to arise. Statistical analyses may be conducted selectively, with researchers choosing among multiple analytical options after inspecting the data. Variables, outcome measures, or subsets of data may be reported opportunistically because they produce more favourable results. Research questions and hypotheses may also shift after the results are known, a practice commonly referred to as HARKing (*Hypothesising After the Results are Known*). Importantly, such practices are not always intentional. Researchers may be unaware that repeated reanalysis of data, selective reporting, or exploration of numerous analytical pathways can introduce bias into the final conclusions. Nevertheless, examples of these practices are easy to find, and together they illustrate how systematic bias can emerge in empirical research even when researchers act in good faith.
 
-## Different variants of preregistering a study
+## Definition of preregistration
+
+Preregistration is designed to counteract systematic biases by making key research decisions transparent before data collection or analysis. Following the definition proposed by @lakens2024benefits, preregistration is:
+
+> "a complete description of all information related to planned analyses (including the experimental design, measures, data preprocessing, and when statistical tests will corroborate or falsify predictions) that is demonstrably created without access to the data that will be analysed."
+
+In practical terms, this means that researchers document their study procedures, hypotheses, and statistical analysis plans before collecting or analysing data. When data already exist, typically because they were collected by other researchers, it is still possible to preregister an analysis plan, provided that researchers can demonstrate they did not have access to the data before developing the plan [@mertens2019preregistration].
+
+In some areas of music research, such as corpus studies, this principle may be more difficult to uphold because many datasets are openly available and can often be accessed without any formal request process. This makes it harder to verify that analytical decisions were specified before researchers examined the data. One way to mitigate this challenge is to maintain open laboratory notebooks or other time-stamped records that document decisions, analyses, and claims as they develop throughout the research process [@scroggie2023github].
 
 
-### Light-touch
+## Variants of preregistration
+
+Preregistration practices originated in clinical and medical research. Clinical trial registries began to emerge in the late 1990s and became increasingly required during the 2000s through journal and regulatory policies. These registries provide a searchable record of a study's aims, design, methods, and planned outcomes before results are known.
+
+Outside clinical research, preregistration has evolved into several formats that differ in complexity and level of scrutiny. These range from brief registrations that document core hypotheses and analyses, to comprehensive preregistrations that specify study procedures and analytical decisions in detail, and ultimately to *Registered Reports*, where study plans undergo peer review before data collection begins. Although these approaches vary in their requirements, they share the common goal of increasing transparency and reducing opportunities for bias in the research process. Table @tbl-services lists five common services for study preregistrations in order of complexity.
+
+| Service          | Typical use                                          | Complexity  |
+|:---------------- | ---------------------------------------------------- | ----------- |
+| [AsPredicted](https://aspredicted.org/)                                         | Simple hypothesis-testing studies                    | Low         |
+| [OSF Registries](https://osf.io/registries)                                     | General-purpose preregistration for any study type   | Medium–High |
+| [PROSPERO](https://www.crd.york.ac.uk/prospero/)                                | Systematic reviews and meta-analyses                 | Medium      |
+| [Registered Reports Center (COS)](https://www.cos.io/rr)                        | Registered Reports and participating journals        | High        |
+| [Open Science Framework Registered Report Templates](https://osf.io/registries) | Detailed preregistrations and Stage-1 RR submissions | High        |
+| [ClinicalTrials.gov](https://clinicaltrials.gov/)                               | Clinical trials and intervention studies             | High        |
+
+: Five preregistration services. {#tbl-services}
+
+
+### Minimal preregistration
+
+In a minimal preregistration, the key claims tested will be identified. This should include
+
+- Research question(s)
+- Hypotheses
+- Primary outcome variable(s)
+- Planned sample size
+- Main statistical test(s)
+
+A good example in music psychology is study about xxxx [osf link here].
+
+There are several repositories (such as aspredicted.com, Open Science Framework, xx) that can hold preregistrations of this kind. The template they offer provide prompts for the key questions and all these provide a time-stamped version of the preregistration. 
 
 
 ### Full preregistration
 
+In a full preregistration, an attempt to document all major decisions that relate to the study before collecting the data. This will usually include:
 
-## Registered Reports
+- Detailed study design and procedure
+- Recruitment criteria
+- Inclusion and exclusion criteria
+- Sample size justification (e.g., power analysis)
+- Variables collected
+- Data preprocessing steps
+- Handling of missing data
+- Outlier criteria
+- Statistical models
+- Covariates (if any)
+- Multiple-comparison corrections
+- Planned exploratory analyses
 
+A good example from music research is a study by xxxx, 
+
+links to the templates
+
+### Registered Reports
+
+To be written
+
+Figure?
+
+Music research examples here, links to the templates.
+
+Mention Music Perception. PCI
+
+## Summary
+
+For music research, a minimal preregistration is already a substantial improvement over no preregistration. Full preregistration becomes particularly valuable when the design contains many analytical choices, such as feature selection in music-information-retrieval studies, complex psychophysiological analyses, longitudinal designs, or scale-development projects.
 

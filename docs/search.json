@@ -94,7 +94,7 @@
     "href": "section1.html#fair-in-music-related-research",
     "title": "3  Background",
     "section": "3.4 FAIR in music related research",
-    "text": "3.4 FAIR in music related research\nSee (Moss & Neuwirth, 2021)\nSee (Jensenius, 2021)\n\n\n\n\nAllen, C., & Mehler, D. M. (2019). Open science challenges, benefits and tips in early career and beyond. PLoS Biology, 17(5), e3000246.\n\n\nEerola, T. (2024). Prevalence of transparency and reproducibility-related research practices in music psychology (2017-2022). Musicae Scientiae, 29(2). https://doi.org/https://doi.org/10.1177/10298649241300885\n\n\nHardwicke, T. E., & Vazire, S. (2024). Open Science. In M. C. Frank & A. Majid (Eds.), Open Encyclopedia of Cognitive Science. MIT Press.\n\n\nJensenius, A. R. (2021). Best versus good enough practices for open music research. Empirical Musicology Review, 16(1), 5–15.\n\n\nMoss, F. C., & Neuwirth, M. (2021). FAIR, open, linked: Introducing the special issue on open science in musicology. Empirical Musicology Review, 16(1), 1–4.",
+    "text": "3.4 FAIR in music related research\nSee (Moss & Neuwirth, 2021)\nSee (Jensenius, 2021)\n\n\n\n\nAllen, C., & Mehler, D. M. (2019). Open science challenges, benefits and tips in early career and beyond. PLoS Biology, 17(5), e3000246. https://doi.org/10.1371/journal.pbio.3000246\n\n\nEerola, T. (2024). Prevalence of transparency and reproducibility-related research practices in music psychology (2017-2022). Musicae Scientiae, 29(2), 385–399. https://doi.org/10.1177/10298649241300885\n\n\nHardwicke, T. E., & Vazire, S. (2024). Open Science. In M. C. Frank & A. Majid (Eds.), Open Encyclopedia of Cognitive Science. MIT Press. https://doi.org/10.21428/e2759450.cdacaf45\n\n\nJensenius, A. R. (2021). Best versus good enough practices for open music research. Empirical Musicology Review, 16(1), 5–15. https://doi.org/10.18061/emr.v16i1.7646\n\n\nMoss, F. C., & Neuwirth, M. (2021). FAIR, open, linked: Introducing the special issue on open science in musicology. Empirical Musicology Review, 16(1), 1–4. https://doi.org/10.18061/emr.v16i1.8246",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
     ]
@@ -244,7 +244,7 @@
     "href": "resources.html",
     "title": "10  Resources",
     "section": "",
-    "text": "Open Science: A Practical Guide for Early-Career Researchers, https://zenodo.org/records/7716153\nRegistration templates at OSF.\nCompare registration with papers, see https://regcheck.app\nAwesome Reproducible Research\nFairsharing\n\n\n10.0.1 Organisations\n\nOpen Science Framework\nFORRT - Framework for Open and Reproducible Research Training advancing research transparency, reproducibility, rigor, and ethics through pedagogical reform and meta-scientific research\nrOpenSci - Tools, conferences, and education\nReproducibility for Everyone - Community-led reproducibility workshops\npyOpenSci - Promotes open and reproducible research through peer-review of scientific Python packages\nCASCaD - Certification Agency for Scientific Code and Data\nReplication Network - Furthering the practice of replication in economics.",
+    "text": "To be organised more thematically.\n\nOpen Science: A Practical Guide for Early-Career Researchers, https://zenodo.org/records/7716153\nRegistration templates at OSF.\nCompare registration with papers, see https://regcheck.app\nAwesome Reproducible Research\nFairsharing\n\n\n10.0.1 Organisations\n\nOpen Science Framework\nFORRT - Framework for Open and Reproducible Research Training advancing research transparency, reproducibility, rigor, and ethics through pedagogical reform and meta-scientific research\nrOpenSci - Tools, conferences, and education\nReproducibility for Everyone - Community-led reproducibility workshops\npyOpenSci - Promotes open and reproducible research through peer-review of scientific Python packages\nCASCaD - Certification Agency for Scientific Code and Data\nReplication Network - Furthering the practice of replication in economics.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -264,7 +264,7 @@
     "href": "section7.html",
     "title": "9  Preregistration",
     "section": "",
-    "text": "9.1 Different variants of preregistering a study\nWhat is “preregistration”? see (Lakens et al., 2024)",
+    "text": "9.1 Existence of systematic bias\nIn scholarly work, it is not unusual for researchers to prefer certain outcomes over others, to hope that findings support a particular theory, or to give less attention to results that fail to confirm initial expectations. Such tendencies are well documented in the history of science and can be regarded as sources of systematic bias in the research process (Lakens et al., 2024). Preregistration is one approach to reducing such bias. It increases transparency by documenting the claims, hypotheses, and analytical plans before the results are known, allowing others to evaluate how conclusions were reached. It may also help reduce publication bias, the tendency for positive or statistically significant findings to be published more frequently than null or negative results.\nIn music research, as in many other disciplines, there are numerous opportunities for systematic bias to arise. Statistical analyses may be conducted selectively, with researchers choosing among multiple analytical options after inspecting the data. Variables, outcome measures, or subsets of data may be reported opportunistically because they produce more favourable results. Research questions and hypotheses may also shift after the results are known, a practice commonly referred to as HARKing (Hypothesising After the Results are Known). Importantly, such practices are not always intentional. Researchers may be unaware that repeated reanalysis of data, selective reporting, or exploration of numerous analytical pathways can introduce bias into the final conclusions. Nevertheless, examples of these practices are easy to find, and together they illustrate how systematic bias can emerge in empirical research even when researchers act in good faith.",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
     ]
@@ -274,7 +274,7 @@
     "href": "section7.html#different-variants-of-preregistering-a-study",
     "title": "9  Preregistration",
     "section": "",
-    "text": "9.1.1 Light-touch\n\n\n9.1.2 Full preregistration",
+    "text": "9.1.1 Minimal preregistration\nMusic research examples here, links to the templates\n\n\n9.1.2 Full preregistration\nMusic research examples here, links to the templates",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
     ]
@@ -284,7 +284,7 @@
     "href": "section7.html#registered-reports",
     "title": "9  Preregistration",
     "section": "9.2 Registered Reports",
-    "text": "9.2 Registered Reports\n\n\n\n\nLakens, D., Mesquida, C., Rasti, S., & Ditroilo, M. (2024). The benefits of preregistration and registered reports. Evidence-Based Toxicology, 2(1), 2376046.",
+    "text": "9.2 Registered Reports\nFigure?\nMusic research examples here, links to the templates.\n\n\n\n\nLakens, D., Mesquida, C., Rasti, S., & Ditroilo, M. (2024). The benefits of preregistration and registered reports. Evidence-Based Toxicology, 2(1), 2376046. https://doi.org/10.1080/2833373X.2024.2376046\n\n\nMertens, G., & Krypotos, A.-M. (2019). Preregistration of analyses of preexisting data. Psychologica Belgica, 59(1), 338–352. https://doi.org/10.5334/pb.493\n\n\nScroggie, K. R., Burrell-Sander, K. J., Rutledge, P. J., & Motion, A. (2023). GitHub as an open electronic laboratory notebook for real-time sharing of knowledge and collaboration. Digital Discovery, 2(4), 1188–1196. https://doi.org/10.1039/D3DD00032J",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
     ]
@@ -307,6 +307,36 @@
     "text": "2.3 Writing guidelines\n\nCheck CONTRIBUTING.md guide first.\nUsing markdown text, including markdown references, e.g. [@moss2021fair] linked to references.bib file, and utilising within document links @sec-background. All implemented via Quarto documents at GitHub to compile site/book as needed.\nTracking the progress and issues via GitHub Issues.\nAuthorship order to be determined based on contribution and made transparent with Contributor Taxonomy.\n\n\n\n\n\nJensenius, A. R. (2021). Best versus good enough practices for open music research. Empirical Musicology Review, 16(1), 5–15.\n\n\nMoss, F. C., & Neuwirth, M. (2021). FAIR, open, linked: Introducing the special issue on open science in musicology. Empirical Musicology Review, 16(1), 1–4.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "section7.html#definition-of-preregistration",
+    "href": "section7.html#definition-of-preregistration",
+    "title": "9  Preregistration",
+    "section": "9.2 Definition of preregistration",
+    "text": "9.2 Definition of preregistration\nPreregistration is designed to counteract systematic biases by making key research decisions transparent before data collection or analysis. Following the definition proposed by Lakens et al. (2024), preregistration is:\n\n“a complete description of all information related to planned analyses (including the experimental design, measures, data preprocessing, and when statistical tests will corroborate or falsify predictions) that is demonstrably created without access to the data that will be analysed.”\n\nIn practical terms, this means that researchers document their study procedures, hypotheses, and statistical analysis plans before collecting or analysing data. When data already exist, typically because they were collected by other researchers, it is still possible to preregister an analysis plan, provided that researchers can demonstrate they did not have access to the data before developing the plan (Mertens & Krypotos, 2019).\nIn some areas of music research, such as corpus studies, this principle may be more difficult to uphold because many datasets are openly available and can often be accessed without any formal request process. This makes it harder to verify that analytical decisions were specified before researchers examined the data. One way to mitigate this challenge is to maintain open laboratory notebooks or other time-stamped records that document decisions, analyses, and claims as they develop throughout the research process (Scroggie et al., 2023).",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
+    ]
+  },
+  {
+    "objectID": "section7.html#variants-of-preregistration",
+    "href": "section7.html#variants-of-preregistration",
+    "title": "9  Preregistration",
+    "section": "9.3 Variants of preregistration",
+    "text": "9.3 Variants of preregistration\nPreregistration practices originated in clinical and medical research. Clinical trial registries began to emerge in the late 1990s and became increasingly required during the 2000s through journal and regulatory policies. These registries provide a searchable record of a study’s aims, design, methods, and planned outcomes before results are known.\nOutside clinical research, preregistration has evolved into several formats that differ in complexity and level of scrutiny. These range from brief registrations that document core hypotheses and analyses, to comprehensive preregistrations that specify study procedures and analytical decisions in detail, and ultimately to Registered Reports, where study plans undergo peer review before data collection begins. Although these approaches vary in their requirements, they share the common goal of increasing transparency and reducing opportunities for bias in the research process. Table Table 9.1 list five common services for study preregistrations in order of complexity.\n\n\n\nTable 9.1: Five preregistration services\n\n\n\n\n\nService\nTypical use\nComplexity\n\n\n\n\nAsPredicted\nSimple hypothesis-testing studies\nLow\n\n\nOSF Registries\nGeneral-purpose preregistration for any study type\nMedium–High\n\n\nPROSPERO\nSystematic reviews and meta-analyses\nMedium\n\n\nRegistered Reports Center (COS)\nRegistered Reports and participating journals\nHigh\n\n\nOpen Science Framework Registered Report Templates\nDetailed preregistrations and Stage-1 RR submissions\nHigh\n\n\nClinicalTrials.gov\nClinical trials and intervention studies\nHigh\n\n\n\n\n\n\n\n9.3.1 Minimal preregistration\nIn a minimal preregistration, the key claims tested will be identified. This should include\n\nResearch question(s)\nHypotheses\nPrimary outcome variable(s)\nPlanned sample size\nMain statistical test(s)\n\nA good example in music psychology is study about xxxx [osf link here].\nThere are several repositories (such as aspredicted.com, Open Science Framework, xx) that can hold preregistrations of this kind. The template they offer provide prompts for the key questions and all these provide a time-stamped version of the preregistration.\n\n\n9.3.2 Full preregistration\nIn a full preregistration, an attempt to document all major decisions that relate to the study before collecting the data. This will usually include:\n\nDetailed study design and procedure\nRecruitment criteria\nInclusion and exclusion criteria\nSample size justification (e.g., power analysis)\nVariables collected\nData preprocessing steps\nHandling of missing data\nOutlier criteria\nStatistical models\nCovariates (if any)\nMultiple-comparison corrections\nPlanned exploratory analyses\n\nA good example from music research is a study by xxxx,\nlinks to the templates\n\n\n9.3.3 Registered Reports\nTo be written\nFigure?\nMusic research examples here, links to the templates.\nMention Music Perception. PCI",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
+    ]
+  },
+  {
+    "objectID": "section7.html#summary",
+    "href": "section7.html#summary",
+    "title": "9  Preregistration",
+    "section": "9.4 Summary",
+    "text": "9.4 Summary\nFor music research, a minimal preregistration is already a substantial improvement over no preregistration. Full preregistration becomes particularly valuable when the design contains many analytical choices, such as feature selection in music-information-retrieval studies, complex psychophysiological analyses, longitudinal designs, or scale-development projects.\n\n\n\n\nLakens, D., Mesquida, C., Rasti, S., & Ditroilo, M. (2024). The benefits of preregistration and registered reports. Evidence-Based Toxicology, 2(1), 2376046. https://doi.org/10.1080/2833373X.2024.2376046\n\n\nMertens, G., & Krypotos, A.-M. (2019). Preregistration of analyses of preexisting data. Psychologica Belgica, 59(1), 338–352. https://doi.org/10.5334/pb.493\n\n\nScroggie, K. R., Burrell-Sander, K. J., Rutledge, P. J., & Motion, A. (2023). GitHub as an open electronic laboratory notebook for real-time sharing of knowledge and collaboration. Digital Discovery, 2(4), 1188–1196. https://doi.org/10.1039/D3DD00032J",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
     ]
   }
 ]

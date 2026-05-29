@@ -1,5 +1,6 @@
 ## Resources {#sec-resources}
 
+To be organised more thematically. 
 
 - Open Science: A Practical Guide for Early-Career Researchers, [https://zenodo.org/records/7716153](https://zenodo.org/records/7716153)
 

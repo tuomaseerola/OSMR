@@ -213,12 +213,15 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#different-variants-of-preregistering-a-study" id="toc-different-variants-of-preregistering-a-study" class="nav-link active" data-scroll-target="#different-variants-of-preregistering-a-study"><span class="header-section-number">9.1</span> Different variants of preregistering a study</a>
+  <li><a href="#existence-of-systematic-bias" id="toc-existence-of-systematic-bias" class="nav-link active" data-scroll-target="#existence-of-systematic-bias"><span class="header-section-number">9.1</span> Existence of systematic bias</a></li>
+  <li><a href="#definition-of-preregistration" id="toc-definition-of-preregistration" class="nav-link" data-scroll-target="#definition-of-preregistration"><span class="header-section-number">9.2</span> Definition of preregistration</a></li>
+  <li><a href="#variants-of-preregistration" id="toc-variants-of-preregistration" class="nav-link" data-scroll-target="#variants-of-preregistration"><span class="header-section-number">9.3</span> Variants of preregistration</a>
   <ul class="collapse">
-  <li><a href="#light-touch" id="toc-light-touch" class="nav-link" data-scroll-target="#light-touch"><span class="header-section-number">9.1.1</span> Light-touch</a></li>
-  <li><a href="#full-preregistration" id="toc-full-preregistration" class="nav-link" data-scroll-target="#full-preregistration"><span class="header-section-number">9.1.2</span> Full preregistration</a></li>
+  <li><a href="#minimal-preregistration" id="toc-minimal-preregistration" class="nav-link" data-scroll-target="#minimal-preregistration"><span class="header-section-number">9.3.1</span> Minimal preregistration</a></li>
+  <li><a href="#full-preregistration" id="toc-full-preregistration" class="nav-link" data-scroll-target="#full-preregistration"><span class="header-section-number">9.3.2</span> Full preregistration</a></li>
+  <li><a href="#registered-reports" id="toc-registered-reports" class="nav-link" data-scroll-target="#registered-reports"><span class="header-section-number">9.3.3</span> Registered Reports</a></li>
   </ul></li>
-  <li><a href="#registered-reports" id="toc-registered-reports" class="nav-link" data-scroll-target="#registered-reports"><span class="header-section-number">9.2</span> Registered Reports</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">9.4</span> Summary</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/tuomaseerola/OSMR/edit/main/section7.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/tuomaseerola/OSMR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -244,27 +247,129 @@ div.csl-indent {
 </header>
 
 
-<p>What is “preregistration”? see <span class="citation" data-cites="lakens2024benefits">(<a href="references.html#ref-lakens2024benefits" role="doc-biblioref">Lakens et al., 2024</a>)</span></p>
+<section id="existence-of-systematic-bias" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="existence-of-systematic-bias"><span class="header-section-number">9.1</span> Existence of systematic bias</h2>
+<p>In scholarly work, it is not unusual for researchers to prefer certain outcomes over others, to hope that findings support a particular theory, or to give less attention to results that fail to confirm initial expectations. Such tendencies are well documented in the history of science and can be regarded as sources of <em>systematic bias</em> in the research process <span class="citation" data-cites="lakens2024benefits">(<a href="references.html#ref-lakens2024benefits" role="doc-biblioref">Lakens et al., 2024</a>)</span>. Preregistration is one approach to reducing such bias. It increases transparency by documenting the claims, hypotheses, and analytical plans before the results are known, allowing others to evaluate how conclusions were reached. It may also help reduce <em>publication bias</em>, the tendency for positive or statistically significant findings to be published more frequently than null or negative results.</p>
+<p>In music research, as in many other disciplines, there are numerous opportunities for systematic bias to arise. Statistical analyses may be conducted selectively, with researchers choosing among multiple analytical options after inspecting the data. Variables, outcome measures, or subsets of data may be reported opportunistically because they produce more favourable results. Research questions and hypotheses may also shift after the results are known, a practice commonly referred to as HARKing (<em>Hypothesising After the Results are Known</em>). Importantly, such practices are not always intentional. Researchers may be unaware that repeated reanalysis of data, selective reporting, or exploration of numerous analytical pathways can introduce bias into the final conclusions. Nevertheless, examples of these practices are easy to find, and together they illustrate how systematic bias can emerge in empirical research even when researchers act in good faith.</p>
+</section>
+<section id="definition-of-preregistration" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="definition-of-preregistration"><span class="header-section-number">9.2</span> Definition of preregistration</h2>
+<p>Preregistration is designed to counteract systematic biases by making key research decisions transparent before data collection or analysis. Following the definition proposed by <span class="citation" data-cites="lakens2024benefits">Lakens et al. (<a href="references.html#ref-lakens2024benefits" role="doc-biblioref">2024</a>)</span>, preregistration is:</p>
+<blockquote class="blockquote">
+<p>“a complete description of all information related to planned analyses (including the experimental design, measures, data preprocessing, and when statistical tests will corroborate or falsify predictions) that is demonstrably created without access to the data that will be analysed.”</p>
+</blockquote>
+<p>In practical terms, this means that researchers document their study procedures, hypotheses, and statistical analysis plans before collecting or analysing data. When data already exist, typically because they were collected by other researchers, it is still possible to preregister an analysis plan, provided that researchers can demonstrate they did not have access to the data before developing the plan <span class="citation" data-cites="mertens2019preregistration">(<a href="references.html#ref-mertens2019preregistration" role="doc-biblioref">Mertens &amp; Krypotos, 2019</a>)</span>.</p>
+<p>In some areas of music research, such as corpus studies, this principle may be more difficult to uphold because many datasets are openly available and can often be accessed without any formal request process. This makes it harder to verify that analytical decisions were specified before researchers examined the data. One way to mitigate this challenge is to maintain open laboratory notebooks or other time-stamped records that document decisions, analyses, and claims as they develop throughout the research process <span class="citation" data-cites="scroggie2023github">(<a href="references.html#ref-scroggie2023github" role="doc-biblioref">Scroggie et al., 2023</a>)</span>.</p>
+</section>
+<section id="variants-of-preregistration" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="variants-of-preregistration"><span class="header-section-number">9.3</span> Variants of preregistration</h2>
+<p>Preregistration practices originated in clinical and medical research. Clinical trial registries began to emerge in the late 1990s and became increasingly required during the 2000s through journal and regulatory policies. These registries provide a searchable record of a study’s aims, design, methods, and planned outcomes before results are known.</p>
+<p>Outside clinical research, preregistration has evolved into several formats that differ in complexity and level of scrutiny. These range from brief registrations that document core hypotheses and analyses, to comprehensive preregistrations that specify study procedures and analytical decisions in detail, and ultimately to <em>Registered Reports</em>, where study plans undergo peer review before data collection begins. Although these approaches vary in their requirements, they share the common goal of increasing transparency and reducing opportunities for bias in the research process. Table <a href="#tbl-services" class="quarto-xref">Table&nbsp;<span>9.1</span></a> list five common services for study preregistrations in order of complexity.</p>
+<div id="tbl-services" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-services-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;9.1: Five preregistration services
+</figcaption>
+<div aria-describedby="tbl-services-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Service</th>
+<th>Typical use</th>
+<th>Complexity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://aspredicted.org/">AsPredicted</a></td>
+<td>Simple hypothesis-testing studies</td>
+<td>Low</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://osf.io/registries">OSF Registries</a></td>
+<td>General-purpose preregistration for any study type</td>
+<td>Medium–High</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://www.crd.york.ac.uk/prospero/">PROSPERO</a></td>
+<td>Systematic reviews and meta-analyses</td>
+<td>Medium</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://www.cos.io/rr">Registered Reports Center (COS)</a></td>
+<td>Registered Reports and participating journals</td>
+<td>High</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://osf.io/registries">Open Science Framework Registered Report Templates</a></td>
+<td>Detailed preregistrations and Stage-1 RR submissions</td>
+<td>High</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td>
+<td>Clinical trials and intervention studies</td>
+<td>High</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<section id="minimal-preregistration" class="level3" data-number="9.3.1">
+<h3 data-number="9.3.1" class="anchored" data-anchor-id="minimal-preregistration"><span class="header-section-number">9.3.1</span> Minimal preregistration</h3>
+<p>In a minimal preregistration, the key claims tested will be identified. This should include</p>
 <ul>
-<li><p>origins</p></li>
-<li><p>examples in music research</p></li>
+<li>Research question(s)</li>
+<li>Hypotheses</li>
+<li>Primary outcome variable(s)</li>
+<li>Planned sample size</li>
+<li>Main statistical test(s)</li>
 </ul>
-<section id="different-variants-of-preregistering-a-study" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="different-variants-of-preregistering-a-study"><span class="header-section-number">9.1</span> Different variants of preregistering a study</h2>
-<section id="light-touch" class="level3" data-number="9.1.1">
-<h3 data-number="9.1.1" class="anchored" data-anchor-id="light-touch"><span class="header-section-number">9.1.1</span> Light-touch</h3>
+<p>A good example in music psychology is study about xxxx [osf link here].</p>
+<p>There are several repositories (such as aspredicted.com, Open Science Framework, xx) that can hold preregistrations of this kind. The template they offer provide prompts for the key questions and all these provide a time-stamped version of the preregistration.</p>
 </section>
-<section id="full-preregistration" class="level3" data-number="9.1.2">
-<h3 data-number="9.1.2" class="anchored" data-anchor-id="full-preregistration"><span class="header-section-number">9.1.2</span> Full preregistration</h3>
+<section id="full-preregistration" class="level3" data-number="9.3.2">
+<h3 data-number="9.3.2" class="anchored" data-anchor-id="full-preregistration"><span class="header-section-number">9.3.2</span> Full preregistration</h3>
+<p>In a full preregistration, an attempt to document all major decisions that relate to the study before collecting the data. This will usually include:</p>
+<ul>
+<li>Detailed study design and procedure</li>
+<li>Recruitment criteria</li>
+<li>Inclusion and exclusion criteria</li>
+<li>Sample size justification (e.g., power analysis)</li>
+<li>Variables collected</li>
+<li>Data preprocessing steps</li>
+<li>Handling of missing data</li>
+<li>Outlier criteria</li>
+<li>Statistical models</li>
+<li>Covariates (if any)</li>
+<li>Multiple-comparison corrections</li>
+<li>Planned exploratory analyses</li>
+</ul>
+<p>A good example from music research is a study by xxxx,</p>
+<p>links to the templates</p>
+</section>
+<section id="registered-reports" class="level3" data-number="9.3.3">
+<h3 data-number="9.3.3" class="anchored" data-anchor-id="registered-reports"><span class="header-section-number">9.3.3</span> Registered Reports</h3>
+<p>To be written</p>
+<p>Figure?</p>
+<p>Music research examples here, links to the templates.</p>
+<p>Mention Music Perception. PCI</p>
 </section>
 </section>
-<section id="registered-reports" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="registered-reports"><span class="header-section-number">9.2</span> Registered Reports</h2>
+<section id="summary" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="summary"><span class="header-section-number">9.4</span> Summary</h2>
+<p>For music research, a minimal preregistration is already a substantial improvement over no preregistration. Full preregistration becomes particularly valuable when the design contains many analytical choices, such as feature selection in music-information-retrieval studies, complex psychophysiological analyses, longitudinal designs, or scale-development projects.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
 <div id="ref-lakens2024benefits" class="csl-entry" role="listitem">
-Lakens, D., Mesquida, C., Rasti, S., &amp; Ditroilo, M. (2024). The benefits of preregistration and registered reports. <em>Evidence-Based Toxicology</em>, <em>2</em>(1), 2376046.
+Lakens, D., Mesquida, C., Rasti, S., &amp; Ditroilo, M. (2024). The benefits of preregistration and registered reports. <em>Evidence-Based Toxicology</em>, <em>2</em>(1), 2376046. <a href="https://doi.org/10.1080/2833373X.2024.2376046">https://doi.org/10.1080/2833373X.2024.2376046</a>
+</div>
+<div id="ref-mertens2019preregistration" class="csl-entry" role="listitem">
+Mertens, G., &amp; Krypotos, A.-M. (2019). Preregistration of analyses of preexisting data. <em>Psychologica Belgica</em>, <em>59</em>(1), 338–352. <a href="https://doi.org/10.5334/pb.493">https://doi.org/10.5334/pb.493</a>
+</div>
+<div id="ref-scroggie2023github" class="csl-entry" role="listitem">
+Scroggie, K. R., Burrell-Sander, K. J., Rutledge, P. J., &amp; Motion, A. (2023). GitHub as an open electronic laboratory notebook for real-time sharing of knowledge and collaboration. <em>Digital Discovery</em>, <em>2</em>(4), 1188–1196. <a href="https://doi.org/10.1039/D3DD00032J">https://doi.org/10.1039/D3DD00032J</a>
 </div>
 </div>
 </section>
@@ -686,7 +791,7 @@ Lakens, D., Mesquida, C., Rasti, S., &amp; Ditroilo, M. (2024). The benefits of 
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Open Science for Music Research was written by Eerola, XXXX, YYYY, and ZZZZ.</p>
+<p>Open Science for Music Research was written by <a href="./preface.html">contributors</a>.</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

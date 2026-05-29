@@ -6,7 +6,7 @@ First, the term _Open Science_/_Open Research_[^1]: The former is the global ter
 
 - Open science challenges [@allen2019open]
 
-- In music research (music psychology)
+- What does the term mean in music research (music psychology, MIR, musicology, computational musicology, digital humanities, ..)?
 
 There is a clear room for improvement in music psychology research in terms of transparency [@eerola2023transparency].
 
