@@ -89,7 +89,7 @@ Following Stage 1 review, the journal may reject the manuscript, request revisio
 
 After receiving IPA, researchers collect and analyse the data according to the approved protocol. Any departures from the original plan should be clearly justified and documented. The completed manuscript, now including the results and discussion, is then submitted for *Stage 2 review*. At this stage, reviewers assess whether the study was conducted as approved, whether deviations have been adequately reported, and whether the conclusions are justified by the findings. Importantly, publication does not depend on whether the results are statistically significant, novel, or supportive of the original hypotheses.
 
-![figures/preregistration_process.png](figures/preregistration_process.png){width=50%}
+![Schematic outline of the Registered Reports process](figures/preregistration_process.png){width=50%}
 
 Beyond reducing systematic bias and publication bias, Registered Reports offer an additional benefit: expert feedback is obtained before data collection begins. This allows reviewers to improve aspects of the study that are difficult or impossible to change later, such as the design, stimuli, sampling strategy, statistical analyses, or power considerations.
 
