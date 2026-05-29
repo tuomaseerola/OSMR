@@ -16,17 +16,16 @@ In practical terms, this means that researchers document their study procedures,
 
 In some areas of music research, such as corpus studies, this principle may be more difficult to uphold because many datasets are openly available and can often be accessed without any formal request process. This makes it harder to verify that analytical decisions were specified before researchers examined the data. One way to mitigate this challenge is to maintain open laboratory notebooks or other time-stamped records that document decisions, analyses, and claims as they develop throughout the research process [@scroggie2023github].
 
-
 ## Variants of preregistration
 
 Preregistration practices originated in clinical and medical research. Clinical trial registries began to emerge in the late 1990s and became increasingly required during the 2000s through journal and regulatory policies. These registries provide a searchable record of a study's aims, design, methods, and planned outcomes before results are known.
 
-Outside clinical research, preregistration has evolved into several formats that differ in complexity and level of scrutiny. These range from brief registrations that document core hypotheses and analyses, to comprehensive preregistrations that specify study procedures and analytical decisions in detail, and ultimately to *Registered Reports*, where study plans undergo peer review before data collection begins. Although these approaches vary in their requirements, they share the common goal of increasing transparency and reducing opportunities for bias in the research process. Table @tbl-services lists five common services for study preregistrations in order of complexity.
+Outside clinical research, preregistration has evolved into several formats that differ in complexity and level of scrutiny. These range from brief registrations that document core hypotheses and analyses, to comprehensive preregistrations that specify study procedures and analytical decisions in detail, and ultimately to *Registered Reports*, where study plans undergo peer review before data collection begins. Although these approaches vary in their requirements, they share the common goal of increasing transparency and reducing opportunities for bias in the research process. @tbl-services lists five common services for study preregistrations in order of complexity.
 
 | Service          | Typical use                                          | Complexity  |
-|:---------------- | ---------------------------------------------------- | ----------- |
+|:---------------- |:---------------------------------------------------- | ----------- |
 | [AsPredicted](https://aspredicted.org/)                                         | Simple hypothesis-testing studies                    | Low         |
-| [OSF Registries](https://osf.io/registries)                                     | General-purpose preregistration for any study type   | Medium–High |
+| [OSF Registries](https://osf.io/registries)                                     | General-purpose preregistration for any study type   | Medium |
 | [PROSPERO](https://www.crd.york.ac.uk/prospero/)                                | Systematic reviews and meta-analyses                 | Medium      |
 | [Registered Reports Center (COS)](https://www.cos.io/rr)                        | Registered Reports and participating journals        | High        |
 | [Open Science Framework Registered Report Templates](https://osf.io/registries) | Detailed preregistrations and Stage-1 RR submissions | High        |
@@ -58,6 +57,7 @@ In a full preregistration, an attempt to document all major decisions that relat
 - Recruitment criteria
 - Inclusion and exclusion criteria
 - Sample size justification (e.g., power analysis)
+- Music (or other stimuli) used
 - Variables collected
 - Data preprocessing steps
 - Handling of missing data
@@ -69,19 +69,23 @@ In a full preregistration, an attempt to document all major decisions that relat
 
 A good example from music research is a study by xxxx, 
 
-links to the templates
+- links to the templates
 
 ### Registered Reports
 
-To be written
+[To be written]
 
-Figure?
+- Figure?
 
-Music research examples here, links to the templates.
+- Music research examples here, links to the templates.
 
-Mention Music Perception. PCI
+- Mention Music Perception (journal) that accepts RR. PCI RR friendly journals (https://rr.peercommunityin.org/about/pci_rr_friendly_journals).
 
 ## Summary
 
-For music research, a minimal preregistration is already a substantial improvement over no preregistration. Full preregistration becomes particularly valuable when the design contains many analytical choices, such as feature selection in music-information-retrieval studies, complex psychophysiological analyses, longitudinal designs, or scale-development projects.
+For music research, a minimal preregistration is already a substantial improvement over no preregistration. Full preregistration becomes particularly valuable when a study involves numerous or complex analytical decisions, such as feature selection in music information retrieval studies, psychophysiological analyses, longitudinal designs, or scale-development projects.
+
+However, preregistration should not be viewed as a solution for every type of study. It is most valuable when evaluating predefined hypotheses and claims. Research that is primarily exploratory, interpretative, or practice-based may not be well suited to comprehensive preregistration. In other words, preregistration is less useful when the primary goal is exploration, discovery, interpretation, or creative practice rather than hypothesis testing.
+
+In such cases, transparency remains equally important and can be promoted through other open research practices, including sharing materials and data, maintaining open notebooks, documenting analytical decisions, and providing reflexive accounts of the research process. These approaches help make the development of ideas, interpretations, and conclusions more transparent, even when preregistration is neither feasible nor appropriate.
 
