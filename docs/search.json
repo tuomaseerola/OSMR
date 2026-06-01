@@ -244,7 +244,7 @@
     "href": "resources.html",
     "title": "10  Resources",
     "section": "",
-    "text": "To be organised more thematically.\n\nOpen Science: A Practical Guide for Early-Career Researchers, https://zenodo.org/records/7716153\nRegistration templates at OSF.\nCompare registration with papers, see https://regcheck.app\nAwesome Reproducible Research\nFairsharing\n\n\n10.0.1 Organisations\n\nOpen Science Framework\nFORRT - Framework for Open and Reproducible Research Training advancing research transparency, reproducibility, rigor, and ethics through pedagogical reform and meta-scientific research\nrOpenSci - Tools, conferences, and education\nReproducibility for Everyone - Community-led reproducibility workshops\npyOpenSci - Promotes open and reproducible research through peer-review of scientific Python packages\nCASCaD - Certification Agency for Scientific Code and Data\nReplication Network - Furthering the practice of replication in economics.",
+    "text": "10.1 Generic guides\nA collection of resources related to open research.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -337,6 +337,56 @@
     "text": "9.4 Summary\nFor music research, a minimal preregistration is already a substantial improvement over no preregistration. Full preregistration becomes particularly valuable when a study involves numerous or complex analytical decisions, such as feature selection in music information retrieval studies, psychophysiological analyses, longitudinal designs, or scale-development projects. Metascientific research has shown that preregistration has increased the quality of scholarship in the areas where it has been used (Ofosu & Posner, 2023; Van Den Akker et al., 2024).\nHowever, preregistration should not be viewed as a solution for every type of study. It is most valuable when evaluating predefined hypotheses and claims. Research that is primarily exploratory, interpretative, or practice-based may not be well suited to comprehensive preregistration. In other words, preregistration is less useful when the primary goal is exploration, discovery, interpretation, or creative practice rather than hypothesis testing.\nIn such cases, transparency remains equally important and can be promoted through other open research practices, including sharing materials and data, maintaining open notebooks, documenting analytical decisions, and providing reflexive accounts of the research process. These approaches help make the development of ideas, interpretations, and conclusions more transparent, even when preregistration is neither feasible nor appropriate.\n\n\n\n\nLahdelma, I., & Eerola, T. (2024). Valenced priming with acquired affective concepts in music: Automatic reactions to common tonal chords. Music Perception, 41(3), 161–175. https://doi.org/10.1525/mp.2024.41.3.161\n\n\nLakens, D., Mesquida, C., Rasti, S., & Ditroilo, M. (2024). The benefits of preregistration and registered reports. Evidence-Based Toxicology, 2(1), 2376046. https://doi.org/10.1080/2833373X.2024.2376046\n\n\nLowe-Brown, X., Glasser, S., Wadley, G., & Koval, P. (2026). Personalised affect-regulation playlists: A pre-registered experimental test of the iso principle in the general population. Musicae Scientiae, 0(0), 10298649261421187. https://doi.org/10.1177/10298649261421187\n\n\nMertens, G., & Krypotos, A.-M. (2019). Preregistration of analyses of preexisting data. Psychologica Belgica, 59(1), 338–352. https://doi.org/10.5334/pb.493\n\n\nOfosu, G. K., & Posner, D. N. (2023). Pre-analysis plans: An early stocktaking. Perspectives on Politics, 21(1), 174–190. https://doi.org/10.1017/S1537592721000931\n\n\nPaz, Y., Sun, S., Flum, M., Rodriguez, Y., Brown, E., Plate, R. C., & Waller, R. (2025). Hearing a feeling: Music emotion recognition and callous-unemotional traits in early childhood. Child Development, 96(6), 2247–2256. https://doi.org/10.1111/cdev.70024\n\n\nScroggie, K. R., Burrell-Sander, K. J., Rutledge, P. J., & Motion, A. (2023). GitHub as an open electronic laboratory notebook for real-time sharing of knowledge and collaboration. Digital Discovery, 2(4), 1188–1196. https://doi.org/10.1039/D3DD00032J\n\n\nVan Den Akker, O. R., Assen, M. A. van, Bakker, M., Elsherif, M., Wong, T. K., & Wicherts, J. M. (2024). Preregistration in practice: A comparison of preregistered and non-preregistered studies in psychology. Behavior Research Methods, 56(6), 5424–5433. https://doi.org/10.3758/s13428-023-02277-0",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Preregistration</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html#generic-guides",
+    "href": "resources.html#generic-guides",
+    "title": "10  Resources",
+    "section": "",
+    "text": "Open Science: A Practical Guide for Early-Career Researchers\nAwesome Reproducible Research\nFairsharing",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html#preregistration-services",
+    "href": "resources.html#preregistration-services",
+    "title": "10  Resources",
+    "section": "10.2 Preregistration services",
+    "text": "10.2 Preregistration services\n\nAsPredicted and templates\nOSF Registries and templates\nOSF registration templates at OSF.\nPROSPERO\nRegistered Reports Center (COS) templates",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html#tools",
+    "href": "resources.html#tools",
+    "title": "10  Resources",
+    "section": "10.3 Tools",
+    "text": "10.3 Tools\n\nCompare registration with papers, see https://regcheck.app\nrOpenSci - Tools, conferences, and education\npyOpenSci - Promotes open and reproducible research through peer-review of scientific Python packages",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html#organisations-and-networks",
+    "href": "resources.html#organisations-and-networks",
+    "title": "10  Resources",
+    "section": "10.4 Organisations and networks",
+    "text": "10.4 Organisations and networks\n\nOpen Science Framework\nFORRT - Framework for Open and Reproducible Research Training advancing research transparency, reproducibility, rigor, and ethics through pedagogical reform and meta-scientific research\nReproducibility for Everyone - Community-led reproducibility workshops\nCASCaD - Certification Agency for Scientific Code and Data\nReplication Network - Furthering the practice of replication in economics.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html#music-specific-resources",
+    "href": "resources.html#music-specific-resources",
+    "title": "10  Resources",
+    "section": "10.5 Music-specific resources",
+    "text": "10.5 Music-specific resources\n\nmirdata tools for working with common (MIR) datasets\nMIR-Eval transparent library for evaluating MIR systems\nBest versus Good Enough Practices for Open Science in Music Research\nOpen Accessin Musicology\nDigital Resources for Musicology\nExample of journal standards from Yearbook of Music Psychology",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
     ]
   }
 ]
