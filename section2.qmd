@@ -3,7 +3,14 @@
 
 ## Open publications
 
-- various types of access 
+There are several routes for making publications openly available, each with different cost structures, embargo conditions, and implications for funder compliance. For a concise overview of Open Access (OA) publishing, see @suber2012openaccess.
+
+- **Gold OA**: Publishing in a fully open-access journal where all content is immediately and permanently free to read without restrictions. Authors usually pay an Article Processing Charge (APC), through this varies widely by journal and discipline.
+- **Hybrid OA**: A subscription journal that allows individual articles to be made open access for a fee. Some funder mandates (e.g., [Plan S](https://www.coalition-s.org/), [UKRI](https://www.ukri.org/publications/ukri-open-access-policy/), [NIH](https://publicaccess.nih.gov/)) increasingly require immediate public access to accepted manuscripts, with no embargo under updated policies, which limits how straightforward hybrid options are. Under plan S in particular, hybrid journals are generally only compliant when covered by transformative agreements or formal transition pathways.
+- **Diamond / Platinum OA**: Journals that are fully open access with no charges for authors or readers. These are typically supported by universities, societies, or library consortia. Several music journals follow this model (see below). For a broader overview, see @bosman2021diamond.
+- **Green OA (self-archiving)**: Depositing the accepted manuscript in a repository such as [Zenodo](https://zenodo.org/), [arXiv](https://arxiv.org/) (see below), or an institutional repository. Policies differ by publisher, especially around embargo length and which versions can be shared: [Sherpa/RoMEO](https://openpolicyfinder.jisc.ac.uk/oa-compliance) can be used for checking journal-specific policies. In the EU, [Horizon Europe](https://research-and-innovation.ec.europa.eu/open-science_en) encourages this route and expects immediate open access to accepted manuscrits via repositories.
+- **APC costs and waivers**: APCs range from a few hundred to several thousand USD or EUR. Some publishers offer waivers or discounts for researchers without funding or from low-income countries, so it is worth checking before assuming APC-based OA is not feasible.
+
 
 ## Preprints
 
