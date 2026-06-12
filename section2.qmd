@@ -55,13 +55,61 @@ Preprints, i.e., versions of manuscripts shared publicly before or alongside for
 
 - **Secondary interpretation tools**: Services such as arXivExplained and similar paper summarisation tools sit one step removed from publication. They help make preprints easier to read and explore, but they are not repositories and do not host canonical versions of research outputs. They are interpretation layers rather than publication infrastructure.
 
+
 ## Journal and conference landscape by subdiscipline
 
+The following list of representative journals and major venues is not exhaustive. In addition, OA status and APC policies can change, so verify on the journal's website before submitting.
 
-## Subdiscipline-specific frictions
+**Music psychology**
+
+- [*Music Perception*](https://online.ucpress.edu/mp) — subscription (UC Press), hybrid OA option available
+- [*Music & Science*](https://journals.sagepub.com/home/mns) — fully OA (SAGE), APC applies (waivers available)
+- [*Psychomusicology: Music, Mind, and Brain*](https://www.apa.org/pubs/journals/pmu/) — subscription (APA), hybrid OA option
+- [*Empirical Musicology Review*](https://emusicology.org/) — fully OA, no APC; diamond model, published by The Ohio State University Libraries
+- [*Frontiers in Psychology* (Auditory Cognitive Neuroscience section)](https://www.frontiersin.org/journals/psychology) — fully OA, APC applies; used widely for music perception and cognition work
+
+**Computational musicology / MIR**
+
+- [*Transactions of the International Society for Music Information Retrieval (TISMIR)*](https://transactions.ismir.net/) — fully OA, no APC; diamond model and the flagship journal of the MIR community; also actively encourages open data and code archiving alongside submissions
+- [*Journal of New Music Research*](https://www.tandfonline.com/journals/nnmr20) — subscription (Taylor & Francis), hybrid OA option
+- [*Computer Music Journal*](https://direct.mit.edu/comj) — subscription (MIT Press), hybrid OA option
+- [*ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)*](https://dl.acm.org/journal/tomm) — subscription with OA option; covers music retrieval and multimedia processing
+- [*IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)*](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655) — subscription with OA option; a principal journal for audio/music ML methods
+
+**Musicology**
+
+Musicology journals are often published by learned societies (American Musicological Society, Royal Musical Association, Society for Music Analysis) or major humanities presses (Oxford, Cambridge, Chicago). Fully OA options are limited; Green OA via author self-archiving is frequently the most realistic route. OA monograph publishing is underdeveloped in this space, which matters because the monograph remains a primary output form in musicology.
+
+**Music education**
+
+Music education journals span a range of publishers and have uneven OA uptake. The [*Journal of Research in Music Education*](https://journals.sagepub.com/home/jrm) and [*Music Education Research*](https://www.tandfonline.com/journals/cmue20) both offer hybrid OA options.
+
+**Cross-disciplinary / psychology-adjacent**
+
+- [*Collabra: Psychology*](https://online.ucpress.edu/collabra) — fully OA, APC applies but with a liberal waiver policy; suitable for music psychology work following open science practices
+
+**AI and music technology conferences**
+
+Much of the most impactful music AI research is first published at conferences, not journals. OA status varies by venue:
+
+- [ISMIR](https://ismir.net/) — fully OA proceedings; the primary venue for MIR and computational music research
+- [ICASSP](https://signalprocessingsociety.org/conferences-events/icassp) (IEEE) — IEEE Xplore, subscription access; widely used for audio and music signal processing
+- [NeurIPS](https://nips.cc/), [ICML](https://icml.cc/), [ICLR](https://iclr.cc/) — open proceedings; music-adjacent work on generative models, audio representations, and music understanding appears here with increasing frequency
+- [AAAI](https://aaai.org/conference/aaai/) — open proceedings on AAAI Digital Library; has received music-related submissions across generation, recommendation, and analysis
+- [NIME](https://www.nime.org/) (New Interfaces for Musical Expression) — open proceedings; relevant for music technology and creative practice
+- [SMC](https://smcnetwork.org/) (Sound and Music Computing) — open proceedings; bridges signal processing, AI, and musicology
+
+A note on conference vs. journal culture: in MIR and music AI, conference papers at ISMIR, ICASSP, NeurIPS, and related venues carry significant weight and are treated as primary research contributions, in contrast to humanities norms where journal articles and monographs are expected.
 
 
 
 ## Authorship / Attribution of credit / ORCIDs
 
-For more, see [@tscharntke2007author]
+Authorship conventions and credit attribution vary across music research subdisciplines and are a recurring source of ambiguity, particularly in large or interdisciplinary collaborations. For a foundational discussion of author sequence and contribution in multiauthored publications, see @tscharntke2007author.
+
+- **Authorship criteria**: Most publishers follow ICMJE-style guidelines requiring that authors have contributed substantially to conception, execution, or interpretation; drafted or critically revised the work; approved the final version; and agreed to be accountable for it. Being named in acknowledgements is not authorship.
+- **CRediT (Contributor Roles Taxonomy)**: The CRediT taxonomy provides 14 standardised roles (Conceptualization, Data Curation, Formal Analysis, Funding Acquisition, Investigation, Methodology, Project Administration, Resources, Software, Supervision, Validation, Visualization, Writing – Original Draft, Writing – Review & Editing) for explicitly attributing what each contributor did [@brand2015credit]. It is now supported by all major publishers and is an ANSI/NISO standard. CRediT does not determine who qualifies as an author; it makes contributions transparent within the author list and beyond it.
+- **ORCIDs**: [ORCID](https://orcid.org/) (Open Researcher and Contributor ID) is a persistent, unique digital identifier for researchers, free to register. It disambiguates authors across name changes, transliteration variants, or common surnames, and links research outputs, affiliations, and grants to a single record. Most major journals and funding agencies now require or strongly encourage ORCID registration at submission. Registering and maintaining an ORCID record is particularly important for early-career researchers whose publication record is still accumulating, and for researchers with names that are common or that vary across publications.
+- **Disciplinary variation**: Authorship norms differ sharply across subdisciplines. In MIR and music technology, large multi-author collaborative papers (e.g., shared datasets, benchmarks, evaluation campaigns) are increasingly common and benefit most from CRediT transparency. In musicology, single- and dual-author papers remain the norm, and the concept of contributorship is less familiar. Music psychology sits closer to psychology norms, where author contribution statements are increasingly standard.
+- **AI authorship**: There is emerging consensus that generative AI tools (LLMs, etc.) cannot be listed as authors, as they cannot take responsibility for the work. Their use should instead be disclosed in a methods or acknowledgements statement. Several major publishers (Elsevier, Springer Nature, PLOS) have adopted explicit policies to this effect.
+
