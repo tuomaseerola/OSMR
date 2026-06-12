@@ -8,13 +8,41 @@ There are several routes for making publications openly available, each with dif
 - **Gold OA**: Publishing in a fully open-access journal where all content is immediately and permanently free to read without restrictions. Authors usually pay an Article Processing Charge (APC), through this varies widely by journal and discipline.
 - **Hybrid OA**: A subscription journal that allows individual articles to be made open access for a fee. Some funder mandates (e.g., [Plan S](https://www.coalition-s.org/), [UKRI](https://www.ukri.org/publications/ukri-open-access-policy/), [NIH](https://publicaccess.nih.gov/)) increasingly require immediate public access to accepted manuscripts, with no embargo under updated policies, which limits how straightforward hybrid options are. Under plan S in particular, hybrid journals are generally only compliant when covered by transformative agreements or formal transition pathways.
 - **Diamond / Platinum OA**: Journals that are fully open access with no charges for authors or readers. These are typically supported by universities, societies, or library consortia. Several music journals follow this model (see below). For a broader overview, see @bosman2021diamond.
-- **Green OA (self-archiving)**: Depositing the accepted manuscript in a repository such as [Zenodo](https://zenodo.org/), [arXiv](https://arxiv.org/) (see below), or an institutional repository. Policies differ by publisher, especially around embargo length and which versions can be shared: [Sherpa/RoMEO](https://openpolicyfinder.jisc.ac.uk/oa-compliance) can be used for checking journal-specific policies. In the EU, [Horizon Europe](https://research-and-innovation.ec.europa.eu/open-science_en) encourages this route and expects immediate open access to accepted manuscrits via repositories.
+- **Green OA (self-archiving)**: Depositing the accepted manuscript in a repository such as [Zenodo](https://zenodo.org/), [arXiv](https://arxiv.org/) (see below), or an institutional repository. Policies differ by publisher, especially around embargo length and which versions can be shared: [Jisc - Open policy finder](https://openpolicyfinder.jisc.ac.uk/oa-compliance) can be used for checking journal-specific policies. In the EU, [Horizon Europe](https://research-and-innovation.ec.europa.eu/open-science_en) encourages this route and expects immediate open access to accepted manuscrits via repositories.
 - **APC costs and waivers**: APCs range from a few hundred to several thousand USD or EUR. Some publishers offer waivers or discounts for researchers without funding or from low-income countries, so it is worth checking before assuming APC-based OA is not feasible.
 
 
 ## Preprints
 
-- see [@moshontz2021guide]
+Preprints, i.e., versions of manuscripts shared publicly before or alongside formal peer review, are now a widely used mechanism for rapid and open dissemination. For practical guidance on posting and managing preprints across the publication pipeline, see @moshontz2021guide.
+
+- **Where to post** (varies by subdiscipline):
+  - [arXiv](https://arxiv.org/) (categories `cs.SD` and `eess.AS`) for Music Information Retrieval (MIR), music technology, and Machine Leanring(ML)-adjacent work  
+  - [PsyArXiv](https://psyarxiv.com/) for music psychology  
+  - [OSF Preprints](https://osf.io/preprints/) for interdisciplinary work  
+  - [Zenodo](https://zenodo.org/) for general-purpose dissemination, including datasets and code alongside papers  
+  - [SSRN](https://www.ssrn.com/) for social science and related interdisciplinary work  
+  - [HAL](https://hal.science/) for computer science, engineering, humanities, and social sciences
+
+
+- **Subdiscipline norms vary widely**: Preprinting is well established in MIR and ML-adjacent music research, where posting on arXiv prior to or alongside ISMIR, ICASSP, or NeurIPS submissions is standard practice. Uptake is still uneven in music psychology and remains limited in musicology and music education, although adoption is gradually increasing.
+
+- **Versioning**: When a preprint is later published, the two versions should be explicitly linked (for example via DOI cross-references). Some repositories, such as PsyArXiv, support metadata linking that helps citation systems merge records across versions.
+
+- **Journal prior-posting policies**: Most journals now allow preprints, but conditions still vary regarding timing, licensing, and accepted manuscript versions. It is advisable to verify specific policies via [Jisc - Open policy finder](https://openpolicyfinder.jisc.ac.uk/) before submission.
+
+- **Citation advantage of preprints**: Several large-scale studies report that papers with an associated preprint tend to receive earlier and often higher citation counts compared to those without preprints, likely due to earlier visibility and dissemination (e.g., @serghiou2018altmetric, @fraser2020relationship).
+
+- **Academic sharing platforms**: Services such as [ResearchGate](https://www.researchgate.net/) and [Academia.edu](https://www.academia.edu/) are often used to upload and circulate papers, including preprints. However, they are not formal preprint repositories and do not provide consistent long-term preservation or clear policy compliance guarantees. They function more as academic networking and sharing spaces than as archival infrastructure.
+
+- **Secondary interpretation tools**: Services such as arXivExplained and similar paper summarisation tools sit one step removed from publication. They help make preprints easier to read and explore, but they are not repositories and do not host canonical versions of research outputs. They are interpretation layers rather than publication infrastructure.
+
+## Journal and conference landscape by subdiscipline
+
+
+## Subdiscipline-specific frictions
+
+
 
 ## Authorship / Attribution of credit / ORCIDs
 
