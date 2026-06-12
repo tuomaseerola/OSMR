@@ -7,10 +7,28 @@ There are several routes for making publications openly available, each with dif
 
 - **Gold OA**: Publishing in a fully open-access journal where all content is immediately and permanently free to read without restrictions. Authors usually pay an Article Processing Charge (APC), through this varies widely by journal and discipline.
 - **Hybrid OA**: A subscription journal that allows individual articles to be made open access for a fee. Some funder mandates (e.g., [Plan S](https://www.coalition-s.org/), [UKRI](https://www.ukri.org/publications/ukri-open-access-policy/), [NIH](https://publicaccess.nih.gov/)) increasingly require immediate public access to accepted manuscripts, with no embargo under updated policies, which limits how straightforward hybrid options are. Under plan S in particular, hybrid journals are generally only compliant when covered by transformative agreements or formal transition pathways.
-- **Diamond / Platinum OA**: Journals that are fully open access with no charges for authors or readers. These are typically supported by universities, societies, or library consortia. Several music journals follow this model (see below). For a broader overview, see @bosman2021diamond.
+- **Diamond / Platinum OA**: Journals that are fully open access with no charges for authors or readers. These are typically supported by universities, societies, or library consortia. Several music journals follow this model (see below). For a broader overview, see @bosman2021oa.
 - **Green OA (self-archiving)**: Depositing the accepted manuscript in a repository such as [Zenodo](https://zenodo.org/), [arXiv](https://arxiv.org/) (see below), or an institutional repository. Policies differ by publisher, especially around embargo length and which versions can be shared: [Jisc - Open policy finder](https://openpolicyfinder.jisc.ac.uk/oa-compliance) can be used for checking journal-specific policies. In the EU, [Horizon Europe](https://research-and-innovation.ec.europa.eu/open-science_en) encourages this route and expects immediate open access to accepted manuscrits via repositories.
 - **APC costs and waivers**: APCs range from a few hundred to several thousand USD or EUR. Some publishers offer waivers or discounts for researchers without funding or from low-income countries, so it is worth checking before assuming APC-based OA is not feasible.
 
+## OA publishing in numbers
+
+Open access publishing has grown substantially over the past decade, though the landscape remains uneven. Between 2014 and 2024, the share of global scholarly articles made available 
+via gold OA rose from 14% to 40%, while the subscription-only share fell from 70% to 54% [@stm2024dashboard]. This shift has been driven in part by funder mandates, but also by the 
+rapid growth of APC-funded publishing, which carries its own equity concerns: annual global APC spending across six major publishers alone almost tripled from \$910 million in 2019 to \$2.5 billion in 2023 [@haustein2024estimating].
+
+These figures describe the overall scholarly publishing market. Music research sits within this landscape but has its own characteristics: a mix of humanities, social science, and engineering publication norms; a strong conference culture in MIR; and a notable cluster of diamond OA journals (TISMIR, EMR) that charge neither authors nor readers. The table below summarises the main OA routes relevant to music researchers.
+
+
+| Route | Cost to author | Cost to reader | Embargo | Funder compliance (Plan S / UKRI) | Music examples |
+|---|---|---|---|---|---|
+| Gold OA | APC required (avg ~$1,626; up to $9,900) | Free | None | Generally compliant (if CC licensing meets policy) | *Music & Science*, *Frontiers in Psychology* |
+| Diamond OA | No APC | Free | None |     Generally compliant | *TISMIR*, *Empirical Musicology Review* |
+| Hybrid OA | APC required | Free (OA articles only) | None |     Conditionally compliant | *Music Perception*, *JNMR* |
+| Green OA | No APC | Free via repository | Often 6–24 months |     Conditionally compliant (policy dependent) | Most musicology journals; arXiv (preprints for MIR and ML-adjacent work) |
+| Subscription only | No charge | Paywalled | — |     Not compliant (OA policies) | Many humanities and society journals |
+
+: APC average from @morrison2022change. Funder compliance reflects Plan S principles as of 2024. {.small}
 
 ## Preprints
 
