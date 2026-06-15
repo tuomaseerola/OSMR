@@ -78,7 +78,7 @@ The following list of representative journals and major venues is not exhaustive
 
 **Musicology**
 
-Musicology journals are often published by learned societies (American Musicological Society, Royal Musical Association, Society for Music Analysis) or major humanities presses (Oxford, Cambridge, Chicago). Fully OA options are limited; Green OA via author self-archiving is frequently the most realistic route. OA monograph publishing is underdeveloped in this space, which matters because the monograph remains a primary output form in musicology.
+Musicology journals are typically published by societies (i.e., American Musicological Society, Royal Musical Association, Society for Music Analysis) or major humanities presses (Oxford, Cambridge, Chicago). Fully OA options are limited; Green OA via author self-archiving is often the most realistic route. OA monograph publishing is underdeveloped in this space, which matters because the monograph is a primary output form in musicology.
 
 **Music education**
 
@@ -90,7 +90,7 @@ Music education journals span a range of publishers and have uneven OA uptake. T
 
 **AI and music technology conferences**
 
-Much of the most impactful music AI research is first published at conferences, not journals. OA status varies by venue:
+Much of the most impactful more technical music AI research is (first) published at conferences, not journals. The OA status varies by venue:
 
 - [ISMIR](https://ismir.net/) — fully OA proceedings; the primary venue for MIR and computational music research
 - [ICASSP](https://signalprocessingsociety.org/conferences-events/icassp) (IEEE) — IEEE Xplore, subscription access; widely used for audio and music signal processing
@@ -102,14 +102,54 @@ Much of the most impactful music AI research is first published at conferences, 
 A note on conference vs. journal culture: in MIR and music AI, conference papers at ISMIR, ICASSP, NeurIPS, and related venues carry significant weight and are treated as primary research contributions, in contrast to humanities norms where journal articles and monographs are expected.
 
 
+## Metrics, rankings, and research evaluation {#sec-metrics}
+
+When selecting a publication venue, it is important to consider how research outputs are evaluated varies across the subdisciplines in music research. This is particularly important for early-career researchers or those moving between institutions.
+
+### Journal impact factors and DORA
+
+The Journal Impact Factor (IF) is a journal-level metric measuring average citations per article over a two-year window. Despite its widespread use in hiring, promotion, and grant decisions, it has well-documented limitations: citation distributions within journals are highly skewed, the metric is field-specific and cannot be compared across disciplines, and it can be gamed through editorial policy [@american2012san]. The [San Francisco Declaration on Research Assessment (DORA)](https://sfdora.org/), now 
+signed by hundreds of funders and institutions worldwide, calls explicitly for research to be  assessed on its own merits rather than on the basis of the journal in which it is published  [@american2012san]. The [Leiden Manifesto](http://www.leidenmanifesto.org/) [@hicks2015bibliometrie] and the [Responsible Metrics framework](https://responsiblemetrics.org/) 
+extend these principles to bibliometrics more broadly.
+
+For music researchers, IF is often irrelevant or misleading: many leading music journals have no IF (TISMIR, EMR), musicology journals have structurally low citation rates compared to STEM journals, and much MIR research is published at conferences that have no IF at all. Researchers should be cautious about using IF to compare venues across these subdisciplines. 
+
+An important alternative is the Source Normalized Impact per Paper (SNIP), which adjusts for field-specific citation practices by weighting citations against the citation potential of each subject area. This makes it more suitable than the raw IF for comparing across the disciplinary mix found in music research @moed2010measuring.
+
+
+### Conference rankings (for MIR and music technology researchers)
+
+In computer science (CS), conference papers carry primary publication weight. Several systems are used to rank conferences:
+
+- **ICORE / CORE rankings** ([portal.core.edu.au](https://portal.core.edu.au/conf-ranks/)): The standard CS conference ranking, using categories A\* (flagship), A (excellent), B (good), C (basic). Managed by the Computing Research and Education Association of Australasia and now an international collaboration. Widely used in hiring and grant assessment in Australia, Singapore, and parts of Europe. ISMIR is not ranked in CORE; ICASSP is ranked **B**; NeurIPS, ICML, and ICLR are **A\***.
+- **CSRankings** ([csrankings.org](https://csrankings.org/)): A faculty-level metric ranking CS institutions by publications at a selective list of top venues. ISMIR is not included in CSRankings, which can disadvantage MIR researchers in CS departments where it is used for hiring benchmarking.
+- **Qualis** (Brazil) and **ERA** (Australia): [Country-specific](http://www.conferenceranks.com/) conference and journal ranking systems used in national research evaluation frameworks; the CORE ranking is now partially aligned with ERA.
+
+A practical consequence: an MIR researcher publishing primarily at ISMIR and ICASSP may be medium-positioned under CORE and invisible in CSRankings, leading CS researchers to step beyond the music research community and target more general CS conferences that are higher ranked. Many of these, such as AAAI, have recently started `Music (or audio) tracks'.
+
+### Useful tools for finding metrics and rankings
+
+- [Google Scholar](https://scholar.google.com/) — citation counts and h-index; also tracks preprints and grey literature
+- [Semantic Scholar](https://www.semanticscholar.org/) — AI-assisted citation graph, good for MIR/CS papers
+- [OpenAlex](https://openalex.org/) — fully open bibliometric database; a DORA-compatible alternative to Web of Science and Scopus
+- [Scimago Journal Rank (SJR)](https://www.scimagojr.com/) — journal rankings based on Scopus data; covers many music journals
+- [ICORE portal](https://portal.core.edu.au/conf-ranks/) — CORE conference rankings, searchable
+- [Jisc Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/) — OA policy compliance checker (replaces Sherpa/RoMEO)
+
+
+### A note on the h-index across disciplines
+
+The h-index is a researcher-level metric defined as the number *h* such that *h* papers have at least *h* citations each. It is used in some hiring and grant contexts as a proxy for research impact. However, h-index values are structurally incomparable across fields: a music psychologist and a computer vision researcher will accumulate citations at very different rates, and an interdisciplinary researcher publishing across musicology and MIR may be disadvantaged in both fields' norms simultaneously. DORA and the Leiden Manifesto both caution against decontextualised use of h-index in research assessment.
+
+
 
 ## Authorship / Attribution of credit / ORCIDs
 
-Authorship conventions and credit attribution vary across music research subdisciplines and are a recurring source of ambiguity, particularly in large or interdisciplinary collaborations. For a foundational discussion of author sequence and contribution in multiauthored publications, see @tscharntke2007author.
+Authorship conventions and credit attribution differ across music research subdisciplines and can form a source of ambiguity, particularly in large or interdisciplinary collaborations. For an extensive discussion of author sequence and contribution in multiauthored publications, the reader is referred to @tscharntke2007author.
 
-- **Authorship criteria**: Most publishers follow ICMJE-style guidelines requiring that authors have contributed substantially to conception, execution, or interpretation; drafted or critically revised the work; approved the final version; and agreed to be accountable for it. Being named in acknowledgements is not authorship.
-- **CRediT (Contributor Roles Taxonomy)**: The CRediT taxonomy provides 14 standardised roles (Conceptualization, Data Curation, Formal Analysis, Funding Acquisition, Investigation, Methodology, Project Administration, Resources, Software, Supervision, Validation, Visualization, Writing – Original Draft, Writing – Review & Editing) for explicitly attributing what each contributor did [@brand2015credit]. It is now supported by all major publishers and is an ANSI/NISO standard. CRediT does not determine who qualifies as an author; it makes contributions transparent within the author list and beyond it.
+- **Authorship criteria**: Most publishers follow [ICMJE-style guidelines](https://www.icmje.org/recommendations/) requiring that authors have contributed substantially to conception, execution, or interpretation; drafted or critically revised the work; approved the final version; and agreed to be accountable for it. Note that being named in acknowledgements is not authorship.
+- **CRediT (Contributor Roles Taxonomy)**: The CRediT taxonomy provides 14 standardised roles (Conceptualization, Data Curation, Formal Analysis, Funding Acquisition, Investigation, Methodology, Project Administration, Resources, Software, Supervision, Validation, Visualization, Writing (Original Draft, Writing), and Review & Editing) for explicitly attributing what each contributor did [@brand2015credit]. This taxonomy is now supported by all major publishers and is an ANSI/NISO standard. CRediT does not determine who qualifies as an author; it makes the contributions transparent within the author list and beyond it.
 - **ORCIDs**: [ORCID](https://orcid.org/) (Open Researcher and Contributor ID) is a persistent, unique digital identifier for researchers, free to register. It disambiguates authors across name changes, transliteration variants, or common surnames, and links research outputs, affiliations, and grants to a single record. Most major journals and funding agencies now require or strongly encourage ORCID registration at submission. Registering and maintaining an ORCID record is particularly important for early-career researchers whose publication record is still accumulating, and for researchers with names that are common or that vary across publications.
-- **Disciplinary variation**: Authorship norms differ sharply across subdisciplines. In MIR and music technology, large multi-author collaborative papers (e.g., shared datasets, benchmarks, evaluation campaigns) are increasingly common and benefit most from CRediT transparency. In musicology, single- and dual-author papers remain the norm, and the concept of contributorship is less familiar. Music psychology sits closer to psychology norms, where author contribution statements are increasingly standard.
-- **AI authorship**: There is emerging consensus that generative AI tools (LLMs, etc.) cannot be listed as authors, as they cannot take responsibility for the work. Their use should instead be disclosed in a methods or acknowledgements statement. Several major publishers (Elsevier, Springer Nature, PLOS) have adopted explicit policies to this effect.
+- **Disciplinary variation**: Authorship norms differ across subdisciplines. In MIR and music technology, large multi-author collaborative papers (e.g., shared datasets, benchmarks, evaluation campaigns) are increasingly common and benefit most from CRediT transparency. In musicology, single- and dual-author papers remain the norm, and the concept of contributorship is less familiar. Music psychology sits closer to psychology norms, where author contribution statements are increasingly standard.
+- **AI authorship**: There is emerging consensus that generative AI tools (LLMs, etc.) cannot be listed as authors, as they cannot take responsibility for the work [@lund2024can]. Their use should instead be disclosed in a methods or acknowledgements statement. Several major publishers (Elsevier, Springer Nature, PLOS) have adopted explicit policies to this effect.
 
