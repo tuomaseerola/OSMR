@@ -1,9 +1,64 @@
 # Open Data {#sec-OAdata}
 
+## Why open data matters
+
+* *Brief motivation:* reproducibility, re-use, equity. 
+* Note music research's particular challenges (audio licensing, participant privacy, sparse sharing norms) — hook to @eerola2023transparency and @moss2021fair.
 
 ## Data management
 
-## Open data and open software
+* Working open data into your research workflow 
+  * (addressing the extra workload many feel it puts on the backend of their research)
+  * Planning to share from the start/conceptualisation means less remaking/polishing at the end
 
-## Original materials, copyright issues
+### Data management plans
+
+* Funder requirements (UKRI, Horizon Europe, NIH). 
+* What a DMP covers. 
+* Practical tools (DMPonline, OSF). 
+* When to write one.
+
+## FAIR principles in music research
+
+* Findable / Accessible / Interoperable / Reusable [@moss2021fair].
+* Music-specific metadata standards (MusicXML, MEI, JAMS, MIREX conventions). 
+* Persistent identifiers (DOIs, ORCIDs for datasets).
+
+> A table of common music data types (audio, symbolic, behavioural, physiological, text) with FAIR considerations per type.
+
+## Repositories and archiving
+
+* Zenodo, OSF, Dryad, domain-specific (ISMIR datasets, music21 corpus). 
+* Embargo options. 
+* Versioning (with care not to overlap too much with Reprodicible section). 
+* Long-term preservation.
+
+## Sharing quantitative and computational data
+
+* Formats (CSV, JSON, HDF5, MIDI, MusicXML). 
+* Codebooks and READMEs. 
+* Code alongside data (links to Ch6). 
+
+> Worked example from a corpus study or MIR dataset.
+
+## Qualitative and sensitive data
+
+* What "open" means when data are participant descriptions, interviews, or think-aloud protocols. 
+* Consent and GDPR constraints. 
+* Anonymisation strategies (transcripts, demographic data). 
+* Partial openness: sharing codebooks, coding schemes, or aggregated outputs even when raw data cannot be shared. 
+* Qualitative Archive options (UK Data Service / QUALIDATA, DANS).
+
+## Original materials, stimuli, and copyright issues
+
+* Audio stimuli in psychology experiments — licensing, Creative Commons, public domain options. 
+* Commercially licensed music: what can/can't be shared and workarounds (stimulus lists + timestamps, Freesound, commissioned recordings). 
+  * need careful handling given the gap between what researchers *do* with commercial recordings and what's technically shareable.
+* Copyright for notated scores. 
+* Synthetic stimuli and why they're an open science advantage.
+
+## Summary
+
+* Gradient of openness — some data sharing is always better than none. 
+* Pointers to Ch6 (open code) and Ch9 (preregistration of data collection plans).
 

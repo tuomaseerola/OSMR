@@ -1,5 +1,5 @@
 ---
-author: Hazel
+author: Hazel A. van der Walle
 date: 6/4/2026
 ---
 # Replication Studies {#sec-replication}
@@ -16,9 +16,13 @@ Music psychology, as a discipline closely tied to experimental psychology, is no
 
 The term *replication* is used in a variety of ways in scientific discourse, and this variety can create confusion when researchers, reviewers, and readers evaluate claims about whether a finding has or has not replicated. Nosek and Errington [-@nosek2020replication] propose a clarifying definition: a replication is an investigation that minimally alters the original circumstances while maintaining the same theoretical prediction. The goal of a replication is therefore not simply to reproduce the same numerical outcomes, but to test whether the same theoretical inference can be drawn from new evidence. Whether a replication succeeds or fails depends not on whether the statistics match, but on whether the conditions gave the original claim a genuine opportunity to be confirmed or disconfirmed.
 
+::: {.callout-note}
+**Reproducibility and *Replicability* **
+
 This framing also clarifies an important distinction between two related but conceptually separate concepts: *reproducibility* and *replicability* [@nosek2020replication]. Reproducibility refers to the ability to obtain the same analytical results from the same data using the same code and procedures. A failure of reproducibility—for example, when a reported analysis cannot be reproduced from the shared dataset—indicates a problem with the analysis or reporting rather than with the underlying empirical claim. Replicability, by contrast, refers to whether a new study, conducted with a fresh sample and potentially varying some procedural details, arrives at a similar conclusion. Failures of reproducibility and failures of replicability are distinct problems that call for different solutions.
 
-In music research, both forms of transparency matter. Reproducible research requires sharing data, analysis code, and sufficient procedural detail for others to verify the reported results (see @sec-OAdata). Replicable research requires that original findings be robust enough to emerge in new samples and contexts, and that procedures are reported with enough specificity for others to implement them. A study that uses commercially licensed music recordings, withholds participant-level data, or describes stimuli only vaguely poses challenges for both reproducibility and replication—challenges that open materials practices are designed to address.
+In music research, both forms of transparency matter. Reproducible research requires sharing data, analysis code, and sufficient procedural detail for others to verify the reported results (see @sec-OAdata). *Replicable* research requires that original findings be robust enough to emerge in new samples and contexts, and that procedures are reported with enough specificity for others to implement them. A study that uses commercially licensed music recordings, withholds participant-level data, or describes stimuli only vaguely poses challenges for both reproducibility and replication—challenges that open materials practices are designed to address.
+:::
 
 ## Types of replication {#sec-replication-types}
 
@@ -30,8 +34,8 @@ In a direct replication, the researcher aims to reproduce the original study as 
 
 In music research, direct replication is complicated by the fact that stimuli are often inadequately reported or unavailable. When stimuli consist of commercially recorded music, sharing the original audio files may be legally constrained, and descriptions of excerpt boundaries, recording versions, or presentation parameters are frequently omitted from published reports. This underlines the importance of open materials practices: publishing stimuli directly, or reporting them in sufficient detail for others to approximate the original conditions, is a prerequisite for enabling meaningful direct replication.
 
-::: {.callout-note}
-**Direct replication example**
+::: {.callout-tip}
+**EXAMPLE: Direct replication**
 
 The infamous *Mozart effect*—the claim that brief exposure to Mozart's music temporarily enhances spatial reasoning ability—was originally reported by Rauscher, Shaw, and Ky [-@rauscher1993music] and attracted substantial media attention and policy interest. Subsequent attempts to replicate the effect produced inconsistent results. Chabris [-@chabris1999prelude] argued on the basis of available evidence that no reliable Mozart effect could be demonstrated, and a meta-analysis by Pietschnig, Voracek, and Formann [-@pietschnig2010mozart] examining data from over 39 studies concluded that while a small effect could be detected in aggregate, it was substantially smaller and more fragile than originally claimed, and likely reflected arousal or mood rather than a specific musical enhancement of spatial cognition. The Mozart effect thus illustrates both how a single unreplicated finding can achieve disproportionate public influence, and how systematic replication efforts are necessary to establish the robustness of empirical claims in music psychology.
 :::
@@ -42,10 +46,10 @@ A conceptual replication tests the same theoretical claim using different method
 
 In music psychology, conceptual replication frequently takes the form of cross-cultural studies that examine whether findings obtained with Western participants and Western musical materials generalise to listeners from different musical traditions. Cross-cultural studies of music and emotion perception, for example, have tested whether the emotional qualities attributed to musical stimuli are consistent across listeners with varying degrees of exposure to Western tonal music. Such studies do not reproduce the original conditions, but they test whether the same theoretical claim—that certain musical features reliably signal certain emotional qualities—holds across different contexts.
 
-Adversarial collaboration, in which researchers holding opposing views design a study that both parties consider a fair test, is a related strategy that can strengthen the credibility of conceptual replications. By agreeing in advance on what evidence would support or refute each position, adversarial collaborators reduce the risk that a failed conceptual replication will be dismissed on methodological grounds [e.g., axt2026relationship; binnendyk2025overconfidence; matzke2015horizontal].
+Adversarial collaboration, in which researchers holding opposing views design a study that both parties consider a fair test, is a related strategy that can strengthen the credibility of conceptual replications. By agreeing in advance on what evidence would support or refute each position, adversarial collaborators reduce the risk that a failed conceptual replication will be dismissed on methodological grounds [e.g., @axt2026relationship; @binnendyk2025overconfidence; @matzke2015horizontal].
 
-::: {.callout-note}
-**Conceptual replication example**
+::: {.callout-tip}
+**EXAMPLE: Conceptual replication**
 
 The emotional associations of musical mode—the widely held claim that major keys sound happy and minor keys sound sad—have been subject to extensive conceptual replication across cultural contexts. While this association is robust among listeners with Western musical enculturation, studies examining listeners from non-Western musical traditions have produced more mixed results. Egermann et al. [-@egermann2015universal] compared emotional responses to music in Western and Congolese participants and found that mode-based emotional attributions were substantially weaker in the Congolese sample, suggesting that the association may depend on enculturation rather than universal auditory features. This kind of cross-cultural work serves as a conceptual replication by testing whether the same theoretical claim holds in a population for which the original conditions—Western listeners, Western tonal music—do not straightforwardly apply.
 :::
@@ -58,8 +62,8 @@ Large-scale collaborative replication initiatives have become increasingly commo
 
 Music psychology has begun to engage with multi-lab and large-scale approaches, though coordinated multi-site replications remain relatively rare in the field. Cross-cultural studies offer one practical model: by collecting data at multiple geographically and culturally distinct sites, researchers can simultaneously test whether effects replicate across samples and assess the moderating role of cultural background. Large-scale online data collection has also created new opportunities to reach larger and more diverse samples than are typically accessible in single-laboratory research, making it more feasible to detect small or variable effects and to test the boundary conditions of theoretical claims.
 
-::: {.callout-note}
-**Multi-lab replication example**
+::: {.callout-tip}
+**EXAMPLE: Multi-lab replication**
 
 Mehr et al. [-@mehr2019universality] coordinated a large cross-cultural study testing claims about universals in human song, collecting behavioural data from participants across sixty societies, including communities with limited prior exposure to Western music. The study tested theoretical predictions about the formal properties of music that might be universal—such as the use of discrete pitches, small pitch intervals, and regular rhythmic organisation—and about the extent to which listeners unfamiliar with a song's cultural origin can nonetheless infer its social function (e.g., lullaby vs. dance song). By coordinating data collection across sites with diverse populations and using a shared stimulus set, the project provided a substantially stronger and more generalisable test of universality claims than would have been possible within any single laboratory, while also documenting the considerable cultural variation in musical features that co-exists with apparent universals.
 :::
@@ -72,8 +76,8 @@ Tuval-Mashiach [-@tuval2021replication] argues that replication in qualitative r
 
 These principles apply directly to qualitative and mixed-methods work in music research. Phenomenological studies of musical experience, interview-based investigations of music listening, or thematic analyses of the functions of music in everyday life may be difficult to replicate in any strict procedural sense, but their credibility is enhanced when researchers document analytical procedures transparently, provide access to data where ethically permissible, and situate their interpretations in relation to existing theoretical frameworks. Transparency about the research process—including decisions about sampling, coding scheme development, and interpretation—serves a function analogous to that of preregistration in quantitative research (see @sec-registration): it allows readers to evaluate how conclusions were reached and to assess whether the reported themes are likely to reflect the data rather than researcher expectations.
 
-::: {.callout-note}
-**Qualitative replication example**
+::: {.callout-tip}
+**EXAMPLE: Qualitative replication**
 
 DeNora [-@denora2000music] used ethnographic interviews to document how individuals use music as a resource for emotion regulation, identity construction, and the management of everyday environments. The theoretical account that emerged from this work—of music as an affordance for self-regulation—has subsequently been examined using comparable qualitative approaches across diverse populations and cultural settings, including studies of music use among adolescents, older adults, and clinical populations. Although these follow-on studies were not designed as formal replications and varied considerably in their methods, together they constitute a form of theoretical replication: the same core propositions about music's self-regulatory functions recur across studies using different samples, interview protocols, and analytic approaches. The consistency of these themes across contexts strengthens confidence in the underlying theoretical framework, even in the absence of the confirmatory statistical logic that governs quantitative replication.
 :::
