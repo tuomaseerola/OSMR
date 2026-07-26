@@ -1,7 +1,8 @@
 ---
-authors: Fabian Moss & Hazel A. van der Walle
-date: 26/7/2026
+author: Fabian Moss & Hazel A. van der Walle
+date: 7/26/2026
 ---
+
 # Open Data {#sec-OAdata}
 
 ## Why open data? {#sec-opendata-why}
@@ -10,14 +11,16 @@ The operating principle for open data in research — *as open as possible, as c
 
 Research data is the most valuable thing a study offers as the evidence that enables the paper’s written interpretation. When data is unavailable, findings cannot be verified, errors cannot be caught, questions not asked by the original study cannot be investigated or built upon by anyone else, and the investment of researcher time and participant effort remains locked inside a single publication. Opening up data is the way in which that investment pays forward — into meta-analyses, replication attempts, reuse in new contexts, and access for researchers who could not otherwise afford to collect equivalent material.
 
----
 
-## What counts as "data"?
+## But what counts as "data"?
 
 Music research spans "traditional"/"hard" science disciplines, to the arts, humanities, and social sciences (AHSS) — all with different forms of data and varying relationships to openness. 
-MIR and computational musicology have stronger dataset-sharing cultures; experimental music psychology is moving towards openness but inherits norms from psychology where progress has been uneven [@eerola2023transparency]; and musicology, ethnomusicology, music education, and practice research operate within AHSS traditions where the nature of the data itself does not map cleanly onto the frameworks developed for quantitative science. The AHSS understanding of "data" is intentionally expansive as *information used for reference and analysis* [@gilby2022openresearch].
 
-**FAIR principles** — Findable, Accessible, Interoperable, Reusable — addressed in @sec-opendata-fair, were developed primarily with computational and quantitative datasets in mind (more "traditionally" understood data). **C.O.R.E. data** [@gilby2022openresearch; @adams2026morphss] offers an adapted complementary (not competing) framework tailored for data from AHSS disciplines, where FAIR principles don't necessarily translate or apply in the same ways. Whereas FAIR stipulates technical principles for STEM-leaning data, CORE speaks to the nature, context, and interpretive aspects of AHSS data types themselves and what openness means for them. 
+MIR and computational musicology have stronger dataset-sharing cultures; experimental music psychology is moving towards openness but inherits norms from psychology where progress has been uneven [@eerola2023transparency]; and musicology, ethnomusicology, music education, and practice research operate within AHSS traditions where the nature of the data itself does not map cleanly onto the frameworks developed for quantitative science. The AHSS understanding of "data" is intentionally expansive as **information used for reference and analysis** [@gilby2022openresearch].
+
+---
+
+*FAIR principles* — Findable, Accessible, Interoperable, Reusable — addressed in @sec-opendata-fair, were developed primarily with computational and quantitative datasets in mind, stipulating technical principles for STEM-leaning data. **C.O.R.E. data** [@gilby2022openresearch; @adams2026morphss], on the other hand, offers an adapted complementary *(not competing)* framework tailored for data from AHSS disciplines, where FAIR principles don't necessarily translate or apply in the same ways. CORE speaks to the nature, context, and interpretive aspects of AHSS data types themselves and what openness means for them. 
 
 ::: {.callout-tip}
 **CORE describes research data as:**
@@ -26,16 +29,33 @@ MIR and computational musicology have stronger dataset-sharing cultures; experim
 - **O**rganised — the data has been structured, annotated, and made navigable. Organisational work is interpretive, so should be documented and shared.
 - **R**econtextualised — AHSS data typically does not exist independently of the scholarly conversation it enters. Sharing data means sharing the interpretive context that makes it meaningful and the disciplinary debates it speaks to, furthering cultural conversations about discoveries, methods, and debates.
 - **E**xplained — transparency about how the data was worked with, coded, and interpreted is part of the analytical process and is itself a form of data sharing, even when the raw material cannot be released.
-
 :::
 
-AHSS offers a broader understanding of shareable outputs for all music researchers beyond what most "traditional" open science frameworks capture. Alongside standard open science outputs (methodology, code, results, publications, preregistrations, preprints, open peer review), AHSS researchers can share research practice reflections, audio-visual materials, protocols, discussion documentation, annotated bibliographies, and researcher notes. These contributions should be understood as legitimate and valuable to open research in their own right, not merely a fallback option for the ethical impossibility (or personal unwillingness) of sharing raw data [@gilby2022openresearch; @adams2026morphss]. 
+AHSS offers a broader understanding of shareable outputs for *all* music researchers beyond what most "traditional" open science frameworks capture. Alongside standard open science outputs (methodology, code, results, publications, preregistrations, preprints, open peer review), AHSS researchers can share research practice reflections, audio-visual materials, protocols, discussion documentation, annotated bibliographies, and researcher notes. These contributions should be understood as legitimate and valuable to open research in their own right, not merely a fallback option for the ethical impossibility (or personal unwillingness) of sharing raw data [@gilby2022openresearch; @adams2026morphss]. 
 
 Contrary to standard understandings of reproducibility and interoperability applicable to STEM open data, AHSS open data are better understood as material to be built upon and modified through further recontextualisation rather than simply reproduced. Sharing CORE data means sharing the conditions of its production, history, limits, and its relationships to data in other forms — manuscripts, printed scores, recordings, performances.
 
 For current open practices in music psychology, see @eerola2023transparency. For computational musicology and MIR, see @moss2021fair. For a broader account of openness in AHSS research beyond STEM, see @adams2026morphss and @gilby2022openresearch.
 
----
+
+## F.A.I.R. principles in music research {#sec-opendata-fair}
+
+::: {.callout-caution appearance="minimal"}
+**Fabian's section.**
+:::
+
+::: {.callout-tip}
+**FAIR principles [@moss2021fair]:**
+
+- **F**indable — fff
+- **A**ccessible — aaa
+- **I**nteroperable — iii
+- **R**eusable — rrr
+
+:::
+
+> Perahps a table of common music data types (audio, symbolic, behavioural, physiological, text) with FAIR / CORE considerations per type?
+
 
 ## "As open as possible, as closed as necessary" {#sec-opendata-possible}
 
@@ -45,13 +65,13 @@ CORE data, understood as material to be *built upon and modified through further
 
 Every dataset has components that are almost always shareable. Qualitative datasets, for example, can openly share: interview guides, codebooks, anonymised excerpts, demographic summaries, inter-rater reliability data, and analytical memos documenting how themes developed. These materials constitute the **O**, **R**, and **E** components of CORE — the organisation, recontextualisation, and explanation of the data — even when the **C** (collected raw material) cannot be fully released. This is often the most transferable and generative part of a dataset for AHSS research because it makes visible the interpretive work rather than just the source material.
 
-### A note on consent:
+### *A note on consent:*
 
-For any study, *consent* determines the flexibility you have at the point of sharing, and it must be **designed before data collection**, not at archiving. Consent forms that do not mention future data sharing, or only cover it negatively, close off options that are difficult to reopen. To give participants genuine choice and researchers corresponding flexibility, consent forms should distinguish between (a) anonymised quotation in publications, (b) deposit in a restricted-access archive for future research under ethical oversight, and (c) retention within the research team. Writing the consent form with data sharing in mind is not additional work, but the same work, done more carefully.
+For any study, consent determines the flexibility you have at the point of sharing, and it must be **designed before data collection**, not at archiving. Consent forms that do not mention future data sharing, or only cover it negatively, close off options that are difficult to reopen. To give participants genuine choice and researchers corresponding flexibility, consent forms should distinguish between (a) anonymised quotation in publications, (b) deposit in a restricted-access archive for future research under ethical oversight, and (c) retention within the research team. Writing the consent form with data sharing in mind is not additional work, but the same work, done more carefully.
 
-### A note on qualitative data:
+### *A note on qualitative data:*
 
-Focusing in on qualitative studies, anonymisation of data is more complex than name removal. Participants in music psychology or ethnomusicology research often describe experiences or biographical details specific enough to identify a small or distinctive community. A participant who mentions being the only professional player of a particular instrument in a named city, or whose description of a formative musical experience locates them within a distinctive subculture, may be identifiable to community members regardless of pseudonymisation. Effective anonymisation requires altering or removing contextual details and identifiers — a process that should itself be *documented* so readers understand what has been changed. Consulting institutional ethics committees and national data protection frameworks (UK GDPR / Data Protection Act 2018; EU GDPR) at the design stage before data collection — rather than at the archiving stage where options are already constrained — is strongly advisable.
+Focusing in on qualitative studies, anonymisation of data is more complex than name removal. Participants in music psychology or ethnomusicology research often describe experiences or biographical details specific enough to identify a small or distinctive community. A participant who mentions being the only professional player of a particular instrument in a named city, or whose description of a formative musical experience locates them within a distinctive subculture, may be identifiable to community members regardless of pseudonymisation. Effective anonymisation requires altering or removing contextual details and identifiers — *a process that should itself be documented* so readers understand what has been changed. Consulting institutional ethics committees and national data protection frameworks (UK GDPR / Data Protection Act 2018; EU GDPR) at the design stage before data collection — rather than at the archiving stage where options are already constrained — is strongly advisable.
 
 ::: {.callout-important}
 **Almost-always sharable qualitative/AHSS materials**
@@ -71,7 +91,7 @@ Even when raw data cannot be released, the following typically fall on the open 
 For restricted-access deposit of sensitive material, the UK Data Service, DANS, and OSF all support configurations that make a project publicly findable while controlling access to raw files.
 :::
 
----
+
 
 ## Working open data into your research workflow {#sec-opendata-workflow}
 
@@ -87,15 +107,6 @@ The practical shift is clearly documenting the research process as you do it. Op
 - Note how an interview corpus was assembled and why (e.g., inclusion criteria, collection method)
 - Record what scholarly debates this dataset enters and how that framing was established, before the selection and refinement stages
 
-**Sharing documented pieces — early decisions that matter:**
-
-- **Consent language**: draft consent forms to include explicit data sharing permissions from the outset, distinguishing between quotation in publications, restricted-access archiving, and full public release (see @sec-opendata-possible)
-- **File formats**: choose non-proprietary open formats at the point of file creation — CSV over .xlsx for tabular data; plain text or PDF/A for documents; MIDI or MusicXML for symbolic music
-- **Licensing**: apply a Creative Commons licence (CC-BY 4.0 recommended default) to materials you create at the point of creating them; more restrictive clauses (Noncommercial, Non-Derivative, Share Alike) are available where needed
-- **Audio stimuli**: where the research question allows, select openly licensed or purpose-recorded audio rather than commercial recordings — this decision at the design stage removes a constraint that cannot be resolved later (see @sec-opendata-copyright)
-- **Open notebooks/blogs**: for practice research, a project blog or structured open notebook maintained as the research unfolds creates a time-stamped record that can be shared when the project is complete [@scroggie2023github]
-- **Repository**: register a GitHub repository, OSF project, or equivalent *early* — this gives a persistent link for the dataset before it is complete, and creates a home for documentation as it accumulates rather than all at once at submission (see @sec-opendata-repositories)
-
 ::: {.callout-important}
 **Minimum viable structure for a shareable dataset**
 
@@ -105,7 +116,7 @@ A shareable dataset does not need to be elaborate. At minimum:
 - A codebook or equivalent: defined variables/categories, decision rules (e.g., selection rationale, interpretive notes, scope of the collection)
 - Data in open formats: CSV for tabular data, plain text or PDF/A for documents and qualitative material, MIDI or MusicXML for symbolic music
 - Documentation on the analytical process and decision making
-- Any analysis scripts needed to reproduce reported results (see @sec-opencode)
+- Any analysis scripts needed to reproduce reported results
 
 Writing these in a readable manner (for others and your future self!) during the project rather than at the end is faster, more informative, and more helpful down the line.
 :::
@@ -114,25 +125,42 @@ Writing these in a readable manner (for others and your future self!) during the
 
 *[For Fabian: Cover funder requirements for formal DMPs (UKRI, Horizon Europe, NIH), tools such as DMPonline and the OSF DMP template, and the practical components of a DMP. DMPs for music research projects should specify data sharing plans in terms of FAIR/CORE principles, following framing introduced in §5.2.]*
 
----
+
 
 ## Repositories and archiving {#sec-opendata-repositories}
 
-*[Main repository table and guidance for quantitative and computational data. The following contribution covers qualitative and AHSS data; please integrate as a row in the repository table or as a callout following it, as fits the section structure.]*
+*[Main repository table / guidance? Could integrate as a repository table or as a callout.]*
 
-::: {.callout-tip}
-**Archiving qualitative and AHSS data: repositories and access tiers**
+* Zenodo, OSF, Dryad, domain-specific (ISMIR datasets, music21 corpus). 
+* Embargo options. 
+* Versioning (with care not to overlap too much with Reprodicible section). 
+* Long-term preservation.
 
-*Qualitative and AHSS research data* — interview transcripts, fieldwork notes, annotated bibliographies, practice research documentation, audio-visual materials — can be archived, but the appropriate repository and level of access differ from quantitative datasets. "As open as possible, as closed as necessary" applies directly: the goal is maximum openness, with the nature of the specific data determining what is openly available, what is available under restricted access, and what cannot be released.
+::: {.callout-caution appearance="minimal"}
+[need these sections worked in together — see what you think, Fabian!]
+:::
 
 The [UK Data Service](https://ukdataservice.ac.uk/) (UKDS) / **Qualidata** collection is the principal archive for qualitative social science data in the UK, supporting restricted-access deposits, making it suitable for sensitive or partially identifiable material. [DANS](https://dans.knaw.nl/) in the Netherlands offers comparable tiered-access infrastructure. [ICPSR](https://www.icpsr.umich.edu/) at Michigan supports a broad range of social science data including qualitative material.
 
-*Practice research outputs* — scores, audio, video documentation, research blogs, performance datasets — institutional research data repositories (such as the [University of Leeds Research Data Repository](https://archive.researchdata.leeds.ac.uk/)) can house mixed-format collections alongside a dataset description that lists resource locations, deposit dates, and access terms. OSF also supports restricted-access file configurations: material is deposited and findable, but access requires a request with the depositor retaining control. This allows a project to be publicly registered and partially open — codebooks, interview guides, and consent form templates visible to all — while sensitive material remains protected.
 
-*The principle across all options:* make as much visible as possible, and document clearly what cannot be shared and why rather than treating a whole dataset as closed because part of it is sensitive.
+*Qualitative and AHSS research data:*
+* interview transcripts, fieldwork notes, annotated bibliographies, practice research documentation, audio-visual materials 
+* can be archived, but the appropriate repository and level of access differ from quantitative datasets. 
+* "As open as possible, as closed as necessary" applies directly: the goal is maximum openness, with the nature of the specific data determining what is openly available, what is available under restricted access, and what cannot be released.
+
+
+*Practice research outputs* 
+* scores, audio, video documentation, research blogs, performance datasets 
+* institutional research data repositories (e.g., [University of Leeds Research Data Repository](https://archive.researchdata.leeds.ac.uk/)) can house mixed-format collections alongside a dataset description that lists resource locations, deposit dates, and access terms. 
+* OSF also supports restricted-access file configurations: material is deposited and findable, but access requires a request with the depositor retaining control. 
+* This allows a project to be publicly registered and partially open — codebooks, interview guides, and consent form templates visible to all — while sensitive material remains protected.
+
+::: {.callout-tip}
+**The principle across all options:** 
+Make as much visible as possible, and document clearly what cannot be shared and why rather than treating a whole dataset as closed because part of it is sensitive.
 :::
 
----
+
 
 ## Original materials, stimuli, and copyright {#sec-opendata-copyright}
 
@@ -182,7 +210,7 @@ Copyright in a commercial recording prevents redistributing the audio file. *It 
 A stimulus documentation file deposited as a dataset with its own DOI is a citable, reusable research output — not merely a supplementary methods note.
 :::
 
----
+
 
 ## Summary {#sec-opendata-summary}
 
@@ -192,3 +220,15 @@ Across the range of disciplines that make up music research, openness takes diff
 
 The practical work of open data is mostly front-loadable. Designed into the research from the start — through consent language, file format choices, stimulus selection, contemporaneous documentation — it costs far less than the retrospective preparation it replaces and produces better-organised research along the way. Gathering CORE data, conveying interpretations transparently, maintaining disciplinary standards, and privileging diversity, transparency, and accountability in how research is conducted and shared is "careful scholarship in its truest sense" [@gilby2022openresearch]. Open data is not an additional obligation on top of good research, but is part of what good research in music looks like.
 
+
+::: {.callout-tip}
+**Sharing documented pieces — early decisions that matter:**
+
+- **Consent language**: draft consent forms to include explicit data sharing permissions from the outset, distinguishing between quotation in publications, restricted-access archiving, and full public release (see @sec-opendata-possible)
+- **File formats**: choose non-proprietary open formats at the point of file creation — CSV over .xlsx for tabular data; plain text or PDF/A for documents; MIDI or MusicXML for symbolic music (see @sec-opendata-workflow)
+- **Licensing**: apply a Creative Commons licence (CC-BY 4.0 recommended default) to materials you create at the point of creating them; more restrictive clauses (Noncommercial, Non-Derivative, Share Alike) are available where needed
+- **Audio stimuli**: where the research question allows, select openly licensed or purpose-recorded audio rather than commercial recordings — this decision at the design stage removes a constraint that cannot be resolved later (see @sec-opendata-copyright)
+- **Open notebooks/blogs**: for practice research, a project blog or structured open notebook maintained as the research unfolds creates a time-stamped record that can be shared when the project is complete [@scroggie2023github]
+- **Repository**: register a GitHub repository, OSF project, or equivalent *early* — this gives a persistent link for the dataset before it is complete, and creates a home for documentation as it accumulates rather than all at once at submission (see @sec-opendata-repositories)
+
+:::
