@@ -1,3 +1,8 @@
+---
+author: Dorien Herremans
+date: 6/15/2026
+---
+
 # Availability of publications {#sec-OApubl}
 
 
