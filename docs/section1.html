@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Tuomas Eerola">
+<meta name="dcterms.date" content="2026-07-29">
 
 <title>3&nbsp; Background – Open Science for Music Research</title>
 <style>
@@ -176,7 +177,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./section5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Replication studies</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Replication Studies</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -213,10 +214,14 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#open-science-and-fair-data" id="toc-open-science-and-fair-data" class="nav-link active" data-scroll-target="#open-science-and-fair-data"><span class="header-section-number">3.1</span> Open Science and FAIR data</a></li>
-  <li><a href="#open-science-and-open-access" id="toc-open-science-and-open-access" class="nav-link" data-scroll-target="#open-science-and-open-access"><span class="header-section-number">3.2</span> Open Science and Open Access</a></li>
-  <li><a href="#good-enough-practices" id="toc-good-enough-practices" class="nav-link" data-scroll-target="#good-enough-practices"><span class="header-section-number">3.3</span> Good enough practices</a></li>
-  <li><a href="#fair-in-music-related-research" id="toc-fair-in-music-related-research" class="nav-link" data-scroll-target="#fair-in-music-related-research"><span class="header-section-number">3.4</span> FAIR in music related research</a></li>
+  <li><a href="#what-is-open-science" id="toc-what-is-open-science" class="nav-link active" data-scroll-target="#what-is-open-science"><span class="header-section-number">3.1</span> What is Open Science?</a></li>
+  <li><a href="#why-open-research" id="toc-why-open-research" class="nav-link" data-scroll-target="#why-open-research"><span class="header-section-number">3.2</span> Why Open Research?</a>
+  <ul class="collapse">
+  <li><a href="#sec-trust" id="toc-sec-trust" class="nav-link" data-scroll-target="#sec-trust"><span class="header-section-number">3.2.1</span> Trust</a></li>
+  <li><a href="#sec-progress" id="toc-sec-progress" class="nav-link" data-scroll-target="#sec-progress"><span class="header-section-number">3.2.2</span> Progress</a></li>
+  <li><a href="#sec-community" id="toc-sec-community" class="nav-link" data-scroll-target="#sec-community"><span class="header-section-number">3.2.3</span> Community</a></li>
+  <li><a href="#sec-equity" id="toc-sec-equity" class="nav-link" data-scroll-target="#sec-equity"><span class="header-section-number">3.2.4</span> Equity</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/tuomaseerola/OSMR/edit/main/section1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/tuomaseerola/OSMR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -232,7 +237,19 @@ div.csl-indent {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tuomas Eerola </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 29, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -242,36 +259,88 @@ div.csl-indent {
 </header>
 
 
+<section id="what-is-open-science" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="what-is-open-science"><span class="header-section-number">3.1</span> What is Open Science?</h2>
+<p>Open Science (or <em>Open Research</em>) is an approach to conducting and communicating research that aims to make all stages of the research process more transparent, accessible, reproducible, and collaborative. It extends beyond open access publishing to encompass the sharing of data, software, methods, materials, peer review, and other research outputs throughout the research lifecycle <span class="citation" data-cites="Hardwicke2024Open">(<a href="references.html#ref-Hardwicke2024Open" role="doc-biblioref">Hardwicke &amp; Vazire, 2024</a>)</span>. Together, these practices help build <a href="#sec-trust">trust</a>, accelerate <a href="#sec-progress">progress</a>, promote <a href="#sec-equity">equity</a>, and strengthen the research <a href="#sec-community">community</a>.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>“Open Science” and “Open Research”?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The terms <em>Open Science</em> and <em>Open Research</em> are often used interchangeably. <em>Open Science</em> has become the internationally recognised term adopted by organisations such as UNESCO and the European Commission to describe a broad movement towards greater transparency, accessibility, collaboration, and reproducibility throughout the research process. Despite its name, UNESCO explicitly defines Open Science as encompassing the natural sciences, social sciences, humanities, and the arts <span class="citation" data-cites="unesco2021openscience">(<a href="references.html#ref-unesco2021openscience" role="doc-biblioref">UNESCO, 2021</a>)</span>. Nevertheless, many scholars, particularly in the humanities, prefer the term <em>Open Research</em>, arguing that it more naturally reflects the diversity of scholarly traditions beyond the sciences <span class="citation" data-cites="adams2026">(<a href="references.html#ref-adams2026" role="doc-biblioref">Adams et al., 2026</a>)</span>. Throughout this repository, we use <em>Open Research</em> when referring to research practices across the full spectrum of music research, while recognising <em>Open Science</em> as the broader international framework within which these practices have developed.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Should this repo be called?
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>What is Open Science <span class="citation" data-cites="Hardwicke2024Open">(<a href="references.html#ref-Hardwicke2024Open" role="doc-biblioref">Hardwicke &amp; Vazire, 2024</a>)</span>.</li>
+<li>A. Open Science for Music Research (original proposal, OSMR)</li>
+<li>B. Open Research in Music (ORM)</li>
+<li>C. Open Music Research (OMR)</li>
+<li>D. Something else?</li>
 </ul>
-<p>First, the term <em>Open Science</em>/<em>Open Research</em>[^1]: The former is the global term, used by UNESCO and EU, but humanities scholars might be more persuaded by <em>Open Research</em>.</p>
-<ul>
-<li><p>Open science challenges <span class="citation" data-cites="allen2019open">(<a href="references.html#ref-allen2019open" role="doc-biblioref">Allen &amp; Mehler, 2019</a>)</span></p></li>
-<li><p>What does the term mean in music research (music psychology, MIR, musicology, computational musicology, digital humanities, ..)?</p></li>
-</ul>
-<p>There is a clear room for improvement in music psychology research in terms of transparency <span class="citation" data-cites="eerola2023transparency">(<a href="references.html#ref-eerola2023transparency" role="doc-biblioref">Eerola, 2024</a>)</span>.</p>
-<section id="open-science-and-fair-data" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="open-science-and-fair-data"><span class="header-section-number">3.1</span> Open Science and FAIR data</h2>
+</div>
+</div>
 </section>
-<section id="open-science-and-open-access" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="open-science-and-open-access"><span class="header-section-number">3.2</span> Open Science and Open Access</h2>
+<section id="why-open-research" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="why-open-research"><span class="header-section-number">3.2</span> Why Open Research?</h2>
+<p>Open research serves several complementary purposes. At its foundation, it fosters <strong>trust</strong> by making research transparent, allowing others to scrutinise, verify, and reproduce scientific claims. Building on this, openness enables <strong>progress</strong> by transforming publications, data, code, and methods into reusable resources that accelerate cumulative discovery rather than requiring each project to start from scratch. Finally, open research supports <strong>community</strong> by supporting learning, collaboration, and engagement both within academia and beyond. This reveals the often hidden processes of scientific inquiry, enabling students and researchers to learn not only from published results but also from the decisions, workflows, and materials that produced them. Together, these three levels (trust, progress, and community) capture the broader value of open research as a foundation for more reliable, cumulative, and accessible science.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/OR_pyramid.png" class="img-fluid figure-img"></p>
+<figcaption>Three levels of open research - <em>trust</em> for producing reliable knowledge, <em>progress</em> for advancing and supporting cumulative collective knowledge, and <em>community</em> to support learning and and collaboration.</figcaption>
+</figure>
+</div>
+<section id="sec-trust" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="sec-trust"><span class="header-section-number">3.2.1</span> Trust</h3>
+<p>Research advances through trust – but not blind trust. Confidence in research findings is earned when claims can be inspected, questioned, and independently verified. Open research attempts to shift the basis of trust from the reputation of individual researchers to the transparency of the scientific process itself. Publications, data, analysis scripts, study materials, preregistrations, and peer review provide the evidence needed for others to evaluate, reproduce, and extend previous work <span class="citation" data-cites="nosek2015promoting">(<a href="references.html#ref-nosek2015promoting" role="doc-biblioref">Nosek et al., 2015</a>)</span>.</p>
+<p>This need is particularly pressing in music research, where studies often involve complex combinations of musical stimuli, behavioural or physiological measurements, computational analyses, and subjective interpretations. In music psychology, trust depends on knowing precisely which stimuli were used, how participants were recruited, how emotional or cognitive responses were measured, and how analyses were conducted. In music information retrieval (MIR) and computational musicology, reproducibility requires access to datasets, feature extraction pipelines, machine learning models, software versions, and evaluation procedures. Digital humanities projects frequently involve intricate data transformations, annotation decisions, and computational workflows that are impossible to fully describe within the constraints of a journal article. Even in historical musicology, where primary sources are often publicly available, transparency about editorial choices, coding decisions, and analytical procedures strengthens confidence in scholarly interpretations.</p>
+<p>Open research makes these otherwise hidden aspects of research visible. Sharing data, code, materials, and complete analytical workflows allows others to verify findings, identify errors, assess methodological choices, and reproduce results. Transparency also <em>discourages</em> questionable research practices by making research decisions more explicit and accountable. Importantly, openness does not guarantee that research is correct; rather, it allows the research community to <em>evaluate the strength of the evidence</em> and to improve upon it over time.</p>
+<p>Despite broad recognition of these benefits, adoption remains uneven. Within music psychology, for example, journal policies increasingly encourage researchers to share data and analysis scripts, yet voluntary encouragement alone has resulted in relatively limited uptake as a sample of studies in music psychology indicates that about 5% studies share data and 1% share analysis scripts <span class="citation" data-cites="eerola2023transparency">(<a href="references.html#ref-eerola2023transparency" role="doc-biblioref">Eerola, 2024</a>)</span>. Building a more trustworthy discipline therefore requires moving beyond encouragement towards research practices in which openness becomes the expected default rather than the exception.</p>
+<p>Practices that contribute to trust include <a href="./section2.html">open access publications</a>, <a href="./section3.html">open data</a>, <a href="./section3.html">open-source code, reproducible analytical workflows</a>, <a href="./section5.html">replication studies</a>, <a href="./section7.html">preregistration, Registered Reports</a>, and, where appropriate, <a href="./section6.html">open peer review</a>. Together, these practices make scientific claims inspectable rather than merely believable.</p>
 </section>
-<section id="good-enough-practices" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="good-enough-practices"><span class="header-section-number">3.3</span> Good enough practices</h2>
-<ul>
-<li><a href="https://reproducibilitea.org">Reproducibilitea</a> networks</li>
-</ul>
+<section id="sec-progress" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="sec-progress"><span class="header-section-number">3.2.2</span> Progress</h3>
+<p>Research should not merely produce knowledge; it should enable future knowledge. Open research transforms publications, datasets, software, and analytical workflows into resources that others can reuse, extend, and improve <span class="citation" data-cites="lowndes2017our">(<a href="references.html#ref-lowndes2017our" role="doc-biblioref">Lowndes et al., 2017</a>)</span>. Rather than requiring every research group to rebuild datasets and methods from scratch, openness enables cumulative science. Data can be reused, software extended, methods refined, and findings independently replicated, allowing scientific knowledge to develop more efficiently.</p>
+<p>These benefits are particularly important in music research. The creation of musical corpora is often resource intensive, involving recording, transcription, annotation, or specialist cultural knowledge <span class="citation" data-cites="hentschel2025corpus">(<a href="references.html#ref-hentschel2025corpus" role="doc-biblioref">Hentschel et al., 2025</a>)</span>. Behavioural ratings and expert annotations likewise require substantial effort and can support benchmarking, secondary analyses, and computational modelling when they are shared.</p>
+<p>Progress also depends on transparent methods. Research in music psychology, music information retrieval, computational musicology, and the digital humanities frequently relies on complex computational pipelines that cannot be fully described in a journal article. Sharing code, software versions, and documentation allows others to reproduce, adapt, and extend these workflows. Open-source software also remains useful for longer when it is version-controlled, archived, and maintained by a wider community.</p>
+<p>Finally, sharing alone is not enough. For research outputs to support cumulative science, they must be well documented and reusable. The FAIR principles—making data Findable, Accessible, Interoperable, and Reusable—highlight the importance of metadata, persistent repositories, clear licensing, and standardised formats that allow publications, datasets, code, and other research outputs to remain useful long after the original study has been completed <span class="citation" data-cites="wilkinson2016fair">(<a href="references.html#ref-wilkinson2016fair" role="doc-biblioref">Wilkinson et al., 2016</a>)</span>.</p>
+<p>Practices that support progress include <a href="./section3.html">FAIR data, shared datasets</a>, <a href="./section4.html">reusable software</a>, <a href="./section5.html">replication studies</a>, standardised metadata, persistent repositories, version control, and reproducible computational environments. Together, these practices transform individual research projects into lasting resources for collaboration, innovation, and cumulative scientific progress.</p>
 </section>
-<section id="fair-in-music-related-research" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="fair-in-music-related-research"><span class="header-section-number">3.4</span> FAIR in music related research</h2>
-<p>See <span class="citation" data-cites="moss2021fair">(<a href="references.html#ref-moss2021fair" role="doc-biblioref">Moss &amp; Neuwirth, 2021</a>)</span></p>
-<p>See <span class="citation" data-cites="jensenius2021best">(<a href="references.html#ref-jensenius2021best" role="doc-biblioref">Jensenius, 2021</a>)</span></p>
+<section id="sec-community" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="sec-community"><span class="header-section-number">3.2.3</span> Community</h3>
+<p>Open research is fundamentally a community practice. Science advances not only through new discoveries but also through the exchange of knowledge, skills, methods, and resources that enable others to contribute. By making publications, data, code, workflows, and reviews openly available, researchers create opportunities for collaboration, mutual learning, and collective improvement. Open repositories reveal many aspects of research that are normally hidden from the published article, making the scientific process itself a shared community resource.</p>
+<p>This community-building role extends across all areas of open science <span class="citation" data-cites="allen2021reproducibilitea">(<a href="references.html#ref-allen2021reproducibilitea" role="doc-biblioref">Allen &amp; Mehler, 2019</a>)</span>. Open access publications broaden participation in scholarship; open data and code enable researchers to verify findings, develop new analyses, and acquire practical skills; reproducible workflows provide examples of good research practice; preregistrations and Registered Reports demonstrate transparent study design; open peer review exposes the constructive dialogue that improves research; and replication studies reinforce the collective responsibility of maintaining a reliable scientific record.</p>
+<p>Open science also fosters communities that extend beyond individual projects and institutions. Researchers benefit not only from shared resources but also from networks that exchange expertise, develop standards, and promote best practices <span class="citation" data-cites="mckiernan2016openscience">(<a href="references.html#ref-mckiernan2016openscience" role="doc-biblioref">McKiernan et al., 2016</a>)</span>. Communities such as <a href="https://reproducibilitea.org">ReproducibiliTea</a>, <a href="https://book.the-turing-way.org">The Turing Way</a>, and discipline-specific open science initiatives provide training materials, discussion forums, workshops, mentoring, and collaborative support that help embed openness into everyday research practice.</p>
+<p>Finally, openness increases the reach of music research beyond academia. Teachers, musicians, software developers, cultural organisations, policy makers, journalists, and interested members of the public can all benefit from unrestricted access to publications, data, educational resources, and software. By lowering barriers to participation, open research strengthens connections between researchers and the wider society, increasing both the visibility and the impact of music research.</p>
+</section>
+<section id="sec-equity" class="level3" data-number="3.2.4">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="sec-equity"><span class="header-section-number">3.2.4</span> Equity</h3>
+<p>Open research promotes a more equitable scientific ecosystem by reducing barriers to accessing and contributing to knowledge <span class="citation" data-cites="unesco2021openscience">(<a href="references.html#ref-unesco2021openscience" role="doc-biblioref">UNESCO, 2021</a>)</span>. The ability to read scientific publications, use research data, or apply analytical methods should not depend on the financial resources of an institution or the country in which a researcher works. Open Access publications, openly shared datasets, software, and educational resources help level the playing field by making high-quality research available to anyone with an internet connection.</p>
+<p>Greater equity also broadens participation in science. Researchers in low-resource settings, independent scholars, students, practitioners, and citizen scientists can contribute more fully when knowledge and research tools are openly available. In music research, this is particularly important for supporting underrepresented musical traditions, fostering international collaboration, and enabling a more diverse range of perspectives to shape the discipline. By democratising access to knowledge and research resources, open science helps create a more inclusive and globally connected research community. However, achieving equity through open science is not automatic feature of the scheme but requires careful implementation and how stakeholders value and provide support for it <span class="citation" data-cites="bezuidenhout2025equity">(<a href="references.html#ref-bezuidenhout2025equity" role="doc-biblioref">Bezuidenhout, 2025</a>)</span>.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
-<div id="ref-allen2019open" class="csl-entry" role="listitem">
-Allen, C., &amp; Mehler, D. M. (2019). Open science challenges, benefits and tips in early career and beyond. <em>PLoS Biology</em>, <em>17</em>(5), e3000246. <a href="https://doi.org/10.1371/journal.pbio.3000246">https://doi.org/10.1371/journal.pbio.3000246</a>
+<div id="ref-adams2026" class="csl-entry" role="listitem">
+Adams, J., Barnes, M., Moore, S., &amp; Pinfield, S. (2026). Cataloguing and theorising open research practices in the arts, humanities and social sciences: Problematising and diversifying ’open science’. <em>F1000Research</em>, <em>15</em>, 515. <a href="https://doi.org/10.12688/f1000research.178353.1">https://doi.org/10.12688/f1000research.178353.1</a>
+</div>
+<div id="ref-allen2021reproducibilitea" class="csl-entry" role="listitem">
+Allen, C., &amp; Mehler, D. M. A. (2019). Open science challenges, benefits and tips in early career and beyond. <em>PLoS Biology</em>, <em>17</em>(5), e3000246. <a href="https://doi.org/10.1371/journal.pbio.3000246">https://doi.org/10.1371/journal.pbio.3000246</a>
+</div>
+<div id="ref-bezuidenhout2025equity" class="csl-entry" role="listitem">
+Bezuidenhout, L. (2025). Critically unpacking the concept of equity for open science. <em>Social Epistemology</em>. <a href="https://doi.org/10.1080/02691728.2025.2475460">https://doi.org/10.1080/02691728.2025.2475460</a>
 </div>
 <div id="ref-eerola2023transparency" class="csl-entry" role="listitem">
 Eerola, T. (2024). Prevalence of transparency and reproducibility-related research practices in music psychology (2017-2022). <em>Musicae Scientiae</em>, <em>29</em>(2), 385–399. <a href="https://doi.org/10.1177/10298649241300885">https://doi.org/10.1177/10298649241300885</a>
@@ -279,13 +348,26 @@ Eerola, T. (2024). Prevalence of transparency and reproducibility-related resear
 <div id="ref-Hardwicke2024Open" class="csl-entry" role="listitem">
 Hardwicke, T. E., &amp; Vazire, S. (2024). Open <span>Science</span>. In M. C. Frank &amp; A. Majid (Eds.), <em>Open <span>Encyclopedia</span> of <span>Cognitive</span> <span>Science</span></em>. MIT Press. <a href="https://doi.org/10.21428/e2759450.cdacaf45">https://doi.org/10.21428/e2759450.cdacaf45</a>
 </div>
-<div id="ref-jensenius2021best" class="csl-entry" role="listitem">
-Jensenius, A. R. (2021). Best versus good enough practices for open music research. <em>Empirical Musicology Review</em>, <em>16</em>(1), 5–15. <a href="https://doi.org/10.18061/emr.v16i1.7646">https://doi.org/10.18061/emr.v16i1.7646</a>
+<div id="ref-hentschel2025corpus" class="csl-entry" role="listitem">
+Hentschel, J., Rammos, Y., Neuwirth, M., &amp; Rohrmeier, M. (2025). A corpus and a modular infrastructure for the empirical study of (an)notated music. <em>Scientific Data</em>, <em>12</em>, 685. <a href="https://doi.org/10.1038/s41597-025-04976-z">https://doi.org/10.1038/s41597-025-04976-z</a>
 </div>
-<div id="ref-moss2021fair" class="csl-entry" role="listitem">
-Moss, F. C., &amp; Neuwirth, M. (2021). FAIR, open, linked: Introducing the special issue on open science in musicology. <em>Empirical Musicology Review</em>, <em>16</em>(1), 1–4. <a href="https://doi.org/10.18061/emr.v16i1.8246">https://doi.org/10.18061/emr.v16i1.8246</a>
+<div id="ref-lowndes2017our" class="csl-entry" role="listitem">
+Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. R., O’Hara, C. C., Jiang, N., &amp; Halpern, B. S. (2017). Our path to better science in less time using open data science tools. <em>Nature Ecology &amp; Evolution</em>, <em>1</em>, 0160. <a href="https://doi.org/10.1038/s41559-017-0160">https://doi.org/10.1038/s41559-017-0160</a>
+</div>
+<div id="ref-mckiernan2016openscience" class="csl-entry" role="listitem">
+McKiernan, E. C., Bourne, P. E., Brown, C. T., Buck, S., Kenall, A., Lin, J., McDougall, D., Nosek, B. A., Ram, K., Soderberg, C. K., Spies, J. R., Thaney, K., Updegrove, A., Woo, K. H., &amp; Yarkoni, T. (2016). How open science helps researchers succeed. <em>eLife</em>, <em>5</em>, e16800. <a href="https://doi.org/10.7554/eLife.16800">https://doi.org/10.7554/eLife.16800</a>
+</div>
+<div id="ref-nosek2015promoting" class="csl-entry" role="listitem">
+Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., et al. (2015). Promoting an open research culture. <em>Science</em>, <em>348</em>(6242), 1422–1425. <a href="https://doi.org/10.1126/science.aab2374">https://doi.org/10.1126/science.aab2374</a>
+</div>
+<div id="ref-unesco2021openscience" class="csl-entry" role="listitem">
+UNESCO. (2021). <em>UNESCO recommendation on open science</em>. United Nations Educational, Scientific; Cultural Organization. <a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949">https://unesdoc.unesco.org/ark:/48223/pf0000379949</a>
+</div>
+<div id="ref-wilkinson2016fair" class="csl-entry" role="listitem">
+Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Silva Santos, L. B. da, Bourne, P. E., et al. (2016). The FAIR guiding principles for scientific data management and stewardship. <em>Scientific Data</em>, <em>3</em>(1), 1–9. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>
 </div>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
