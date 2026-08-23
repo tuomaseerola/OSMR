@@ -29,7 +29,12 @@ While we would like all reported evidence to be reproducible, this is not always
 
  *Replication problems* are currently a major concern, as many previously published findings have been difficult to replicate, owing to factors such as underpowered studies, differences in participants, contexts, and procedures across studies investigating the same phenomenon, and publication bias [@stanley2018meta]. In response to these challenges, various solutions have been proposed, ranging from the *registered report* format, where researchers submit the hypotheses and methods for peer review before collecting data [@obels2020analysis], to more stringent statistical standards for the psychological sciences [@johnson2017reproducibility].
 
+<!-- TE: The part about replication above is the topic of the next chapter, maybe link it to that section and avoid direct overlap -->
+
 Psychological research faces several factors that may increase the risk of false findings, including the complexity of human behaviour, the testing of multiple variables and hypotheses, and the use of relatively small sample sizes in many studies involving human participants. Furthermore, much of the research published in leading psychology journals is based on WEIRD (Western, Educated, Industrialized, Rich, and Democratic) populations, which are outliers on many measurable psychological dimensions compared with populations worldwide [@henrich2010most;@henrich2010weirdest].
+
+<!-- TE: The part about testing multiple variables and hypothesis is handled in also covered section 9, maybe link it to that section and avoid direct overlap. I think having the paragraph is fine, but the reader should realise that this risk with psychological research is covered in more detail elsewhere. -->
+
 
 ## Reproducible music research
 
@@ -37,7 +42,8 @@ While music psychology has made some progress in recognizing these problems [@fr
 
 ![Increasing trends in the proportion of studies meeting transparency criteria (conflict of interest and funding statements; open data, materials, and access) over time. Reproduced from @eerola2023transparency with permission.](figures/chronology_transparency_indices.jpg)
 
-In recent years, researchers in music-related fields have published fully reproducible workflows in which the entire research pipeline can be recreated, from raw data processing to final manuscript (e.g., [@eerola2023transparency]; [@bertoloExpandedNaturalHistory2025]; [@cho2025ecological]).
+In recent years, researchers in music-related fields have published fully reproducible workflows in which the entire research pipeline can be recreated, from raw data processing to final manuscript [e.g., @eerola2023transparency; @bertoloExpandedNaturalHistory2025; @cho2025ecological].
+<!-- TE: Fixed citations-->
 
 ## Workflow
 
@@ -58,3 +64,19 @@ A modern realization of this idea is provided by interactive notebooks, which al
 Beyond interactive notebooks, more complex endeavors require a clear project structure, including, for example, a README file, a file specifying software dependencies, and subfolders for data, code, results, and the manuscript itself. In fully reproducible research workflows, all analyses, including the creation of tables and figures, are regenerated, and in some cases even the entire manuscript is compiled using tools such as [Quarto](https://quarto.org/) or [R Markdown](https://rmarkdown.rstudio.com/). Cloud-based platforms for sharing, running, and reproducing code, such as [Code Ocean](https://codeocean.com/), have been used to ensure that the published results can be recreated by others. Other relevant cloud services facilitating the reproducibility of research workflows include [Renku](https://renkulab.io/) and [Whole Tale](https://wholetale.org/).
 
 Because code, analysis decisions, and manuscript content are subject to change over the course of a research process (and because it may be necessary to go back and forth between different versions of a pipeline), *version control* can greatly facilitate these workflows. [Git](https://git-scm.com/) is currently the most widely used version control system, and [GitHub](https://github.com/) is a popular Git hosting service that supports collaborative software development.
+
+<!-- TE: You could also mention managing the version of the software versions, particularly important for Python and R, by using virtual environments that allow other users to restore same setup (exact versions of the libraries) later on. See for instance a good source: Samuel et al. 2021 
+
+@article{krafczyk2021learning,
+  title={Learning from reproducing computational results: introducing three principles and the Reproduction Package},
+  author={Krafczyk, Matthew S and Shi, August and Bhaskar, Adhithya and Marinov, Darko and Stodden, Victoria},
+  journal={Philosophical transactions. Series A, Mathematical, physical, and engineering sciences},
+  volume={379},
+  number={2197},
+  pages={20200069},
+  year={2021}
+}
+
+I mention this because we have clear examples in our field where the versions produce clearly different outcomes, e.g., MIR Toolbox.
+
+-->

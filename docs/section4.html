@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,16 +10,57 @@
 
 <title>6&nbsp; Reproducible research – Open Science for Music Research</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -55,15 +96,14 @@ div.csl-indent {
 <link href="./section3.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d903f68e8242439e3911802f503d784b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-29d65a3d8fa3c6f63f4d2304c7cfac40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -176,7 +216,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./section5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Replication studies</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Replication Studies</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -213,9 +253,10 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#reproducible-research" id="toc-reproducible-research" class="nav-link active" data-scroll-target="#reproducible-research"><span class="header-section-number">6.1</span> Reproducible research</a></li>
-  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow"><span class="header-section-number">6.2</span> Workflow</a></li>
-  <li><a href="#open-software" id="toc-open-software" class="nav-link" data-scroll-target="#open-software"><span class="header-section-number">6.3</span> Open software</a></li>
+  <li><a href="#what-is-reproducible-research" id="toc-what-is-reproducible-research" class="nav-link active" data-scroll-target="#what-is-reproducible-research"><span class="header-section-number">6.1</span> What is “Reproducible research”?</a></li>
+  <li><a href="#reproducibility-and-replication-problems" id="toc-reproducibility-and-replication-problems" class="nav-link" data-scroll-target="#reproducibility-and-replication-problems"><span class="header-section-number">6.2</span> Reproducibility and replication problems</a></li>
+  <li><a href="#reproducible-music-research" id="toc-reproducible-music-research" class="nav-link" data-scroll-target="#reproducible-music-research"><span class="header-section-number">6.3</span> Reproducible music research</a></li>
+  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow"><span class="header-section-number">6.4</span> Workflow</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/tuomaseerola/OSMR/edit/main/section4.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/tuomaseerola/OSMR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -241,30 +282,171 @@ div.csl-indent {
 </header>
 
 
-<p>What is “Reproducible research”? See what we know so far in psychology <span class="citation" data-cites="stanley2018meta">(<a href="references.html#ref-stanley2018meta" role="doc-biblioref">Stanley et al., 2018</a>)</span></p>
+<section id="what-is-reproducible-research" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="what-is-reproducible-research"><span class="header-section-number">6.1</span> What is “Reproducible research”?</h2>
+<p><em>Reproducibility</em> in research typically refers to the ability to obtain the same findings given the same data, code, and methods. This is possible when researchers share their data and code alongside a publication or make these materials available upon request. The advantage of sharing them alongside the publication is that the results remain reproducible even if the original author can no longer be reached.</p>
+<p>The concept is closely related to <em>replicability</em>, but with an important distinction: whereas replicability refers to repeating a study by collecting new data or conducting a new experiment, reproducibility refers to repeating the data analysis using the same data, code, and other materials as in the original study. Although these terms are sometimes used interchangeably or are defined differently across disciplines <span class="citation" data-cites="plesserReproducibilityVsReplicability2018">(<a href="references.html#ref-plesserReproducibilityVsReplicability2018" role="doc-biblioref">Plesser, 2018</a>)</span>, we follow the definitions established by the <a href="http://nationalacademies.org/">National Academies of Sciences</a> <span class="citation" data-cites="national2019reproducibility">(<a href="references.html#ref-national2019reproducibility" role="doc-biblioref">National Academies of Sciences, Engineering, and Medicine, 2019</a>)</span>, which have also been <a href="https://www.acm.org/publications/badging-terms">recently adopted</a> by the <a href="https://www.acm.org/">Association for Computing Machinery</a> (ACM):</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Definitions of reproducibility and replicability (National Academies of Sciences)
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li><p>Statistical reproducilibility <span class="citation" data-cites="johnson2017reproducibility">(<a href="references.html#ref-johnson2017reproducibility" role="doc-biblioref">Johnson et al., 2017</a>)</span></p></li>
-<li><p>Computational reproducibility <span class="citation" data-cites="obels2020analysis">(<a href="references.html#ref-obels2020analysis" role="doc-biblioref">Obels et al., 2020</a>)</span></p></li>
+<li><strong>Reproducibility</strong> is obtaining consistent results using the same input data; computational steps, methods, and code; and conditions of analysis</li>
+<li><strong>Replicability</strong> is obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data</li>
 </ul>
-<section id="reproducible-research" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="reproducible-research"><span class="header-section-number">6.1</span> Reproducible research</h2>
+</div>
+</div>
+<p>Reproducibility and replicability do not necessarily depend on each other: a study may be reproducible if the original analysis can be rerun, but it may not be replicable if the effect is not found in a new sample. Conversely, a finding might be replicated in some other context, but it may be irreproducible if the analysis code or data of the original study is not available or has issues.</p>
+<table class="caption-top table">
+<caption>Replicability vs.&nbsp;reproducibility: repeating research with new data versus recreating results with original data and methods.</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th>Replicable</th>
+<th>Reproducible</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Meaning</td>
+<td>A study can be repeated with <em>new data and/or methods</em> to obtain similar findings</td>
+<td>A study’s results can be recreated using the original data, code, and methods</td>
+</tr>
+<tr class="even">
+<td>Focus</td>
+<td>Repeat the research process</td>
+<td>Rerun the analysis</td>
+</tr>
+<tr class="odd">
+<td>Example</td>
+<td><span class="citation" data-cites="lundqvistEmotionalResponsesMusic2009">Lundqvist et al. (<a href="references.html#ref-lundqvistEmotionalResponsesMusic2009" role="doc-biblioref">2009</a>)</span> found that happy and sad music induced different psychological and physiological emotional responses; <span class="citation" data-cites="bullackPsychophysiologicalResponsesHappy2018">Bullack et al. (<a href="references.html#ref-bullackPsychophysiologicalResponsesHappy2018" role="doc-biblioref">2018</a>)</span> repeated the experiment but used instrumental film music instead of vocal music</td>
+<td><span class="citation" data-cites="bertoloExpandedNaturalHistory2025">Bertolo et al. (<a href="references.html#ref-bertoloExpandedNaturalHistory2025" role="doc-biblioref">2025</a>)</span> introduce a large and globally diverse song corpus for cross-cultural research; the paper includes the <a href="https://github.com/themusiclab/nhs-expanded">dataset and a script</a> to generate the entire manuscript, including analyses and visualizations</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="workflow" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="workflow"><span class="header-section-number">6.2</span> Workflow</h2>
+<section id="reproducibility-and-replication-problems" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="reproducibility-and-replication-problems"><span class="header-section-number">6.2</span> Reproducibility and replication problems</h2>
+<p>While we would like all reported evidence to be reproducible, this is not always the case. <span class="citation" data-cites="nosekReplicabilityRobustnessReproducibility2022">Nosek et al. (<a href="references.html#ref-nosekReplicabilityRobustnessReproducibility2022" role="doc-biblioref">2022</a>)</span> identifies two possible scenarios leading to such failures. The most common is a <em>process reproducibility failure</em>: there is insufficient access to data, code (or the information needed to recreate the code), software, or other resources required to reproduce the results. The second type is called <em>outcome reproducibility failure</em>, which occurs when a reanalysis can be performed, but results obtained differ from those originally reported. Outcome reproducibility failures may arise from issues in either the original study or the reproduction attempt.</p>
+<p><em>Reproducibility problems</em> can make replication more difficult because, in order to repeat a study (e.g., with a different sample of participants), it is important to know exactly what was done in the orginal research. Reproducibility was generally much more harder in the past, especially before modern software tooling: before the 1980s, calculations were often performed manually, and data was stored and shared on paper. After the personal computer revolution, and particularly before the widespread adoption of the internet, code was increasingly used butwas often not shared, and computational environments were more difficult to recreate <span class="citation" data-cites="peng2021reproducible">(<a href="references.html#ref-peng2021reproducible" role="doc-biblioref">Peng &amp; Hicks, 2021</a>)</span>. Nowadays, version control systems, cloud storage, workflow management tools and public repositories greatly facilitate research reproducibility. However, despite these advances, reproducibility problems remain an important challenge in psychological research.</p>
+<p><em>Replication problems</em> are currently a major concern, as many previously published findings have been difficult to replicate, owing to factors such as underpowered studies, differences in participants, contexts, and procedures across studies investigating the same phenomenon, and publication bias <span class="citation" data-cites="stanley2018meta">(<a href="references.html#ref-stanley2018meta" role="doc-biblioref">Stanley et al., 2018</a>)</span>. In response to these challenges, various solutions have been proposed, ranging from the <em>registered report</em> format, where researchers submit the hypotheses and methods for peer review before collecting data <span class="citation" data-cites="obels2020analysis">(<a href="references.html#ref-obels2020analysis" role="doc-biblioref">Obels et al., 2020</a>)</span>, to more stringent statistical standards for the psychological sciences <span class="citation" data-cites="johnson2017reproducibility">(<a href="references.html#ref-johnson2017reproducibility" role="doc-biblioref">Johnson et al., 2017</a>)</span>.</p>
+<!-- TE: The part about replication above is the topic of the next chapter, maybe link it to that section and avoid direct overlap -->
+<p>Psychological research faces several factors that may increase the risk of false findings, including the complexity of human behaviour, the testing of multiple variables and hypotheses, and the use of relatively small sample sizes in many studies involving human participants. Furthermore, much of the research published in leading psychology journals is based on WEIRD (Western, Educated, Industrialized, Rich, and Democratic) populations, which are outliers on many measurable psychological dimensions compared with populations worldwide <span class="citation" data-cites="henrich2010most henrich2010weirdest">(<a href="references.html#ref-henrich2010most" role="doc-biblioref">Henrich et al., 2010a</a>, <a href="references.html#ref-henrich2010weirdest" role="doc-biblioref">2010b</a>)</span>.</p>
+<!-- TE: The part about testing multiple variables and hypothesis is handled in also covered section 9, maybe link it to that section and avoid direct overlap. I think having the paragraph is fine, but the reader should realise that this risk with psychological research is covered in more detail elsewhere. -->
 </section>
-<section id="open-software" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="open-software"><span class="header-section-number">6.3</span> Open software</h2>
+<section id="reproducible-music-research" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="reproducible-music-research"><span class="header-section-number">6.3</span> Reproducible music research</h2>
+<p>While music psychology has made some progress in recognizing these problems <span class="citation" data-cites="frieler2013replication eerola2023transparency">(<a href="references.html#ref-eerola2023transparency" role="doc-biblioref">Eerola, 2024</a>; <a href="references.html#ref-frieler2013replication" role="doc-biblioref">Frieler et al., 2013</a>)</span> and promoting research transparency, it is clear that many studies still do not adopt practices that allow other scientists to easily verify and reproduce their analyses. <span class="citation" data-cites="eerola2023transparency">Eerola (<a href="references.html#ref-eerola2023transparency" role="doc-biblioref">2024</a>)</span> examined research articles from five music psychology journals and found that only 5% included data availability statements and just 1% provided data analysis scripts.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/chronology_transparency_indices.jpg" class="img-fluid figure-img"></p>
+<figcaption>Increasing trends in the proportion of studies meeting transparency criteria (conflict of interest and funding statements; open data, materials, and access) over time. Reproduced from <span class="citation" data-cites="eerola2023transparency">Eerola (<a href="references.html#ref-eerola2023transparency" role="doc-biblioref">2024</a>)</span> with permission.</figcaption>
+</figure>
+</div>
+<p>In recent years, researchers in music-related fields have published fully reproducible workflows in which the entire research pipeline can be recreated, from raw data processing to final manuscript <span class="citation" data-cites="eerola2023transparency bertoloExpandedNaturalHistory2025 cho2025ecological">(e.g., <a href="references.html#ref-eerola2023transparency" role="doc-biblioref">Eerola, 2024</a>; <a href="references.html#ref-bertoloExpandedNaturalHistory2025" role="doc-biblioref">Bertolo et al., 2025</a>; <a href="references.html#ref-cho2025ecological" role="doc-biblioref"><span class="nocase">Cho et al.</span>, 2025</a>)</span>. <!-- TE: Fixed citations--></p>
+</section>
+<section id="workflow" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="workflow"><span class="header-section-number">6.4</span> Workflow</h2>
+<p>A crucial challenge in reproducible research is how to create a well documented and straightforward set of instructions that would allow other researchers to independently reproduce study results <span class="citation" data-cites="antunes2024reproducibility">(<a href="references.html#ref-antunes2024reproducibility" role="doc-biblioref">Antunes &amp; Hill, 2024</a>)</span>. One approach to addressing this problem is literate programming <span class="citation" data-cites="knuth1984literate">(<a href="references.html#ref-knuth1984literate" role="doc-biblioref">Knuth, 1984</a>)</span>, which essentially consists of creating documents containing explanations of procedures or algorithms interleaved with source code snippets embedded within the text. For instance:</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Literate programming example
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To estimate the global tempo of the musical recording using <a href="https://github.com/olivierlar/mirtoolbox">MIRtoolbox</a>, we first import it as an audio object using <code>miraudio</code> and then compute its tempo via <code>mirtempo</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode matlab code-with-copy"><code class="sourceCode matlab"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">s</span> <span class="op">=</span> <span class="va">miraudio</span>(<span class="ss">'my_song.wav'</span>)<span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="va">t</span> <span class="op">=</span> <span class="va">mirtempo</span>(<span class="va">s</span>)<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The variable <code>t</code> will contain the estimated tempo, expressed in beats per minute (BPM).</p>
+</div>
+</div>
+<p>A modern realization of this idea is provided by interactive notebooks, which allow not only the presentation of neatly formatted code and text cells, but also the execution of code. <a href="https://jupyter.org/">Project Jupyter</a> is one of the most widely used interactive notebook environments and has grown rapidly from its initial focus on the <a href="https://julialang.org/">Julia</a>, <a href="https://www.python.org/">Python</a>, and <a href="https://www.r-project.org/">R</a> languages to supporting over 100 programming languages through its kernel ecosystem. Cloud-based environments based on Jupyter, such as <a href="https://colab.research.google.com/">Google Colab</a> and <a href="https://jupyter.org/hub">JupyterHub</a>, further simplify setup and workflows by executing code remotely, meaning that computations are carried out on remote servers rather than on a local machine. This makes it possible to create interactive online resources for teaching, such as online textbooks on audio analysis <span class="citation" data-cites="ali2025tangible">(<a href="references.html#ref-ali2025tangible" role="doc-biblioref">Ali, 2025</a>)</span> and music processing <span class="citation" data-cites="muller2015fundamentals">(<a href="references.html#ref-muller2015fundamentals" role="doc-biblioref">Müller, 2015</a>)</span>.</p>
+<p>Beyond interactive notebooks, more complex endeavors require a clear project structure, including, for example, a README file, a file specifying software dependencies, and subfolders for data, code, results, and the manuscript itself. In fully reproducible research workflows, all analyses, including the creation of tables and figures, are regenerated, and in some cases even the entire manuscript is compiled using tools such as <a href="https://quarto.org/">Quarto</a> or <a href="https://rmarkdown.rstudio.com/">R Markdown</a>. Cloud-based platforms for sharing, running, and reproducing code, such as <a href="https://codeocean.com/">Code Ocean</a>, have been used to ensure that the published results can be recreated by others. Other relevant cloud services facilitating the reproducibility of research workflows include <a href="https://renkulab.io/">Renku</a> and <a href="https://wholetale.org/">Whole Tale</a>.</p>
+<p>Because code, analysis decisions, and manuscript content are subject to change over the course of a research process (and because it may be necessary to go back and forth between different versions of a pipeline), <em>version control</em> can greatly facilitate these workflows. <a href="https://git-scm.com/">Git</a> is currently the most widely used version control system, and <a href="https://github.com/">GitHub</a> is a popular Git hosting service that supports collaborative software development.</p>
+<!-- TE: You could also mention managing the version of the software versions, particularly important for Python and R, by using virtual environments that allow other users to restore same setup (exact versions of the libraries) later on. See for instance a good source: Samuel et al. 2021 
+
+@article{krafczyk2021learning,
+  title={Learning from reproducing computational results: introducing three principles and the Reproduction Package},
+  author={Krafczyk, Matthew S and Shi, August and Bhaskar, Adhithya and Marinov, Darko and Stodden, Victoria},
+  journal={Philosophical transactions. Series A, Mathematical, physical, and engineering sciences},
+  volume={379},
+  number={2197},
+  pages={20200069},
+  year={2021}
+}
+
+I mention this because we have clear examples in our field where the versions produce clearly different outcomes, e.g., MIR Toolbox.
+
+-->
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-ali2025tangible" class="csl-entry" role="listitem">
+Ali, R. (2025). <em>Tangible audio analysis, processing, and synthesis with python</em>. <a href="https://randyaliased.github.io/acspjbook/main/intro.html">https://randyaliased.github.io/acspjbook/main/intro.html</a>
+</div>
+<div id="ref-antunes2024reproducibility" class="csl-entry" role="listitem">
+Antunes, B. A., &amp; Hill, D. R. (2024). Reproducibility, replicability, and repeatability: A survey of reproducible research with a focus on high performance computing. <em>Computer Science Review</em>, <em>53</em>, 100655.
+</div>
+<div id="ref-bertoloExpandedNaturalHistory2025" class="csl-entry" role="listitem">
+Bertolo, M., Snarskis, M., Kyritsis, T., Yurdum, L., Bainbridge, C. M., Atwood, S., Hilton, C. B., Keomurjian, A., Lee, J. S., Mackiel, A., Mak, V., Shin, M., Bitran, A., Shilton, D., Delasanta, L., Do, H. (Heather)., Lang, J., Irani, T., Kangatharan, J., … Mehr, S. A. (2025). The <span>Expanded Natural History</span> of <span>Song Discography</span>, <span>A Global Corpus</span> of <span>Vocal Music</span>. <em>Open Mind</em>, <em>9</em>, 844–863. <a href="https://doi.org/10.1162/opmi.a.4">https://doi.org/10.1162/opmi.a.4</a>
+</div>
+<div id="ref-bullackPsychophysiologicalResponsesHappy2018" class="csl-entry" role="listitem">
+Bullack, A., Büdenbender, N., Roden, I., &amp; Kreutz, G. (2018). Psychophysiological <span>Responses</span> to <span>“<span>Happy</span>”</span> and <span>“<span>Sad</span>”</span> <span>Music</span>: <span>A Replication Study</span>. <em>Music Perception</em>, <em>35</em>(4), 502–517. <a href="https://doi.org/10.1525/mp.2018.35.4.502">https://doi.org/10.1525/mp.2018.35.4.502</a>
+</div>
+<div id="ref-cho2025ecological" class="csl-entry" role="listitem">
+<span class="nocase">Cho, E., Yurdum, L., Ebinne, E., Hilton, C. B., Lai, E., Bertolo, M., Brown, P., Milosh, B., Sened, H., Tamir, D. I., et al.</span> (2025). Ecological momentary assessment reveals causal effects of music enrichment on infant mood. <em>Child Development</em>, <em>96</em>(4), 1555–1567.
+</div>
+<div id="ref-eerola2023transparency" class="csl-entry" role="listitem">
+Eerola, T. (2024). Prevalence of transparency and reproducibility-related research practices in music psychology (2017-2022). <em>Musicae Scientiae</em>, <em>29</em>(2), 385–399. <a href="https://doi.org/10.1177/10298649241300885">https://doi.org/10.1177/10298649241300885</a>
+</div>
+<div id="ref-frieler2013replication" class="csl-entry" role="listitem">
+Frieler, K., Müllensiefen, D., Fischinger, T., Schlemmer, K., Jakubowski, K., &amp; Lothwesen, K. (2013). Replication in music psychology. <em>Musicae Scientiae</em>, <em>17</em>(3), 265–276.
+</div>
+<div id="ref-henrich2010most" class="csl-entry" role="listitem">
+Henrich, J., Heine, S. J., &amp; Norenzayan, A. (2010a). Most people are not WEIRD. <em>Nature</em>, <em>466</em>(7302), 29–29.
+</div>
+<div id="ref-henrich2010weirdest" class="csl-entry" role="listitem">
+Henrich, J., Heine, S. J., &amp; Norenzayan, A. (2010b). The weirdest people in the world? <em>Behavioral and Brain Sciences</em>, <em>33</em>(2-3), 61–83.
+</div>
 <div id="ref-johnson2017reproducibility" class="csl-entry" role="listitem">
-Johnson, V. E., Payne, R. D., Wang, T., Asher, A., &amp; Mandal, S. (2017). On the reproducibility of psychological science. <em>Journal of the American Statistical Association</em>, <em>112</em>(517), 1–10.
+Johnson, V. E., Payne, R. D., Wang, T., Asher, A., &amp; Mandal, S. (2017). On the reproducibility of psychological science. <em>Journal of the American Statistical Association</em>, <em>112</em>(517), 1–10. <a href="https://doi.org/10.1080/01621459.2016.1240079">https://doi.org/10.1080/01621459.2016.1240079</a>
+</div>
+<div id="ref-knuth1984literate" class="csl-entry" role="listitem">
+Knuth, D. E. (1984). Literate programming. <em>The Computer Journal</em>, <em>27</em>(2), 97–111.
+</div>
+<div id="ref-lundqvistEmotionalResponsesMusic2009" class="csl-entry" role="listitem">
+Lundqvist, L.-O., Carlsson, F., Hilmersson, P., &amp; Juslin, P. N. (2009). Emotional responses to music: Experience, expression, and physiology. <em>Psychology of Music</em>, <em>37</em>(1), 61–90. <a href="https://doi.org/10.1177/0305735607086048">https://doi.org/10.1177/0305735607086048</a>
+</div>
+<div id="ref-muller2015fundamentals" class="csl-entry" role="listitem">
+Müller, M. (2015). <em>Fundamentals of music processing: Audio, analysis, algorithms, applications</em> (Vol. 5). Springer.
+</div>
+<div id="ref-national2019reproducibility" class="csl-entry" role="listitem">
+National Academies of Sciences, Engineering, and Medicine. (2019). <em>Reproducibility and replicability in science</em>. The National Academies Press. <a href="https://doi.org/10.17226/25303">https://doi.org/10.17226/25303</a>
+</div>
+<div id="ref-nosekReplicabilityRobustnessReproducibility2022" class="csl-entry" role="listitem">
+Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A., Corker, K. S., Dreber, A., Fidler, F., Hilgard, J., Struhl, M. K., Nuijten, M. B., Rohrer, J. M., Romero, F., Scheel, A. M., Scherer, L. D., Schönbrodt, F. D., &amp; Vazire, S. (2022). Replicability, <span>Robustness</span>, and <span>Reproducibility</span> in <span>Psychological Science</span>. <em>Annual Review of Psychology</em>, <em>73</em>(Volume 73, 2022), 719–748. <a href="https://doi.org/10.1146/annurev-psych-020821-114157">https://doi.org/10.1146/annurev-psych-020821-114157</a>
 </div>
 <div id="ref-obels2020analysis" class="csl-entry" role="listitem">
-Obels, P., Lakens, D., Coles, N. A., Gottfried, J., &amp; Green, S. A. (2020). Analysis of open data and computational reproducibility in registered reports in psychology. <em>Advances in Methods and Practices in Psychological Science</em>, <em>3</em>(2), 229–237.
+Obels, P., Lakens, D., Coles, N. A., Gottfried, J., &amp; Green, S. A. (2020). Analysis of open data and computational reproducibility in registered reports in psychology. <em>Advances in Methods and Practices in Psychological Science</em>, <em>3</em>(2), 229–237. <a href="https://doi.org/10.1177/25152459209188">https://doi.org/10.1177/25152459209188</a>
+</div>
+<div id="ref-peng2021reproducible" class="csl-entry" role="listitem">
+Peng, R. D., &amp; Hicks, S. C. (2021). Reproducible research: A retrospective. <em>Annual Review of Public Health</em>, <em>42</em>(1), 79–93.
+</div>
+<div id="ref-plesserReproducibilityVsReplicability2018" class="csl-entry" role="listitem">
+Plesser, H. E. (2018). Reproducibility vs. <span>Replicability</span>: <span>A Brief History</span> of a <span>Confused Terminology</span>. <em>Frontiers in Neuroinformatics</em>, <em>11</em>. <a href="https://doi.org/10.3389/fninf.2017.00076">https://doi.org/10.3389/fninf.2017.00076</a>
 </div>
 <div id="ref-stanley2018meta" class="csl-entry" role="listitem">
-Stanley, T. D., Carter, E. C., &amp; Doucouliagos, H. (2018). What meta-analyses reveal about the replicability of psychological research. <em>Psychological Bulletin</em>, <em>144</em>(12), 1325.
+Stanley, T. D., Carter, E. C., &amp; Doucouliagos, H. (2018). What meta-analyses reveal about the replicability of psychological research. <em>Psychological Bulletin</em>, <em>144</em>(12), 1325–1346. <a href="https://doi.org/10.1037/bul0000169">https://doi.org/10.1037/bul0000169</a>
 </div>
 </div>
 </section>
@@ -677,8 +859,8 @@ Stanley, T. D., Carter, E. C., &amp; Doucouliagos, H. (2018). What meta-analyses
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./section5.html" class="pagination-link" aria-label="Replication studies">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Replication studies</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./section5.html" class="pagination-link" aria-label="Replication Studies">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Replication Studies</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -686,7 +868,7 @@ Stanley, T. D., Carter, E. C., &amp; Doucouliagos, H. (2018). What meta-analyses
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Open Science for Music Research was written by Eerola, XXXX, YYYY, and ZZZZ.</p>
+<p>Open Science for Music Research was written by <a href="./preface.html">contributors</a>.</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
