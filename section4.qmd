@@ -1,3 +1,7 @@
+---
+author: Martin Hartmann & Hazel A. van der Walle
+date: 9/7/2026
+---
 # Reproducible research {#sec-RR}
 
 ## What is "Reproducible research"?
