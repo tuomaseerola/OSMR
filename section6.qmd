@@ -1,7 +1,78 @@
 # Open peer review {#sec-open-review}
 
-- Peer review in Open Science
+## What is open peer review? {#sec-open-review-definition}
 
-- Open peer review
+Peer review is commonly seen as a cornerstone of academic publishing, improving manuscripts, assessing the strength of evidence, informing editorial decisions, and helping readers interpret research. In conventional journal peer review, an editor screens a manuscript and, if it proceeds to external review, invites researchers with relevant expertise to evaluate it. These reviewers assess the manuscript’s strengths and weaknesses, suggest revisions, and advise the editor, who decides whether to accept the manuscript, request revisions, or reject it. This process typically takes place before journal publication. Review reports are shared with authors and editors but are generally not publicly available, and participation is limited to invited reviewers. The reviewers’ identities are usually concealed from authors. In single-anonymous review, reviewers know the authors’ identities, whereas in double-anonymous review, authors’ identities are also concealed from reviewers.
 
-- Post-publication peer review
+Open peer review changes who has access to information about the review process and who can contribute to it. Here we focus on three dimensions of open peer review, as identified by @rosshellauer2017open: open author and reviewer identities, open publication of reviewer reports, and open participation of the wider community (@tbl-open-review-dimensions). These dimensions can be implemented separately or in combination. For example, a journal can publish review reports while preserving reviewer anonymity. Openness is also distinct from the timing of review; that is, these practices can be applied before or after publication.
+
+| Dimension | What becomes accessible | Example | Synonyms |
+| --- | --- | --- | --- |
+| Open identities | Author and reviewer identities are disclosed to one another, and sometimes to readers. | Reviewers’ and authors’ names are shared at the beginning of the review process or after publication. | Signed peer review, unblinded peer review |
+| Open review reports | The content of reviewers’ assessments and authors’ responses becomes publicly available. | A journal publishes anonymous or signed review reports alongside an article. | Transparent peer review, published peer review |
+| Open review participation | Opportunities to contribute extend beyond reviewers selected and invited by an editor. | Researchers can post reviews or comments on a preprint or published article without an invitation. | Community peer review, public peer review, peer-to-peer review |
+
+: Dimensions of openness in peer review based on @rosshellauer2017open and Ross-Hellauer and Horbach [-@rosshellauer2024additional]. {#tbl-open-review-dimensions}
+
+## Why open peer review? {#sec-open-review-rationale}
+
+Conventional peer review has faced criticism regarding its effectiveness, fairness, and efficiency. For example, @aczel2025present identify several problems with the conventional peer review system, including shortages of qualified reviewers, insufficient scrutiny contributing to irreproducibility, difficulties assessing increasingly specialized research, absent or rudimentary review in predatory journals, biases relating to authors, institutions, methods, or research topics, and disagreement between reviewers. Open peer review offers several potential responses. For example, publishing reports allows readers to scrutinize assessments, disclosing reviewer identities may strengthen accountability, and broader participation can bring additional expertise into the process. These potential benefits require further empirical testing.
+
+@waltman2023improve distinguish four perspectives on improving peer review with partly overlapping priorities: quality and reproducibility, democracy and transparency, equity and inclusion, and efficiency and incentives (@tbl-open-review-perspectives). The following sections examine how open peer review may contribute to each of these aims.
+
+| School of thought | Key issues |
+| --- | --- |
+| Quality & Reproducibility | Quality of reviewers’ assessments, training for reviewers, reproducibility of findings, assessment of datasets and software, integrity of research |
+| Democracy & Transparency | Unequal distribution of power, accountability for decisions, visibility of the review process, review organized independently of journals, evaluation after publication |
+| Equity & Inclusion | Diversity among reviewers, biased evaluation, anonymous reviewing, inclusive participation |
+| Efficiency & Incentives | Review turnaround times, demands on reviewers’ time, financial costs, rejection before external review, transfer of reports between journals, recognition and rewards for reviewing |
+
+: Schools of thought in peer review and their key issues based on @waltman2023improve. {#tbl-open-review-perspectives}
+
+### Quality and reproducibility {#sec-open-review-quality}
+
+Open peer review may support research quality through reviewer training, more rigorous assessments, and broader scrutiny of methods and evidence. Public review reports can provide resources for reviewer training. Having examples of peer reviews and seeing other reviewers’ perspectives were commonly mentioned themes when students and researchers were asked about how to improve their peer reviews [@stupacher2025enhancing].
+
+A scoping review by Ross-Hellauer and Horbach [-@rosshellauer2024additional] found some evidence that signed reviews are longer and that reviews combining open identities and open reports are more constructive and positive in tone. Importantly, a more positive tone does not necessarily imply more favorable assessments of manuscripts. Similarly, more constructive reviews do not necessarily demonstrate more thorough methodological assessment or better detection of errors. The relevant studies in Ross-Hellauer and Horbach’s scoping review found no evidence that open review reports were more or less critical.
+
+Open review participation may bring additional expertise into reviewing. @ervens2025review describe cases in which public discussion involving invited reviewers and other community members led to substantial manuscript improvements or identified major flaws. When combined with access to data, code, and other research materials, open participation can also enable broader scrutiny of methods and analyses, including attempts to reproduce results. However, making these resources available does not establish that these checks have been performed.
+
+Scrutiny can also continue after publication, potentially supporting research integrity by identifying errors and misleading interpretations. @davidson2025postpublication found that public comments on preprints and published COVID-19 trials raised concerns about errors, statistical problems, and overstated conclusions. However, only 74 of the 500 trials (15%) received one or more comments on PubPeer ([pubpeer.com](https://pubpeer.com)) or preprint servers. These findings illustrate both the potential value and the limited coverage of public scrutiny. Its contribution to research quality also depends on whether identified problems lead to clarification, correction, or other appropriate action by the authors.
+
+### Democracy and transparency {#sec-open-review-democracy}
+
+The democracy and transparency perspective on peer review concerns who controls scientific evaluation, how decisions can be scrutinized, and who can contribute to assessment. In conventional peer review, editors and invited reviewers have a strong influence on publication, while their reasoning is usually inaccessible to readers.
+
+One alternative is the publish-review-curate (PRC) model used by eLife ([elifesciences.org](https://elifesciences.org)), which aims to support evaluation based on the scientific content of individual articles rather than journal prestige or impact factors [@behrens2026rethinking]. In their editorial outlining eLife’s move toward a publish-then-review model, @eisen2020implementing argue that peer review should involve multiple evaluators, continue for as long as research remains relevant, and allow contributions beyond reviewers selected by journals. They also caution that broader participation does not automatically prevent bias or evaluation based on popularity.
+
+Journal-independent review can also change who organizes assessment and who contributes to it. PREreview ([prereview.org](https://prereview.org)) allows researchers to contribute reviews without an editorial invitation. Other initiatives separate scientific assessment from the choice of where to publish. For example, Peer Community In (PCI, [peercommunityin.org](https://peercommunityin.org)) coordinates reviews and decides whether to recommend preprints, which authors may retain as preprints or subsequently publish in a journal. PCI also operates Peer Community Journal ([peercommunityjournal.org](https://peercommunityjournal.org)), a diamond open access journal where recommended preprints can be published without additional peer review and at no cost to authors or readers. The review and recommendation process is therefore separate from the authors’ choice of whether and where to publish the article.
+
+The distribution of authority also depends on who owns and finances publishing infrastructure. @brembs2023replacing argue that dependence on journal prestige and infrastructure controlled by a small number of publishers concentrates influence over research communication and evaluation. They propose redirecting spending on publishing toward infrastructure governed by the scholarly community, with open standards that allow institutions to change service providers. Applied to peer review, their argument suggests that public access to reports should be considered alongside who owns the infrastructure, how reports remain available over time, and whether assessments can be reused across platforms.
+
+### Equity and inclusion {#sec-open-review-equity}
+
+The equity and inclusion perspective focuses on who gains access to reviewing, whose expertise is recognized, and who may be disadvantaged by the conditions of participation. Reviewer diversity and opportunities to contribute therefore need to be considered alongside bias and the protection offered by anonymity.
+
+@aczel2025present discuss a tension in signed reviewing. Combined with public review histories, disclosing identities may help identify conflicts of interest and strengthen accountability. However, they warn that fear of retaliation may discourage criticism or participation, particularly among early-career researchers, minority scholars, and researchers at less prestigious institutions. These concerns suggest that the risks of disclosure may be distributed unequally.
+
+Open identities should therefore not be treated as an automatic remedy for bias. Publishing reports while permitting reviewer anonymity is one way to make assessments visible without requiring public identification. More broadly, evaluating inclusion requires examining who actually contributes, whether their expertise is taken seriously, and whether their comments receive responses or influence revisions and decisions. Providing a public commenting function creates an opportunity for participation, but it does not automatically establish that participation or influence is equitably distributed.
+
+### Efficiency and incentives {#sec-open-review-efficiency}
+
+Academic publishing faces the problem that the number of peer-reviewed papers is increasing, while the number of trained and available reviewers lags behind. This means that the publication workload per scientist has increased substantially [@hanson2024strain]. Repeated rounds of review at different journals add to this workload. Reusing previous reviews could reduce repeated work and delays [@aczel2021billion]. Public review reports can support reuse, but public availability alone does not ensure that another journal will use them. Reviews can also be transferred confidentially between journals. Review Commons ([reviewcommons.org](https://www.reviewcommons.org)) provides an example of journal-independent evaluation whose reports can accompany submissions to participating journals, which agree to use the existing assessments rather than routinely restarting review [@lemberger2019review].
+
+A related question is whether open identities or open review reports make it harder to recruit reviewers or increase review times. In their scoping review, Ross-Hellauer and Horbach [-@rosshellauer2024additional] found no evidence of lower invitation acceptance rates or slower turnaround times in the studies examining open identity and open report practices. These findings do not establish that openness accelerates or slows down reviewing or resolves reviewer shortages.
+
+Efforts to sustain reviewer participation should also address recognition and rewards. Signed, open reports can make contributions visible, but their value for researchers’ careers depends on whether institutions recognize reviewing in hiring and promotion.
+
+An assessment of efficiency should also account for the time and funding needed to coordinate open review and maintain its infrastructure. For post-publication review, this includes attracting contributors, organizing discussion, moderating comments, and following up on concerns.
+
+## Open peer review in music research {#sec-open-review-music}
+
+Open peer review can help make assessment in music research more transparent, broaden scrutiny, and give greater visibility to reviewing. The appropriate combination of open identities, open reports, and open participation should reflect the needs of the research community. Empirical Musicology Review ([emusicology.org](https://emusicology.org)) provides a practical example. Its public peer review model publishes commentaries alongside research articles, making scholarly discussion part of the published record. The journal aims to increase the educational value of its articles by allowing readers to follow the scholarly conversation surrounding them. Decisions about which dimensions to adopt should consider what information helps readers assess research, whether identity disclosure could discourage some researchers from contributing constructive criticism, and how much time and support reviewers and editors need to sustain the process.
+
+## Resources {#sec-open-review-resources .unnumbered}
+
+[https://prereview.org/resources](https://prereview.org/resources): Free, openly licensed materials for writing reviews, training reviewers, and reviewing manuscripts collaboratively.
+
+[https://reproducibilitea.org/post-publication-reviews.html](https://reproducibilitea.org/post-publication-reviews.html): Guidance, templates, and toolkits for writing post-publication reviews and comments.
