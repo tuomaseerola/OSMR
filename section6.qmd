@@ -1,3 +1,8 @@
+---
+author: Jan Stupacher
+date: 10/27/2026
+---
+
 # Open peer review {#sec-open-review}
 
 ## What is open peer review? {#sec-open-review-definition}
