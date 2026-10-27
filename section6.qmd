@@ -27,7 +27,7 @@ Conventional peer review has faced criticism regarding its effectiveness, fairne
 | Equity & Inclusion | Diversity among reviewers, biased evaluation, anonymous reviewing, inclusive participation |
 | Efficiency & Incentives | Review turnaround times, demands on reviewers’ time, financial costs, rejection before external review, transfer of reports between journals, recognition and rewards for reviewing |
 
-: Schools of thought in peer review and their key issues based on @waltman2023improve. {#tbl-open-review-perspectives}
+: Schools of thought in peer review and their key issues based on @waltman2023improve. {#tbl-open-review-perspectives tbl-colwidths="[25,75]"}
 
 ### Quality and reproducibility {#sec-open-review-quality}
 
