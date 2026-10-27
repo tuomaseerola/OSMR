@@ -71,7 +71,7 @@ An assessment of efficiency should also account for the time and funding needed 
 
 Open peer review can help make assessment in music research more transparent, broaden scrutiny, and give greater visibility to reviewing. The appropriate combination of open identities, open reports, and open participation should reflect the needs of the research community. Empirical Musicology Review ([emusicology.org](https://emusicology.org)) provides a practical example. Its public peer review model publishes commentaries alongside research articles, making scholarly discussion part of the published record. The journal aims to increase the educational value of its articles by allowing readers to follow the scholarly conversation surrounding them. Decisions about which dimensions to adopt should consider what information helps readers assess research, whether identity disclosure could discourage some researchers from contributing constructive criticism, and how much time and support reviewers and editors need to sustain the process.
 
-## Resources {#sec-open-review-resources .unnumbered}
+## Resources {#sec-open-review-resources}
 
 [https://prereview.org/resources](https://prereview.org/resources): Free, openly licensed materials for writing reviews, training reviewers, and reviewing manuscripts collaboratively.
 
