@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Tuomas Eerola">
+<meta name="dcterms.date" content="2026-10-27">
 
 <title>8&nbsp; Open peer review – Open Science for Music Research</title>
 <style>
@@ -27,7 +28,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -193,8 +214,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-open-review-definition" id="toc-sec-open-review-definition" class="nav-link active" data-scroll-target="#sec-open-review-definition"><span class="header-section-number">8.1</span> What is open peer review?</a></li>
+  <li><a href="#sec-open-review-rationale" id="toc-sec-open-review-rationale" class="nav-link" data-scroll-target="#sec-open-review-rationale"><span class="header-section-number">8.2</span> Why open peer review?</a>
+  <ul class="collapse">
+  <li><a href="#sec-open-review-quality" id="toc-sec-open-review-quality" class="nav-link" data-scroll-target="#sec-open-review-quality"><span class="header-section-number">8.2.1</span> Quality and reproducibility</a></li>
+  <li><a href="#sec-open-review-democracy" id="toc-sec-open-review-democracy" class="nav-link" data-scroll-target="#sec-open-review-democracy"><span class="header-section-number">8.2.2</span> Democracy and transparency</a></li>
+  <li><a href="#sec-open-review-equity" id="toc-sec-open-review-equity" class="nav-link" data-scroll-target="#sec-open-review-equity"><span class="header-section-number">8.2.3</span> Equity and inclusion</a></li>
+  <li><a href="#sec-open-review-efficiency" id="toc-sec-open-review-efficiency" class="nav-link" data-scroll-target="#sec-open-review-efficiency"><span class="header-section-number">8.2.4</span> Efficiency and incentives</a></li>
+  </ul></li>
+  <li><a href="#sec-open-review-music" id="toc-sec-open-review-music" class="nav-link" data-scroll-target="#sec-open-review-music"><span class="header-section-number">8.3</span> Open peer review in music research</a></li>
+  <li><a href="#sec-open-review-resources" id="toc-sec-open-review-resources" class="nav-link" data-scroll-target="#sec-open-review-resources"><span class="header-section-number">8.4</span> Resources</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/tuomaseerola/OSMR/edit/main/section6.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/tuomaseerola/OSMR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -208,7 +244,19 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jan Stupacher </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 27, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -218,13 +266,178 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ul>
-<li><p>Peer review in Open Science</p></li>
-<li><p>Open peer review</p></li>
-<li><p>Post-publication peer review</p></li>
-</ul>
+<section id="sec-open-review-definition" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="sec-open-review-definition"><span class="header-section-number">8.1</span> What is open peer review?</h2>
+<p>Peer review is commonly seen as a cornerstone of academic publishing, improving manuscripts, assessing the strength of evidence, informing editorial decisions, and helping readers interpret research. In conventional journal peer review, an editor screens a manuscript and, if it proceeds to external review, invites researchers with relevant expertise to evaluate it. These reviewers assess the manuscript’s strengths and weaknesses, suggest revisions, and advise the editor, who decides whether to accept the manuscript, request revisions, or reject it. This process typically takes place before journal publication. Review reports are shared with authors and editors but are generally not publicly available, and participation is limited to invited reviewers. The reviewers’ identities are usually concealed from authors. In single-anonymous review, reviewers know the authors’ identities, whereas in double-anonymous review, authors’ identities are also concealed from reviewers.</p>
+<p>Open peer review changes who has access to information about the review process and who can contribute to it. Here we focus on three dimensions of open peer review, as identified by <span class="citation" data-cites="rosshellauer2017open">Ross-Hellauer (<a href="references.html#ref-rosshellauer2017open" role="doc-biblioref">2017</a>)</span>: open author and reviewer identities, open publication of reviewer reports, and open participation of the wider community (<a href="#tbl-open-review-dimensions" class="quarto-xref">Table&nbsp;<span>8.1</span></a>). These dimensions can be implemented separately or in combination. For example, a journal can publish review reports while preserving reviewer anonymity. Openness is also distinct from the timing of review; that is, these practices can be applied before or after publication.</p>
+<div id="tbl-open-review-dimensions" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-open-review-dimensions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8.1: Dimensions of openness in peer review based on <span class="citation" data-cites="rosshellauer2017open">Ross-Hellauer (<a href="references.html#ref-rosshellauer2017open" role="doc-biblioref">2017</a>)</span> and Ross-Hellauer and Horbach <span class="citation" data-cites="rosshellauer2024additional">(<a href="references.html#ref-rosshellauer2024additional" role="doc-biblioref">2024</a>)</span>.
+</figcaption>
+<div aria-describedby="tbl-open-review-dimensions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimension</th>
+<th>What becomes accessible</th>
+<th>Example</th>
+<th>Synonyms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Open identities</td>
+<td>Author and reviewer identities are disclosed to one another, and sometimes to readers.</td>
+<td>Reviewers’ and authors’ names are shared at the beginning of the review process or after publication.</td>
+<td>Signed peer review, unblinded peer review</td>
+</tr>
+<tr class="even">
+<td>Open review reports</td>
+<td>The content of reviewers’ assessments and authors’ responses becomes publicly available.</td>
+<td>A journal publishes anonymous or signed review reports alongside an article.</td>
+<td>Transparent peer review, published peer review</td>
+</tr>
+<tr class="odd">
+<td>Open review participation</td>
+<td>Opportunities to contribute extend beyond reviewers selected and invited by an editor.</td>
+<td>Researchers can post reviews or comments on a preprint or published article without an invitation.</td>
+<td>Community peer review, public peer review, peer-to-peer review</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="sec-open-review-rationale" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="sec-open-review-rationale"><span class="header-section-number">8.2</span> Why open peer review?</h2>
+<p>Conventional peer review has faced criticism regarding its effectiveness, fairness, and efficiency. For example, <span class="citation" data-cites="aczel2025present">Aczel et al. (<a href="references.html#ref-aczel2025present" role="doc-biblioref">2025</a>)</span> identify several problems with the conventional peer review system, including shortages of qualified reviewers, insufficient scrutiny contributing to irreproducibility, difficulties assessing increasingly specialized research, absent or rudimentary review in predatory journals, biases relating to authors, institutions, methods, or research topics, and disagreement between reviewers. Open peer review offers several potential responses. For example, publishing reports allows readers to scrutinize assessments, disclosing reviewer identities may strengthen accountability, and broader participation can bring additional expertise into the process. However, these potential benefits require empirical testing.</p>
+<p><span class="citation" data-cites="waltman2023improve">Waltman et al. (<a href="references.html#ref-waltman2023improve" role="doc-biblioref">2023</a>)</span> distinguish four perspectives on improving peer review with partly overlapping priorities: quality and reproducibility, democracy and transparency, equity and inclusion, and efficiency and incentives (<a href="#tbl-open-review-perspectives" class="quarto-xref">Table&nbsp;<span>8.2</span></a>). The following sections examine how open peer review may address the issues highlighted by each perspective.</p>
+<div id="tbl-open-review-perspectives" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[25,75]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-open-review-perspectives-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8.2: Schools of thought in peer review and their key issues based on <span class="citation" data-cites="waltman2023improve">Waltman et al. (<a href="references.html#ref-waltman2023improve" role="doc-biblioref">2023</a>)</span>.
+</figcaption>
+<div aria-describedby="tbl-open-review-perspectives-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>School of thought</th>
+<th>Key issues</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quality &amp; Reproducibility</td>
+<td>Quality of reviewers’ assessments, training for reviewers, reproducibility of findings, assessment of datasets and software, integrity of research</td>
+</tr>
+<tr class="even">
+<td>Democracy &amp; Transparency</td>
+<td>Unequal distribution of power, accountability for decisions, visibility of the review process, review organized independently of journals, evaluation after publication</td>
+</tr>
+<tr class="odd">
+<td>Equity &amp; Inclusion</td>
+<td>Diversity among reviewers, biased evaluation, anonymous reviewing, inclusive participation</td>
+</tr>
+<tr class="even">
+<td>Efficiency &amp; Incentives</td>
+<td>Review turnaround times, demands on reviewers’ time, financial costs, rejection before external review, transfer of reports between journals, recognition and rewards for reviewing</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<section id="sec-open-review-quality" class="level3" data-number="8.2.1">
+<h3 data-number="8.2.1" class="anchored" data-anchor-id="sec-open-review-quality"><span class="header-section-number">8.2.1</span> Quality and reproducibility</h3>
+<p>Open peer review may support research quality through reviewer training, more rigorous assessments, and broader scrutiny of methods and evidence. Public review reports can provide resources for reviewer training. Having examples of peer reviews and seeing other reviewers’ perspectives were commonly mentioned themes when students and researchers were asked about how to improve their peer reviews <span class="citation" data-cites="stupacher2025enhancing">(<a href="references.html#ref-stupacher2025enhancing" role="doc-biblioref">Stupacher, 2025</a>)</span>.</p>
+<p>A scoping review by Ross-Hellauer and Horbach <span class="citation" data-cites="rosshellauer2024additional">(<a href="references.html#ref-rosshellauer2024additional" role="doc-biblioref">2024</a>)</span> found some evidence that signed reviews are longer and that reviews combining open identities and open reports are more constructive and positive in tone. Importantly, a more positive tone does not necessarily imply more favorable assessments of manuscripts. Similarly, more constructive reviews do not necessarily demonstrate more thorough methodological assessment or better detection of errors. The relevant studies in Ross-Hellauer and Horbach’s scoping review found no evidence that open review reports were more or less critical.</p>
+<p>Open review participation may bring additional expertise into reviewing. <span class="citation" data-cites="ervens2025review">Ervens et al. (<a href="references.html#ref-ervens2025review" role="doc-biblioref">2025</a>)</span> describe cases in which public discussion involving invited reviewers and other community members led to substantial manuscript improvements or identified major flaws. When combined with access to data, code, and other research materials, open participation can also enable broader scrutiny of methods and analyses, including attempts to reproduce results. However, making these resources available does not establish that these checks have been performed.</p>
+<p>Scrutiny can also continue after publication, potentially supporting research integrity by identifying errors and misleading interpretations. <span class="citation" data-cites="davidson2025postpublication">Davidson et al. (<a href="references.html#ref-davidson2025postpublication" role="doc-biblioref">2025</a>)</span> found that public comments on preprints and published COVID-19 trials raised concerns about errors, statistical problems, and overstated conclusions. However, only 74 of the 500 trials (15%) received one or more comments on PubPeer (<a href="https://pubpeer.com">pubpeer.com</a>) or preprint servers. These findings illustrate both the potential value and the limited coverage of public scrutiny. Its contribution to research quality also depends on whether identified problems lead to clarification, correction, or other appropriate action by the authors.</p>
+</section>
+<section id="sec-open-review-democracy" class="level3" data-number="8.2.2">
+<h3 data-number="8.2.2" class="anchored" data-anchor-id="sec-open-review-democracy"><span class="header-section-number">8.2.2</span> Democracy and transparency</h3>
+<p>The democracy and transparency perspective on peer review concerns who controls scientific evaluation, how decisions can be scrutinized, and who can contribute to assessment. In conventional peer review, editors and invited reviewers have a strong influence on publication, while their reasoning is usually inaccessible to readers.</p>
+<p>One alternative is the publish-review-curate (PRC) model used, for example, by eLife (<a href="https://elifesciences.org">elifesciences.org</a>). This model aims to support evaluation based on the scientific content of individual articles rather than journal prestige or impact factors <span class="citation" data-cites="behrens2026rethinking">(<a href="references.html#ref-behrens2026rethinking" role="doc-biblioref">Behrens et al., 2026</a>)</span>. In their editorial outlining eLife’s move toward a publish-then-review approach, <span class="citation" data-cites="eisen2020implementing">Eisen et al. (<a href="references.html#ref-eisen2020implementing" role="doc-biblioref">2020</a>)</span> argue that peer review should involve multiple evaluators, continue for as long as research remains relevant, and allow contributions beyond reviewers selected by journals. They also caution that broader participation does not automatically prevent bias or evaluation based on popularity.</p>
+<p>Journal-independent review can also change who organizes assessment and who contributes to it. PREreview (<a href="https://prereview.org">prereview.org</a>) allows researchers to contribute reviews without an editorial invitation. Other initiatives separate scientific assessment from the choice of where to publish. For example, Peer Community In (PCI, <a href="https://peercommunityin.org">peercommunityin.org</a>) coordinates reviews and decides whether to recommend preprints, which authors may retain as preprints or subsequently publish in a journal. PCI also operates Peer Community Journal (<a href="https://peercommunityjournal.org">peercommunityjournal.org</a>), a diamond open access journal where recommended preprints can be published without additional peer review and at no cost to authors or readers. The review and recommendation process is therefore separate from the authors’ choice of whether and where to publish the article.</p>
+<p>The distribution of authority also depends on who owns and finances publishing infrastructure. <span class="citation" data-cites="brembs2023replacing">Brembs et al. (<a href="references.html#ref-brembs2023replacing" role="doc-biblioref">2023</a>)</span> argue that dependence on journal prestige and infrastructure controlled by a small number of publishers concentrates influence over research communication and evaluation. They propose redirecting spending on publishing toward infrastructure governed by the scholarly community, with open standards that allow institutions to change service providers. Applied to peer review, their argument suggests that public access to reports should be considered alongside who owns the infrastructure, how reports remain available over time, and whether assessments can be reused across platforms.</p>
+</section>
+<section id="sec-open-review-equity" class="level3" data-number="8.2.3">
+<h3 data-number="8.2.3" class="anchored" data-anchor-id="sec-open-review-equity"><span class="header-section-number">8.2.3</span> Equity and inclusion</h3>
+<p>The equity and inclusion perspective focuses on who gains access to reviewing, whose expertise is recognized, and who may be disadvantaged by the conditions of participation. Reviewer diversity and opportunities to contribute therefore need to be considered alongside bias and the protection offered by anonymity.</p>
+<p><span class="citation" data-cites="aczel2025present">Aczel et al. (<a href="references.html#ref-aczel2025present" role="doc-biblioref">2025</a>)</span> discuss a tension in signed reviewing. Combined with public review histories, disclosing identities may help identify conflicts of interest and strengthen accountability. However, they warn that fear of retaliation may discourage criticism or participation, particularly among early-career researchers, minority scholars, and researchers at less prestigious institutions. These concerns suggest that the risks of disclosure may be distributed unequally.</p>
+<p>Open identities should therefore not be treated as an automatic remedy for bias. Publishing reports while permitting reviewer anonymity is one way to make assessments visible without requiring public identification. More broadly, evaluating inclusion requires examining who actually contributes, whether their expertise is taken seriously, and whether their comments receive responses or influence revisions and decisions. Providing a public commenting function creates an opportunity for participation, but it does not automatically establish that participation or influence is equitably distributed.</p>
+</section>
+<section id="sec-open-review-efficiency" class="level3" data-number="8.2.4">
+<h3 data-number="8.2.4" class="anchored" data-anchor-id="sec-open-review-efficiency"><span class="header-section-number">8.2.4</span> Efficiency and incentives</h3>
+<p>Academic publishing faces the problem that the number of peer-reviewed papers is increasing, while the number of trained and available reviewers lags behind. This means that the publication workload per scientist has increased substantially <span class="citation" data-cites="hanson2024strain">(<a href="references.html#ref-hanson2024strain" role="doc-biblioref">Hanson et al., 2024</a>)</span>. Repeated rounds of review at different journals add to this workload. Reusing previous reviews could reduce repeated work and delays <span class="citation" data-cites="aczel2021billion">(<a href="references.html#ref-aczel2021billion" role="doc-biblioref">Aczel et al., 2021</a>)</span>. Public review reports can support reuse, but public availability alone does not ensure that another journal will use them. Reviews can also be transferred confidentially between journals. Review Commons (<a href="https://www.reviewcommons.org">reviewcommons.org</a>) provides an example of journal-independent evaluation whose reports can accompany submissions to participating journals, which agree to use the existing assessments rather than routinely restarting review <span class="citation" data-cites="lemberger2019review">(<a href="references.html#ref-lemberger2019review" role="doc-biblioref">Lemberger &amp; Pulverer, 2019</a>)</span>.</p>
+<p>A related question is whether open identities or open review reports make it harder to recruit reviewers or increase review times. In their scoping review, Ross-Hellauer and Horbach <span class="citation" data-cites="rosshellauer2024additional">(<a href="references.html#ref-rosshellauer2024additional" role="doc-biblioref">2024</a>)</span> found no evidence of lower invitation acceptance rates or slower turnaround times in the studies examining open identity and open report practices. These findings do not establish that openness accelerates or slows down reviewing or resolves reviewer shortages.</p>
+<p>Efforts to sustain reviewer participation should also address recognition and rewards. Signed, open reports can make contributions visible, but their value for researchers’ careers depends on whether institutions recognize reviewing in hiring and promotion.</p>
+</section>
+</section>
+<section id="sec-open-review-music" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="sec-open-review-music"><span class="header-section-number">8.3</span> Open peer review in music research</h2>
+<p>Open peer review can help make assessment in music research more transparent, broaden scrutiny, and give greater visibility to reviewing. The appropriate combination of open identities, open reports, and open participation should reflect the needs of the research community. Empirical Musicology Review (<a href="https://emusicology.org">emusicology.org</a>) provides a practical example. Its public peer review model publishes commentaries alongside research articles, making scholarly discussion part of the published record. The journal aims to increase the educational value of its articles by allowing readers to follow the scholarly conversation surrounding them.</p>
+</section>
+<section id="sec-open-review-resources" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="sec-open-review-resources"><span class="header-section-number">8.4</span> Resources</h2>
+<p><a href="https://prereview.org/resources">https://prereview.org/resources</a>: Free, openly licensed materials for writing reviews, training reviewers, and reviewing manuscripts collaboratively.</p>
+<p><a href="https://reproducibilitea.org/post-publication-reviews.html">https://reproducibilitea.org/post-publication-reviews.html</a>: Guidance, templates, and toolkits for writing post-publication reviews and comments.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-aczel2025present" class="csl-entry" role="listitem">
+Aczel, B., Barwich, A.-S., Diekman, A. B., Fishbach, A., Goldstone, R. L., Gomez, P., Gundersen, O. E., Von Hippel, P. T., Holcombe, A. O., Lewandowsky, S., Nozari, N., Pestilli, F., &amp; Ioannidis, J. P. A. (2025). The present and future of peer review: Ideas, interventions, and evidence. <em>Proceedings of the National Academy of Sciences</em>, <em>122</em>(5), e2401232121. <a href="https://doi.org/10.1073/pnas.2401232121">https://doi.org/10.1073/pnas.2401232121</a>
+</div>
+<div id="ref-aczel2021billion" class="csl-entry" role="listitem">
+Aczel, B., Szaszi, B., &amp; Holcombe, A. O. (2021). A billion-dollar donation: Estimating the cost of researchers’ time spent on peer review. <em>Research Integrity and Peer Review</em>, <em>6</em>(1), 14. <a href="https://doi.org/10.1186/s41073-021-00118-2">https://doi.org/10.1186/s41073-021-00118-2</a>
+</div>
+<div id="ref-behrens2026rethinking" class="csl-entry" role="listitem">
+Behrens, T. E., Dalal, Y., &amp; Harper, D. M. (2026). Rethinking how research is reviewed and published. <em>eLife</em>, <em>15</em>, e110392. <a href="https://doi.org/10.7554/eLife.110392">https://doi.org/10.7554/eLife.110392</a>
+</div>
+<div id="ref-brembs2023replacing" class="csl-entry" role="listitem">
+Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., Trachana, V., Ma, L., &amp; Rodriguez-Cuadrado, S. (2023). Replacing academic journals. <em>Royal Society Open Science</em>, <em>10</em>(7), 230206. <a href="https://doi.org/10.1098/rsos.230206">https://doi.org/10.1098/rsos.230206</a>
+</div>
+<div id="ref-davidson2025postpublication" class="csl-entry" role="listitem">
+Davidson, M., Korfitsen, C. B., Riveros, C., Chaimani, A., &amp; Boutron, I. (2025). Post-publication peer review and the identification of methodological and reporting issues in <span>COVID-19</span> trials: A qualitative study. <em>BMJ Evidence-Based Medicine</em>, <em>30</em>(4), 233–240. <a href="https://doi.org/10.1136/bmjebm-2024-113068">https://doi.org/10.1136/bmjebm-2024-113068</a>
+</div>
+<div id="ref-eisen2020implementing" class="csl-entry" role="listitem">
+Eisen, M. B., Akhmanova, A., Behrens, T. E., Harper, D. M., Weigel, D., &amp; Zaidi, M. (2020). Implementing a <span>“publish, then review”</span> model of publishing. <em>eLife</em>, <em>9</em>, e64910. <a href="https://doi.org/10.7554/eLife.64910">https://doi.org/10.7554/eLife.64910</a>
+</div>
+<div id="ref-ervens2025review" class="csl-entry" role="listitem">
+Ervens, B., Carslaw, K. S., Koop, T., &amp; Pöschl, U. (2025). Review of interactive open-access publishing with community-based open peer review for improved scientific discourse and quality assurance. <em>Atmospheric Chemistry and Physics</em>, <em>25</em>(20), 13903–13952. <a href="https://doi.org/10.5194/acp-25-13903-2025">https://doi.org/10.5194/acp-25-13903-2025</a>
+</div>
+<div id="ref-hanson2024strain" class="csl-entry" role="listitem">
+Hanson, M. A., Barreiro, P. G., Crosetto, P., &amp; Brockington, D. (2024). The strain on scientific publishing. <em>Quantitative Science Studies</em>, <em>5</em>(4), 823–843. <a href="https://doi.org/10.1162/qss_a_00327">https://doi.org/10.1162/qss_a_00327</a>
+</div>
+<div id="ref-lemberger2019review" class="csl-entry" role="listitem">
+Lemberger, T., &amp; Pulverer, B. (2019). <span>Review Commons</span>—pre‐journal peer review. <em>EMBO Reports</em>, <em>20</em>(12), e49663. <a href="https://doi.org/10.15252/embr.201949663">https://doi.org/10.15252/embr.201949663</a>
+</div>
+<div id="ref-rosshellauer2017open" class="csl-entry" role="listitem">
+Ross-Hellauer, T. (2017). What is open peer review? A systematic review. <em>F1000Research</em>, <em>6</em>, 588. <a href="https://doi.org/10.12688/f1000research.11369.2">https://doi.org/10.12688/f1000research.11369.2</a>
+</div>
+<div id="ref-rosshellauer2024additional" class="csl-entry" role="listitem">
+Ross-Hellauer, T., &amp; Horbach, S. P. J. M. (2024). Additional experiments required: A scoping review of recent evidence on key aspects of open peer review. <em>Research Evaluation</em>, <em>33</em>, rvae004. <a href="https://doi.org/10.1093/reseval/rvae004">https://doi.org/10.1093/reseval/rvae004</a>
+</div>
+<div id="ref-stupacher2025enhancing" class="csl-entry" role="listitem">
+Stupacher, J. (2025). Enhancing peer review skills in higher education: A mixed-methods study on challenges and training needs. <em>Discover Education</em>, <em>4</em>(1), 211. <a href="https://doi.org/10.1007/s44217-025-00663-8">https://doi.org/10.1007/s44217-025-00663-8</a>
+</div>
+<div id="ref-waltman2023improve" class="csl-entry" role="listitem">
+Waltman, L., Kaltenbrunner, W., Pinfield, S., &amp; Woods, H. B. (2023). How to improve scientific peer review: Four schools of thought. <em>Learned Publishing</em>, <em>36</em>(3), 334–347. <a href="https://doi.org/10.1002/leap.1544">https://doi.org/10.1002/leap.1544</a>
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -647,7 +860,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/tuomaseerola/OSMR/edit/main/section6.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/tuomaseerola/OSMR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/tuomaseerola/OSMR/edit/main/section6.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/tuomaseerola/OSMR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book can be found at <a href="https://musicscience.uk/OSMR/">https://musicscience.uk/OSMR</a>.</p>
 </div>
