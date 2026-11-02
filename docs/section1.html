@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,16 @@
 
 <title>3&nbsp; Background – Open Science for Music Research</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -56,15 +62,14 @@ div.csl-indent {
 <link href="./preface.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d903f68e8242439e3911802f503d784b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-29d65a3d8fa3c6f63f4d2304c7cfac40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -305,7 +310,7 @@ div.csl-indent {
 </div>
 <section id="sec-trust" class="level3" data-number="3.2.1">
 <h3 data-number="3.2.1" class="anchored" data-anchor-id="sec-trust"><span class="header-section-number">3.2.1</span> Trust</h3>
-<p>Research advances through trust – but not blind trust. Confidence in research findings is earned when claims can be inspected, questioned, and independently verified. Open research attempts to shift the basis of trust from the reputation of individual researchers to the transparency of the scientific process itself. Publications, data, analysis scripts, study materials, preregistrations, and peer review provide the evidence needed for others to evaluate, reproduce, and extend previous work <span class="citation" data-cites="nosek2015promoting">(<a href="references.html#ref-nosek2015promoting" role="doc-biblioref">Nosek et al., 2015</a>)</span>.</p>
+<p>Research advances through trust – but not blind trust. Confidence in research findings is earned when claims can be inspected, questioned, and independently verified. Open research attempts to shift the basis of trust from the reputation of individual researchers to the transparency of the scientific process itself. Publications, data, analysis scripts, study materials, preregistrations, and peer review provide the evidence needed for others to evaluate, reproduce, and extend previous work <span class="citation" data-cites="nosek2015promoting">(<a href="references.html#ref-nosek2015promoting" role="doc-biblioref"><span class="nocase">Nosek et al.</span>, 2015</a>)</span>.</p>
 <p>This need is particularly pressing in music research, where studies often involve complex combinations of musical stimuli, behavioural or physiological measurements, computational analyses, and subjective interpretations. In music psychology, trust depends on knowing precisely which stimuli were used, how participants were recruited, how emotional or cognitive responses were measured, and how analyses were conducted. In music information retrieval (MIR) and computational musicology, reproducibility requires access to datasets, feature extraction pipelines, machine learning models, software versions, and evaluation procedures. Digital humanities projects frequently involve intricate data transformations, annotation decisions, and computational workflows that are impossible to fully describe within the constraints of a journal article. Even in historical musicology, where primary sources are often publicly available, transparency about editorial choices, coding decisions, and analytical procedures strengthens confidence in scholarly interpretations.</p>
 <p>Open research makes these otherwise hidden aspects of research visible. Sharing data, code, materials, and complete analytical workflows allows others to verify findings, identify errors, assess methodological choices, and reproduce results. Transparency also <em>discourages</em> questionable research practices by making research decisions more explicit and accountable. Importantly, openness does not guarantee that research is correct; rather, it allows the research community to <em>evaluate the strength of the evidence</em> and to improve upon it over time.</p>
 <p>Despite broad recognition of these benefits, adoption remains uneven. Within music psychology, for example, journal policies increasingly encourage researchers to share data and analysis scripts, yet voluntary encouragement alone has resulted in relatively limited uptake as a sample of studies in music psychology indicates that about 5% studies share data and 1% share analysis scripts <span class="citation" data-cites="eerola2023transparency">(<a href="references.html#ref-eerola2023transparency" role="doc-biblioref">Eerola, 2024</a>)</span>. Building a more trustworthy discipline therefore requires moving beyond encouragement towards research practices in which openness becomes the expected default rather than the exception.</p>
@@ -316,7 +321,7 @@ div.csl-indent {
 <p>Research should not merely produce knowledge; it should enable future knowledge. Open research transforms publications, datasets, software, and analytical workflows into resources that others can reuse, extend, and improve <span class="citation" data-cites="lowndes2017our">(<a href="references.html#ref-lowndes2017our" role="doc-biblioref">Lowndes et al., 2017</a>)</span>. Rather than requiring every research group to rebuild datasets and methods from scratch, openness enables cumulative science. Data can be reused, software extended, methods refined, and findings independently replicated, allowing scientific knowledge to develop more efficiently.</p>
 <p>These benefits are particularly important in music research. The creation of musical corpora is often resource intensive, involving recording, transcription, annotation, or specialist cultural knowledge <span class="citation" data-cites="hentschel2025corpus">(<a href="references.html#ref-hentschel2025corpus" role="doc-biblioref">Hentschel et al., 2025</a>)</span>. Behavioural ratings and expert annotations likewise require substantial effort and can support benchmarking, secondary analyses, and computational modelling when they are shared.</p>
 <p>Progress also depends on transparent methods. Research in music psychology, music information retrieval, computational musicology, and the digital humanities frequently relies on complex computational pipelines that cannot be fully described in a journal article. Sharing code, software versions, and documentation allows others to reproduce, adapt, and extend these workflows. Open-source software also remains useful for longer when it is version-controlled, archived, and maintained by a wider community.</p>
-<p>Finally, sharing alone is not enough. For research outputs to support cumulative science, they must be well documented and reusable. The FAIR principles—making data Findable, Accessible, Interoperable, and Reusable—highlight the importance of metadata, persistent repositories, clear licensing, and standardised formats that allow publications, datasets, code, and other research outputs to remain useful long after the original study has been completed <span class="citation" data-cites="wilkinson2016fair">(<a href="references.html#ref-wilkinson2016fair" role="doc-biblioref">Wilkinson et al., 2016</a>)</span>.</p>
+<p>Finally, sharing alone is not enough. For research outputs to support cumulative science, they must be well documented and reusable. The FAIR principles—making data Findable, Accessible, Interoperable, and Reusable—highlight the importance of metadata, persistent repositories, clear licensing, and standardised formats that allow publications, datasets, code, and other research outputs to remain useful long after the original study has been completed <span class="citation" data-cites="wilkinson2016fair">(<a href="references.html#ref-wilkinson2016fair" role="doc-biblioref"><span class="nocase">Wilkinson et al.</span>, 2016</a>)</span>.</p>
 <p>Practices that support progress include <a href="./section3.html">FAIR data, shared datasets</a>, <a href="./section4.html">reusable software</a>, <a href="./section5.html">replication studies</a>, standardised metadata, persistent repositories, version control, and reproducible computational environments. Together, these practices transform individual research projects into lasting resources for collaboration, innovation, and cumulative scientific progress.</p>
 </section>
 <section id="sec-community" class="level3" data-number="3.2.3">
@@ -358,13 +363,13 @@ Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. 
 McKiernan, E. C., Bourne, P. E., Brown, C. T., Buck, S., Kenall, A., Lin, J., McDougall, D., Nosek, B. A., Ram, K., Soderberg, C. K., Spies, J. R., Thaney, K., Updegrove, A., Woo, K. H., &amp; Yarkoni, T. (2016). How open science helps researchers succeed. <em>eLife</em>, <em>5</em>, e16800. <a href="https://doi.org/10.7554/eLife.16800">https://doi.org/10.7554/eLife.16800</a>
 </div>
 <div id="ref-nosek2015promoting" class="csl-entry" role="listitem">
-Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., et al. (2015). Promoting an open research culture. <em>Science</em>, <em>348</em>(6242), 1422–1425. <a href="https://doi.org/10.1126/science.aab2374">https://doi.org/10.1126/science.aab2374</a>
+<span class="nocase">Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., et al.</span> (2015). Promoting an open research culture. <em>Science</em>, <em>348</em>(6242), 1422–1425. <a href="https://doi.org/10.1126/science.aab2374">https://doi.org/10.1126/science.aab2374</a>
 </div>
 <div id="ref-unesco2021openscience" class="csl-entry" role="listitem">
 UNESCO. (2021). <em>UNESCO recommendation on open science</em>. United Nations Educational, Scientific; Cultural Organization. <a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949">https://unesdoc.unesco.org/ark:/48223/pf0000379949</a>
 </div>
 <div id="ref-wilkinson2016fair" class="csl-entry" role="listitem">
-Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Silva Santos, L. B. da, Bourne, P. E., et al. (2016). The FAIR guiding principles for scientific data management and stewardship. <em>Scientific Data</em>, <em>3</em>(1), 1–9. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>
+<span class="nocase">Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Silva Santos, L. B. da, Bourne, P. E., et al.</span> (2016). The FAIR guiding principles for scientific data management and stewardship. <em>Scientific Data</em>, <em>3</em>(1), 1–9. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>
 </div>
 </div>
 </section>
