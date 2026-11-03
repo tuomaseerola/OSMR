@@ -12,7 +12,7 @@ Peer review is commonly seen as a cornerstone of academic publishing, improving 
 Open peer review changes who has access to information about the review process and who can contribute to it. Here we focus on three dimensions of open peer review, as identified by @rosshellauer2017open: open author and reviewer identities, open publication of reviewer reports, and open participation of the wider community (@tbl-open-review-dimensions). These dimensions can be implemented separately or in combination. For example, a journal can publish review reports while preserving reviewer anonymity. Openness is also distinct from the timing of review; that is, these practices can be applied before or after publication.
 
 | Dimension | What becomes accessible | Example | Synonyms |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | Open identities | Author and reviewer identities are disclosed to one another, and sometimes to readers. | Reviewers’ and authors’ names are shared at the beginning of the review process or after publication. | Signed peer review, unblinded peer review |
 | Open review reports | The content of reviewers’ assessments and authors’ responses becomes publicly available. | A journal publishes anonymous or signed review reports alongside an article. | Transparent peer review, published peer review |
 | Open review participation | Opportunities to contribute extend beyond reviewers selected and invited by an editor. | Researchers can post reviews or comments on a preprint or published article without an invitation. | Community peer review, public peer review, peer-to-peer review |
@@ -26,7 +26,7 @@ Conventional peer review has faced criticism regarding its effectiveness, fairne
 @waltman2023improve distinguish four perspectives on improving peer review with partly overlapping priorities: quality and reproducibility, democracy and transparency, equity and inclusion, and efficiency and incentives (@tbl-open-review-perspectives). The following sections examine how open peer review may address the issues highlighted by each perspective.
 
 | School of thought | Key issues |
-| --- | --- |
+| :--- | :--- |
 | Quality & Reproducibility | Quality of reviewers’ assessments, training for reviewers, reproducibility of findings, assessment of datasets and software, integrity of research |
 | Democracy & Transparency | Unequal distribution of power, accountability for decisions, visibility of the review process, review organized independently of journals, evaluation after publication |
 | Equity & Inclusion | Diversity among reviewers, biased evaluation, anonymous reviewing, inclusive participation |
