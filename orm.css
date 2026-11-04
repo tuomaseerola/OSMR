@@ -1,0 +1,889 @@
+
+/* =========================================================
+   OPEN RESEARCH FOR MUSIC — COMPLETE SITE STYLESHEET
+   Replace the entire contents of orm.css with this file.
+   ========================================================= */
+
+/* 1. Design tokens */
+
+:root {
+  --orm-white: #fff;
+  --orm-ink: #171714;
+  --orm-muted: #696963;
+  --orm-line: #d8d7cf;
+  --orm-accent: #a2e436;x
+  --orm-accent-dark: #528d00;
+
+  --orm-font: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --orm-body-font: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --orm-gutter: clamp(1rem, 3vw, 2.75rem);
+
+  --img-logo: url("assets/orm-logo.png");
+  --img-ripples: url("assets/water-ripples.png");
+  --img-rings-a: url("assets/dots-rings-a.png");
+  --img-rings-b: url("assets/dots-rings-b.png");
+  --img-halftone: url("assets/dither-halftone-fade.png");
+
+  --tex-slate: url("assets/texture-slate.png");
+  --tex-moire: url("assets/texture-moire.png");
+  --tex-grain: url("assets/texture-grain.png");
+}
+
+/* 2. Global reset and scrolling background */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  background: var(--orm-white);
+}
+
+body {
+  position: relative;
+  margin: 0;
+  color: var(--orm-ink);
+  background: transparent;
+  font-family: var(--orm-body-font);
+  font-size: 1rem;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  Background artwork scrolls with the document.
+  Multiple layers give the impression of translucent,
+  overlapping fragments without obscuring the text.
+*/
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image:
+    var(--img-halftone),
+    var(--img-ripples),
+    var(--tex-slate),
+    var(--tex-moire),
+    var(--tex-grain),
+    var(--tex-slate),
+    var(--tex-moire),
+    var(--tex-grain),
+    var(--tex-slate),
+    var(--tex-moire),
+    var(--tex-grain);
+
+  background-position:
+    right top,
+    82% 3000px,
+    25% 800px,
+    94% 1600px,
+    31% 2200px,
+    45% 3800px,
+    97% 4600px,
+    27% 5400px,
+    80% 6200px,
+    36% 7000px,
+    68% 7800px;
+
+  background-size:
+    240px auto,
+    min(36vw, 430px) auto,
+    500px auto,
+    500px auto,
+    500px auto,
+    500px auto,
+    500px auto,
+    500px auto,
+    500px auto,
+    500px auto,
+    500px auto;
+
+  background-repeat:
+    repeat-y,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+
+  opacity: 0.2;
+}
+
+/* Keep the actual page surfaces transparent so the texture shows. */
+
+#quarto-content,
+#quarto-document-content,
+#quarto-margin-sidebar,
+#quarto-sidebar,
+#quarto-appendix,
+main.content {
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+::selection {
+  color: var(--orm-ink);
+  background: var(--orm-accent);
+}
+
+:focus-visible {
+  outline: 3px solid var(--orm-accent-dark);
+  outline-offset: 4px;
+}
+
+/* 3. Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--orm-ink);
+  font-family: var(--orm-font);
+  font-weight: 750;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  letter-spacing: -0.06em;
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--orm-line);
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: clamp(1.25rem, 2vw, 1.7rem);
+}
+
+p {
+  margin: 0 0 1.2rem;
+}
+
+strong,
+b {
+  font-weight: 750;
+}
+
+/* 4. Persistent top navigation and logo */
+
+#quarto-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#quarto-header .navbar {
+  min-height: 76px;
+  padding: 0.6rem var(--orm-gutter);
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom: 1px solid var(--orm-line);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+#quarto-header .navbar-container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  color: var(--orm-ink) !important;
+  font-family: var(--orm-font);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.navbar-brand img {
+  display: block;
+  width: auto;
+  max-width: 190px;
+  max-height: 52px;
+  object-fit: contain;
+}
+
+.navbar-nav {
+  gap: 0.25rem;
+}
+
+.navbar .nav-link {
+  padding: 0.5rem 0.75rem !important;
+  color: var(--orm-ink) !important;
+  font-family: var(--orm-font);
+  font-size: 0.9rem;
+  font-weight: 650;
+  border-radius: 4px;
+  transition:
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+  background: var(--orm-accent);
+  transform: translateY(-2px);
+}
+
+.navbar .nav-link.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+/* 5. Quarto book layout: full-width article, sidebars retained */
+
+/*
+  Do not impose a narrow maximum width on the article.
+  Let Quarto manage the sidebar and TOC grid.
+*/
+
+#quarto-content {
+  width: 100%;
+  max-width: none;
+}
+
+#quarto-content .quarto-container,
+#quarto-content .container,
+#quarto-content .container-fluid {
+  max-width: none;
+}
+
+#quarto-document-content {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
+  padding: 2rem var(--orm-gutter) 5rem;
+}
+
+main.content {
+  min-width: 0;
+  max-width: none;
+}
+
+#quarto-document-content > :first-child {
+  margin-top: 0;
+}
+
+/* Keep the navigation sidebar at the left. */
+
+#quarto-sidebar {
+  background: rgba(255, 255, 255, 0.76);
+}
+
+#quarto-sidebar .sidebar-item {
+  font-size: 0.94rem;
+}
+
+#quarto-sidebar .sidebar-item-text {
+  color: var(--orm-ink);
+}
+
+#quarto-sidebar .sidebar-item-text:hover {
+  color: var(--orm-accent-dark);
+}
+
+#quarto-sidebar .sidebar-item.active > .sidebar-item-container {
+  border-left: 3px solid var(--orm-accent);
+  background: rgba(162, 228, 54, 0.14);
+}
+
+/* Keep the table of contents at the right. */
+
+#quarto-margin-sidebar {
+  padding-left: 1rem;
+}
+
+#TOC {
+  padding-left: 1rem;
+  border-left: 2px solid var(--orm-line);
+}
+
+#TOC a {
+  color: var(--orm-muted);
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+#TOC a:hover,
+#TOC a.active {
+  color: var(--orm-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--orm-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+#quarto-document-content section {
+  scroll-margin-top: 6.5rem;
+}
+
+/* Chapter titles: lime-green 3D button effect.
+   Excludes the index page. */
+
+html:not(.orm-index) #title-block-header {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 2rem var(--orm-gutter) 1rem;
+}
+
+html:not(.orm-index) #title-block-header .title {
+  display: table;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 1.25rem 4px;
+  padding: 0.45rem 0.8rem;
+
+  background: var(--orm-accent);
+  color: var(--orm-ink);
+  border: 2px solid var(--orm-ink);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 var(--orm-ink);
+
+  font-family: var(--orm-font);
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+/* 6. Index cover */
+
+html.orm-index #title-block-header {
+  display: none !important;
+}
+
+html.orm-index #quarto-document-content {
+  padding-top: 0;
+}
+
+.orm-cover {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: clamp(1.5rem, 3vw, 2.75rem) 0 2rem;
+  color: var(--orm-ink);
+  font-family: var(--orm-font);
+}
+
+.orm-cover > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Logo at the top of the index cover. */
+
+.orm-cover__logo {
+  display: block;
+  width: min(100%, 580px);
+  height: auto;
+  max-height: 190px;
+  margin: 0 0 1.5rem;
+  object-fit: contain;
+  object-position: left center;
+}
+
+/* Tagline above the full-length water image. */
+
+.orm-cover__tagline {
+  max-width: 760px;
+  margin: 0 0 1.2rem;
+  font-size: clamp(1rem, 1.7vw, 1.4rem);
+  font-weight: 750;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
+.orm-cover__slashes {
+  display: inline;
+  margin-right: 0.4rem;
+  color: var(--orm-accent-dark);
+  font-size: 1.2em;
+  font-weight: 850;
+}
+
+.orm-cover__tagline b {
+  font-weight: 850;
+}
+
+/* Full-width water image: preserve the entire image, never crop. */
+
+.orm-cover__photo {
+  position: relative;
+  isolation: isolate;
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0 0 2rem;
+  overflow: visible;
+  background: transparent;
+}
+
+.orm-cover__photo > img {
+  position: relative;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  object-position: center;
+  filter: grayscale(100%);
+}
+
+/* Dot rings sit near the bottom of the water image. */
+
+.orm-cover__rings-a,
+.orm-cover__rings-b {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: clamp(100px, 17vw, 230px);
+  aspect-ratio: 1;
+  pointer-events: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.82;
+}
+
+.orm-cover__rings-a {
+  right: 5%;
+  bottom: 1%;
+  background-image: var(--img-rings-a);
+}
+
+.orm-cover__rings-b {
+  left: 12%;
+  bottom: -3%;
+  background-image: var(--img-rings-b);
+}
+
+.orm-cover__authors {
+  max-width: 900px;
+  margin: 0 0 2rem;
+  font-size: clamp(1rem, 1.7vw, 1.4rem);
+  font-weight: 750;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
+.orm-cover__credits {
+  margin-top: 0.8rem;
+  color: var(--orm-muted);
+  font-size: 0.9rem;
+}
+
+.orm-cover__plastic {
+  display: none !important;
+}
+
+/* 7. Index introduction and buttons */
+
+html.orm-index #quarto-document-content > p,
+html.orm-index #quarto-document-content > h2 {
+  width: 100%;
+  max-width: none;
+}
+
+html.orm-index #quarto-document-content > p {
+  margin: 1.25rem 0;
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+html.orm-index .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin: 0.35rem 0.65rem 1rem 0;
+  padding: 0.7rem 1rem;
+  border: 2px solid var(--orm-ink);
+  border-radius: 4px;
+  font-family: var(--orm-font);
+  font-weight: 750;
+  text-decoration: none;
+  box-shadow: 4px 4px 0 var(--orm-ink);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background-color 180ms ease;
+}
+
+html.orm-index .btn:hover {
+  transform: translate(4px, 4px) rotate(-1deg);
+  box-shadow: none;
+}
+
+html.orm-index .btn-primary {
+  background: var(--orm-accent);
+  color: var(--orm-ink);
+}
+
+html.orm-index .btn-outline-secondary {
+  background: var(--orm-white);
+  color: var(--orm-ink);
+}
+
+html.orm-index .btn-outline-secondary:hover {
+  background: #d9c9ff;
+}
+
+/* 8. Links */
+
+#quarto-document-content a:not(.btn) {
+  color: var(--orm-accent-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition:
+    color 150ms ease,
+    background-color 150ms ease;
+}
+
+#quarto-document-content a:not(.btn):hover {
+  color: var(--orm-ink);
+  background: rgba(162, 228, 54, 0.35);
+}
+
+/* 9. Lists and fun interactive cards */
+
+/* Ordinary article lists remain ordinary lists. */
+
+#quarto-document-content ul,
+#quarto-document-content ol {
+  padding-left: 1.5rem;
+}
+
+#quarto-document-content li {
+  padding-left: 0.2rem;
+  margin-bottom: 0.45rem;
+}
+
+#quarto-document-content li::marker {
+  color: var(--orm-accent-dark);
+}
+
+/* Card treatment for the index and rich pages. */
+
+html.orm-rich #quarto-document-content section.level1 > ul,
+html.orm-rich #quarto-document-content section.level2 > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));
+  gap: 0.9rem;
+  margin: 1.5rem 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+html.orm-rich #quarto-document-content section.level1 > ul > li,
+html.orm-rich #quarto-document-content section.level2 > ul > li {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  padding: 1rem 1.1rem;
+  overflow-wrap: anywhere;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid var(--orm-ink);
+  border-radius: 5px;
+  box-shadow: 4px 4px 0 var(--orm-ink);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background-color 180ms ease,
+    border-radius 180ms ease;
+}
+
+html.orm-rich #quarto-document-content section.level1 > ul > li:hover,
+html.orm-rich #quarto-document-content section.level2 > ul > li:hover {
+  transform: translate(4px, 4px) rotate(-0.5deg);
+  box-shadow: none;
+  background: var(--orm-accent);
+  border-radius: 14px 4px 14px 4px;
+}
+
+html.orm-rich #quarto-document-content section.level1 > ul > li:nth-child(3n + 2):hover,
+html.orm-rich #quarto-document-content section.level2 > ul > li:nth-child(3n + 2):hover {
+  background: #d9c9ff;
+}
+
+html.orm-rich #quarto-document-content section.level1 > ul > li:nth-child(3n):hover,
+html.orm-rich #quarto-document-content section.level2 > ul > li:nth-child(3n):hover {
+  background: #ffd6c9;
+}
+
+html.orm-rich #quarto-document-content section.level1 > ul > li a,
+html.orm-rich #quarto-document-content section.level2 > ul > li a {
+  text-decoration: none;
+}
+
+html.orm-rich #quarto-document-content section.level1 > ul > li a:hover,
+html.orm-rich #quarto-document-content section.level2 > ul > li a:hover {
+  background: transparent;
+}
+
+html.orm-resources #quarto-document-content section.level2 > ul {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/* 10. Tables */
+
+#quarto-document-content table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 1.5rem 0 2rem;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+}
+
+#quarto-document-content th,
+#quarto-document-content td {
+  padding: 0.8rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--orm-line);
+}
+
+#quarto-document-content th {
+  background: rgba(238, 237, 231, 0.94);
+  font-family: var(--orm-font);
+  font-weight: 750;
+}
+
+#quarto-document-content tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.65);
+}
+
+/* 11. Code and quotations */
+
+pre,
+div.sourceCode {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--orm-line);
+  border-radius: 4px;
+}
+
+pre {
+  padding: 1rem 1.2rem;
+  background: rgba(240, 239, 233, 0.95);
+  line-height: 1.6;
+}
+
+code {
+  color: #36520c;
+  font-size: 0.9em;
+}
+
+blockquote {
+  margin: 1.8rem 0;
+  padding: 0.5rem 1.25rem;
+  border-left: 4px solid var(--orm-accent);
+  color: var(--orm-muted);
+  background: rgba(255, 255, 255, 0.55);
+}
+
+/* 12. Footer */
+
+.nav-footer {
+  padding: 1.5rem var(--orm-gutter);
+  background: rgba(255, 255, 255, 0.88);
+  border-top: 1px solid var(--orm-line);
+  color: var(--orm-muted);
+  font-size: 0.85rem;
+}
+
+.nav-footer a {
+  color: var(--orm-ink);
+}
+
+/* 13. Remove unused banner system completely */
+
+.orm-banner,
+.orm-banner::before,
+.orm-banner::after,
+.orm-banner__art,
+.orm-banner__logo,
+.orm-banner__rings {
+  display: none !important;
+}
+
+/* 14. Responsive layout */
+
+@media (max-width: 991px) {
+  #quarto-margin-sidebar {
+    display: none;
+  }
+
+  #quarto-document-content {
+    padding-inline: clamp(1rem, 3vw, 1.75rem);
+  }
+
+  .orm-cover__logo {
+    max-width: 480px;
+    max-height: 150px;
+  }
+
+  .orm-cover__rings-a,
+  .orm-cover__rings-b {
+    width: clamp(85px, 18vw, 160px);
+  }
+}
+
+@media (max-width: 767px) {
+  #quarto-header .navbar {
+    min-height: 64px;
+  }
+
+  .navbar-brand img {
+    max-width: 135px;
+    max-height: 42px;
+  }
+
+  #title-block-header {
+    padding-top: 2rem;
+  }
+
+  #quarto-document-content {
+    padding-top: 1.25rem;
+    padding-bottom: 3rem;
+  }
+
+  .orm-cover {
+    padding-top: 1.5rem;
+  }
+
+  .orm-cover__logo {
+    width: min(100%, 390px);
+    max-height: 125px;
+    margin-bottom: 1.25rem;
+  }
+
+  .orm-cover__tagline {
+    max-width: 100%;
+    font-size: clamp(0.95rem, 3vw, 1.2rem);
+  }
+
+  .orm-cover__photo {
+    margin-bottom: 1.5rem;
+  }
+
+  .orm-cover__rings-a,
+  .orm-cover__rings-b {
+    width: clamp(75px, 19vw, 125px);
+    opacity: 0.75;
+  }
+
+  .orm-cover__authors {
+    font-size: 1rem;
+  }
+
+  html.orm-rich #quarto-document-content section.level1 > ul,
+  html.orm-rich #quarto-document-content section.level2 > ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .orm-cover__logo {
+    max-height: 100px;
+  }
+
+  .orm-cover__tagline {
+    font-size: 0.9rem;
+  }
+
+  .orm-cover__rings-b {
+    left: 4%;
+  }
+
+  .orm-cover__rings-a {
+    right: 2%;
+  }
+}
+
+/* 15. Accessibility and print */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media print {
+  body::before {
+    display: none;
+  }
+
+  #quarto-header {
+    position: static;
+  }
+
+  .orm-cover__rings-a,
+  .orm-cover__rings-b {
+    display: none !important;
+  }
+
+  #quarto-document-content {
+    max-width: none;
+    padding: 0;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: underline;
+  }
+}

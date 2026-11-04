@@ -1,0 +1,252 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------------------
+// ORM theme — Bootswatch "Brite" 5.3.8, ported into Quarto's SCSS
+// pipeline (values taken from the bootstrap.css), plus the ORM look: 
+// tight grotesk display type, hard black borders, offset shadows.
+// Image-based decoration lives in orm.css (paths are relative to that file).
+// ---------------------------------------------------------------------------
+
+// Brite palette
+$blue:    #61bcff;
+$indigo:  #828df9;
+$purple:  #be82fa;
+$pink:    #ea4998;
+$red:     #f56565;
+$orange:  #fa984a;
+$yellow:  #ffc700;
+$green:   #68d391;
+$teal:    #2ed3be;
+$cyan:    #22d2ed;
+
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+// The single accent colour. Brite lime by default;
+// set to #000 or a grey if you want the site to stay strictly monochrome.
+$accent:    #a2e436;
+
+$primary:   $accent;
+$secondary: #fff;
+$success:   $green;
+$info:      $cyan;
+$warning:   $yellow;
+$danger:    $red;
+$light:     $gray-200;
+$dark:      #000;
+
+// Type
+$font-family-display: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: $font-family-display;
+$headings-font-weight: 800;
+$font-size-base: 1rem;          // Brite uses .875rem; bumped for long-form reading
+$line-height-base: 1.65;
+$body-color: $gray-900;
+$code-color: $pink;
+
+// Links & borders (Brite: black links, 2px black borders)
+$link-color: #000;
+$link-hover-color: #000;
+$border-width: 2px;
+$border-color: #000;
+$border-radius: .375rem;
+$component-active-color: #000;
+$component-active-bg: $primary;
+$input-border-width: 2px;
+$input-focus-border-color: #000;
+$input-focus-box-shadow: 0 0 0 1px #000;
+
+/*-- scss:rules --*/
+
+$hard-shadow: 3px 3px 0 0 #000;
+$display: $font-family-display;
+
+// ---- Global --------------------------------------------------------------
+
+a { font-weight: 500; }
+
+hr { border-top: 2px solid; opacity: 1; }
+
+#quarto-document-content a:not(.btn):not(.anchorjs-link):not(.quarto-xref-none):hover {
+  background: $accent;
+  text-decoration-thickness: 2px;
+}
+
+// ---- Headings ------------------------------------------------------------
+
+// ---- Headings ------------------------------------------------------------
+
+#title-block-header .title,
+h1.title {
+  font-family: $display;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  line-height: 1.08;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  margin-bottom: 1.25rem;
+}
+
+#quarto-document-content h2,
+#quarto-document-content h3,
+#quarto-document-content h4 {
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+#quarto-document-content h2 {
+  border-bottom: 2px solid #000;
+  padding-bottom: .35rem;
+  margin-top: 2.5rem;
+}
+
+#quarto-document-content h2::before {
+  content: "//";
+  margin-right: .45em;
+  opacity: .3;
+  font-weight: 800;
+}
+
+#quarto-document-content h2 .header-section-number {
+  margin-right: .35em;
+}
+
+// ---- Sidebar -------------------------------------------------------------
+
+#quarto-sidebar {
+  border-right: 2px solid #000;
+
+  .sidebar-title,
+  .sidebar-title a {
+    font-family: $display;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+  .sidebar-logo { max-height: 3.4rem; width: auto; margin-bottom: .5rem; }
+
+  .sidebar-link {
+    font-family: $display;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    font-size: .85rem;
+    border: 2px solid transparent;
+    border-radius: $border-radius;
+    padding: .2rem .5rem;
+    margin-bottom: .2rem;
+
+    &:hover {
+      background: $gray-200;
+      color: #000;
+      border-color: #000;
+    }
+    &.active {
+      background: $accent;
+      color: #000 !important;
+      border-color: #000;
+      box-shadow: $hard-shadow;
+    }
+  }
+}
+
+#TOC .nav-link.active,
+.sidebar nav[role=doc-toc] ul > li > a.active {
+  border-left: 3px solid #000;
+  font-weight: 700;
+  color: #000;
+}
+
+.nav-footer {
+  border-top: 2px solid #000;
+  font-size: .8rem;
+}
+
+// ---- Buttons (Brite "pressed" offset shadow) -----------------------------
+
+#quarto-document-content .btn {
+  margin: 3px 0 0 3px;
+  border-color: #000;
+  box-shadow: $hard-shadow;
+  font-weight: 600;
+  transition: all .3s;
+  transform: translate(-3px, -3px);
+
+  &:hover {
+    border-color: #000;
+    box-shadow: none;
+    transform: translate(0, 0);
+  }
+}
+#quarto-document-content .btn-primary { color: #000; }
+#quarto-document-content .btn-outline-secondary {
+  color: #000; background: #fff; box-shadow: none; transform: translate(0, 0);
+  &:hover { box-shadow: $hard-shadow; transform: translate(-3px, -3px); }
+}
+
+// ---- Callouts: Brite alert look ------------------------------------------
+
+div.callout.callout {
+  border: 2px solid #000 !important;
+  border-radius: $border-radius;
+  box-shadow: $hard-shadow;
+  background: #fff;
+  margin: 1.5rem 0;
+
+  .callout-title-container { font-family: $display; font-weight: 700; }
+}
+div.callout-tip.callout       { background: #ecfad7; }
+div.callout-note.callout      { background: #d3f6fb; }
+div.callout-important.callout { background: #fde0e0; }
+div.callout-warning.callout   { background: #fff4cc; }
+div.callout-caution.callout   { background: #ffe9d2; }
+div.callout.callout-style-simple { padding: .75rem 1rem; }
+
+// ---- Tables, code, quotes ------------------------------------------------
+
+.table, table { border: 2px solid #000; }
+
+pre.sourceCode, div.sourceCode {
+  border: 2px solid #000;
+  border-radius: $border-radius;
+}
+
+blockquote {
+  border-left: 6px solid #000;
+  background: $gray-100;
+  padding: .5rem 1rem;
+  margin: 1.25rem 0;
+}
+
+// ---- Tabsets / nav (Brite) -----------------------------------------------
+
+.nav-tabs {
+  gap: 4px;
+  padding: .4rem .4rem calc(.4rem + 2px);
+  font-weight: 500;
+  border: 2px solid #000;
+  border-radius: .5rem;
+
+  .nav-link { border-width: 2px; border-radius: .375rem; }
+  .nav-link.active, .nav-link:hover { border: 2px solid #000; }
+}
+.tab-content {
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 2px solid #000;
+  border-radius: .5rem;
+}
+
+.dropdown-menu { box-shadow: $hard-shadow; border-radius: $border-radius; }
+.badge { border: 2px solid #000; }
+.modal-content { box-shadow: $hard-shadow; }
+.breadcrumb { font-weight: 500; border: 2px solid #000; }

@@ -1,15 +1,21 @@
 project:
   type: book
   output-dir: docs
+  resources:
+    - assets          # makes Quarto copy the ORM images to docs/ (CSS-referenced images aren't auto-detected)
+
 
 book:
-  title: "Open Science for Music Research"
+  title: "Open Research for Music"
   author: Eerola, Devaney, Hartmann, Herremans, Moss, Stupacher, and van der Walle
   reader-mode: true
   date: "1/30/2026"
+  sidebar:
+    logo: assets/orm-logo.png
+    logo-alt: "Open Research for Music"
   page-footer:
     left: |
-      Open Science for Music Research was written by [contributors](preface.qmd).
+      Open Research for Music was written by [contributors](preface.qmd).
     right: |
       This book can be found at <a href="https://musicscience.uk/OSMR/">https://musicscience.uk/OSMR</a>.
 #  cover-image: cover.jpg
@@ -40,14 +46,26 @@ monofontoptions: "Scale=0.7"
 format:
   html:
     theme:
-      - cosmo
+      - default
+      - orm.scss
+    css: orm.css
+    include-in-header:
+      text: |
+        <script>
+          document.documentElement.classList.add('orm-rich');
+          if (
+            window.location.pathname.endsWith('/index.html') ||
+            window.location.pathname.endsWith('/')
+          ) {
+            document.documentElement.classList.add('orm-index');
+          }
+        </script>
+    toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    toc-location: right
     code-link: true
     author-meta: "Tuomas Eerola"
-#    toc: true
-#    toc-depth: 2
-#    toc-title: Contents
-#    toc-location: right-body
-#    include-in-header: "plausible.html"
     callout-appearance: simple
 
 editor: source

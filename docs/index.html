@@ -9,7 +9,7 @@
 <meta name="author" content="Tuomas Eerola">
 <meta name="dcterms.date" content="2026-01-30">
 
-<title>Open Science for Music Research</title>
+<title>Open Research for Music</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-29d65a3d8fa3c6f63f4d2304c7cfac40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2dce52231073e7e5ad486a19dfcdc358.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -76,8 +76,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+  document.documentElement.classList.add('orm-rich');
+  if (
+    window.location.pathname.endsWith('/index.html') ||
+    window.location.pathname.endsWith('/')
+  ) {
+    document.documentElement.classList.add('orm-index');
+  }
+</script>
 
 
+<link rel="stylesheet" href="orm.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light">
@@ -89,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Open Science for Music Research</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Open Research for Music</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -102,9 +112,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./assets/orm-logo.png" alt="Open Research for Music" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./assets/orm-logo.png" alt="Open Research for Music" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Open Science for Music Research</a> 
+      <a href="./">Open Research for Music</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/tuomaseerola/OSMR" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
@@ -125,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Open Science for Music Research</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Open Research for Music</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -195,10 +209,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#open-science-for-music-research" id="toc-open-science-for-music-research" class="nav-link active" data-scroll-target="#open-science-for-music-research"><span class="header-section-number">1</span> Open Science for Music Research</a>
+  <li><a href="#open-research-for-music" id="toc-open-research-for-music" class="nav-link active" data-scroll-target="#open-research-for-music"><span class="header-section-number">1</span> Open Research for Music</a>
   <ul class="collapse">
   <li><a href="#reasons-for-creating-this-resource" id="toc-reasons-for-creating-this-resource" class="nav-link" data-scroll-target="#reasons-for-creating-this-resource"><span class="header-section-number">1.1</span> Reasons for creating this resource</a></li>
   <li><a href="#the-way-this-repository-has-been-coordinated" id="toc-the-way-this-repository-has-been-coordinated" class="nav-link" data-scroll-target="#the-way-this-repository-has-been-coordinated"><span class="header-section-number">1.2</span> The way this repository has been coordinated</a></li>
@@ -212,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Open Science for Music Research</h1>
+<h1 class="title">Open Research for Music</h1>
 </div>
 
 
@@ -241,12 +255,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="open-science-for-music-research" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Open Science for Music Research</h1>
-<p>This repository offers a guide to Open Science practices for music research, particularly aimed for music psychology and computational musicology, but also relevant for music information retrieval, music education, music technology, and musicology.</p>
+<div class="orm-cover">
+
+  <img class="orm-cover__logo" src="assets/orm-logo.png" alt="Open Research for Music">
+
+  <p class="orm-cover__tagline">
+    <span class="orm-cover__slashes">//</span>
+    A guide to <b>open research</b> practices <br>for <b>music</b> researchers
+  </p>
+
+  <figure class="orm-cover__photo figure">
+    <img src="assets/water-ripples.png" alt="Water ripples spreading across the water" class="figure-img">
+
+    <span class="orm-cover__rings-a" aria-hidden="true"></span>
+    <span class="orm-cover__rings-b" aria-hidden="true"></span>
+  </figure>
+
+  <p class="orm-cover__authors">
+    Eerola, Devaney, Hartmann,<br>
+    Herremans, Moss, Stupacher,<br>
+    &amp; van der Walle
+  </p>
+</div>
+<p><a href="./preface.html" class="btn btn-primary">Start reading</a> <a href="./resources.html" class="btn btn-outline-secondary">Resources</a></p>
+<section id="open-research-for-music" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Open Research for Music</h1>
+<p>This repository offers a guide to Open Research practices for music research, particularly aimed for music psychology and computational musicology, but also relevant for music information retrieval, music education, music technology, and musicology.</p>
 <section id="reasons-for-creating-this-resource" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="reasons-for-creating-this-resource"><span class="header-section-number">1.1</span> Reasons for creating this resource</h2>
-<p>In music research, there is room for improvement in <em>transparency</em> and <em>reproducibility</em>, to widen the <em>accessibility</em> and <em>equity</em> with Open access to publications and data ensures that researchers, practitioners, and the public can benefit from scientific knowledge. Also, <em>innovation</em> and <em>collaboration</em> benefits from Open Science. A good teaching material dedicated to music research is missing at the moment and this repo attempts to fill this gap.</p>
+<p>In music research, there is room for improvement in <em>transparency</em> and <em>reproducibility</em>, to widen the <em>accessibility</em> and <em>equity</em> with Open access to publications and data ensures that researchers, practitioners, and the public can benefit from scientific knowledge. Also, <em>innovation</em> and <em>collaboration</em> benefits from Open Research. A good teaching material dedicated to music research is missing at the moment and this repo attempts to fill this gap.</p>
 </section>
 <section id="the-way-this-repository-has-been-coordinated" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="the-way-this-repository-has-been-coordinated"><span class="header-section-number">1.2</span> The way this repository has been coordinated</h2>
@@ -692,7 +729,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Open Science for Music Research was written by <a href="./preface.html">contributors</a>.</p>
+<p>Open Research for Music was written by <a href="./preface.html">contributors</a>.</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

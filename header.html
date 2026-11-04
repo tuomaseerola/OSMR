@@ -1,0 +1,38 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+/* ORM page-type switch.
+   - index / preface / resources  -> "rich" (busy, decorative)
+   - references                   -> "plain"
+   - everything else (sections)   -> "calm" (quiet banner, text first)
+   New chapters automatically become calm; no per-file edits needed. */
+(function () {
+  var file = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/, '') || 'index';
+  var rich = { index: 1, preface: 1, resources: 1 };
+  var html = document.documentElement;
+  if (rich[file]) { html.classList.add('orm-rich', 'orm-' + file); }
+  else if (file === 'references') { html.classList.add('orm-plain'); }
+  else { html.classList.add('orm-calm'); }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (file === 'index' || file === 'references') return;   // cover / plain
+    var content = document.getElementById('quarto-document-content');
+    if (!content) return;
+
+    // cycle the three textures by chapter position so neighbours differ
+    var links = [].slice.call(document.querySelectorAll('#quarto-sidebar a.sidebar-link'));
+    var idx = 0;
+    links.forEach(function (a, i) { if (a.classList.contains('active')) idx = i; });
+    var tex = ['slate', 'moire', 'grain'][idx % 3];
+
+    var b = document.createElement('div');
+    b.className = 'orm-banner orm-banner--' + (rich[file] ? 'rich' : 'calm') + ' orm-tex-' + tex;
+    b.setAttribute('aria-hidden', 'true');
+    b.innerHTML = '<span class="orm-banner__logo"></span>' +
+                  '<span class="orm-banner__rings"></span>' +
+                  '<span class="orm-banner__art"></span>';
+    content.insertBefore(b, content.firstChild);
+  });
+})();
+</script>
