@@ -355,17 +355,20 @@ main.content {
    Excludes the index page. */
 
 html:not(.orm-index) #title-block-header {
+  position: relative;
   width: 100%;
   max-width: none;
   margin: 0;
-  padding: 2rem var(--orm-gutter) 1rem;
+  padding: 2rem 0 1rem;
 }
 
+/* Title box */
 html:not(.orm-index) #title-block-header .title {
+  position: relative;
   display: table;
   width: fit-content;
   max-width: 100%;
-  margin: 0 0 1.25rem 4px;
+  margin: 0 0 1.25rem;
   padding: 0.45rem 0.8rem;
 
   background: var(--orm-accent);
@@ -589,9 +592,7 @@ html.orm-index .btn-outline-secondary:hover {
   background: rgba(162, 228, 54, 0.35);
 }
 
-/* 9. Lists and fun interactive cards */
-
-/* Ordinary article lists remain ordinary lists. */
+/* 9. Lists > article lists remain ordinary lists. */
 
 #quarto-document-content ul,
 #quarto-document-content ol {
@@ -760,6 +761,7 @@ blockquote {
   .orm-cover__authors {
     font-size: 1rem;
   }
+}
 
 @media (max-width: 420px) {
   .orm-cover__logo {

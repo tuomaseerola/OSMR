@@ -1,3 +1,36 @@
+```{=html}
+<div class="orm-cover">
+
+  <img
+    class="orm-cover__logo"
+    src="assets/orm-logo.png"
+    alt="Open Research for Music"
+  >
+
+  <p class="orm-cover__tagline">
+    <span class="orm-cover__slashes">//</span>
+    A guide to <b>open research</b> practices <br>for <b>music</b> researchers
+  </p>
+
+  <figure class="orm-cover__photo">
+    <img
+      src="assets/water-ripples.png"
+      alt="Water ripples spreading across the water"
+    >
+
+    <span class="orm-cover__rings-a" aria-hidden="true"></span>
+    <span class="orm-cover__rings-b" aria-hidden="true"></span>
+  </figure>
+
+  <p class="orm-cover__authors">
+    Eerola, Devaney, Hartmann,<br>
+    Herremans, Moss, Stupacher,<br>
+    &amp; van der Walle
+  </p>
+</div>
+```
+[Preface](preface.qmd){.btn .btn-primary}
+[Resources](resources.qmd){.btn .btn-outline-secondary}
 
 # Open Science for Music Research
 

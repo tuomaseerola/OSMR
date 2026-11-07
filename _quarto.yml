@@ -2,7 +2,7 @@ project:
   type: book
   output-dir: docs
   resources:
-    - assets          # makes Quarto copy the ORM images to docs/ (CSS-referenced images aren't auto-detected)
+    - assets # < makes Quarto copy the ORM images to docs/ (CSS-referenced images aren't auto-detected)
 
 
 book:
