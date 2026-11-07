@@ -11,7 +11,7 @@
   --orm-ink: #171714;
   --orm-muted: #696963;
   --orm-line: #d8d7cf;
-  --orm-accent: #a2e436;x
+  --orm-accent: #a2e436;
   --orm-accent-dark: #528d00;
 
   --orm-font: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -570,7 +570,7 @@ html.orm-index .btn-outline-secondary {
 }
 
 html.orm-index .btn-outline-secondary:hover {
-  background: #d9c9ff;
+  background: var(--orm-accent);
 }
 
 /* 8. Links */
@@ -605,68 +605,6 @@ html.orm-index .btn-outline-secondary:hover {
 
 #quarto-document-content li::marker {
   color: var(--orm-accent-dark);
-}
-
-/* Card treatment for the index and rich pages. */
-
-html.orm-rich #quarto-document-content section.level1 > ul,
-html.orm-rich #quarto-document-content section.level2 > ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));
-  gap: 0.9rem;
-  margin: 1.5rem 0 2rem;
-  padding: 0;
-  list-style: none;
-}
-
-html.orm-rich #quarto-document-content section.level1 > ul > li,
-html.orm-rich #quarto-document-content section.level2 > ul > li {
-  position: relative;
-  min-width: 0;
-  margin: 0;
-  padding: 1rem 1.1rem;
-  overflow-wrap: anywhere;
-  background: rgba(255, 255, 255, 0.9);
-  border: 2px solid var(--orm-ink);
-  border-radius: 5px;
-  box-shadow: 4px 4px 0 var(--orm-ink);
-  transition:
-    transform 180ms ease,
-    box-shadow 180ms ease,
-    background-color 180ms ease,
-    border-radius 180ms ease;
-}
-
-html.orm-rich #quarto-document-content section.level1 > ul > li:hover,
-html.orm-rich #quarto-document-content section.level2 > ul > li:hover {
-  transform: translate(4px, 4px) rotate(-0.5deg);
-  box-shadow: none;
-  background: var(--orm-accent);
-  border-radius: 14px 4px 14px 4px;
-}
-
-html.orm-rich #quarto-document-content section.level1 > ul > li:nth-child(3n + 2):hover,
-html.orm-rich #quarto-document-content section.level2 > ul > li:nth-child(3n + 2):hover {
-  background: #d9c9ff;
-}
-
-html.orm-rich #quarto-document-content section.level1 > ul > li:nth-child(3n):hover,
-html.orm-rich #quarto-document-content section.level2 > ul > li:nth-child(3n):hover {
-  background: #ffd6c9;
-}
-
-html.orm-rich #quarto-document-content section.level1 > ul > li a,
-html.orm-rich #quarto-document-content section.level2 > ul > li a {
-  text-decoration: none;
-}
-
-html.orm-rich #quarto-document-content section.level1 > ul > li a:hover,
-html.orm-rich #quarto-document-content section.level2 > ul > li a:hover {
-  background: transparent;
-}
-
-html.orm-resources #quarto-document-content section.level2 > ul {
-  grid-template-columns: minmax(0, 1fr);
 }
 
 /* 10. Tables */
@@ -822,12 +760,6 @@ blockquote {
   .orm-cover__authors {
     font-size: 1rem;
   }
-
-  html.orm-rich #quarto-document-content section.level1 > ul,
-  html.orm-rich #quarto-document-content section.level2 > ul {
-    grid-template-columns: 1fr;
-  }
-}
 
 @media (max-width: 420px) {
   .orm-cover__logo {

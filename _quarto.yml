@@ -7,6 +7,7 @@ project:
 
 book:
   title: "Open Research for Music"
+  favicon: assets/orm-M-green.png
   author: Eerola, Devaney, Hartmann, Herremans, Moss, Stupacher, and van der Walle
   reader-mode: true
   date: "1/30/2026"
